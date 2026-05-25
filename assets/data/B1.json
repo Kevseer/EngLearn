@@ -286,8 +286,7 @@
       ],
       "sentence": "This is an example with the word \"aim\".",
       "synonyms": [
-        "Objective",
-        "Direct"
+        "Objective"
       ],
       "opposites": []
     },
@@ -1119,8 +1118,7 @@
       ],
       "sentence": "This is an example with the word \"brave\".",
       "synonyms": [
-        "Endure",
-        "Gay"
+        "Endure"
       ],
       "opposites": [
         "Cautious",
@@ -1383,7 +1381,6 @@
       ],
       "sentence": "This is an example with the word \"central\".",
       "synonyms": [
-        "Cardinal",
         "Fundamental"
       ],
       "opposites": [
@@ -1528,7 +1525,6 @@
       ],
       "sentence": "This is an example with the word \"cheerful\".",
       "synonyms": [
-        "Gay",
         "Optimistic"
       ],
       "opposites": []
@@ -1725,8 +1721,7 @@
       ],
       "sentence": "This is an example with the word \"coloured\".",
       "synonyms": [
-        "Blue",
-        "Black"
+        "Blue"
       ],
       "opposites": []
     },
@@ -2391,7 +2386,6 @@
       ],
       "sentence": "This is an example with the word \"decade\".",
       "synonyms": [
-        "X",
         "Ten"
       ],
       "opposites": []
@@ -2821,8 +2815,7 @@
       ],
       "sentence": "This is an example with the word \"drunk\".",
       "synonyms": [
-        "Stiff",
-        "High"
+        "Stiff"
       ],
       "opposites": [
         "Sober"
@@ -4199,7 +4192,6 @@
       ],
       "sentence": "This is an example with the word \"gentle\".",
       "synonyms": [
-        "Light",
         "Soft"
       ],
       "opposites": []
@@ -5536,7 +5528,6 @@
       ],
       "sentence": "This is an example with the word \"liquid\".",
       "synonyms": [
-        "Soft",
         "Clear"
       ],
       "opposites": [
@@ -12311,8 +12302,7 @@
       ],
       "sentence": "This is an example with the word \"spiteful\".",
       "synonyms": [
-        "Mean",
-        "Awful"
+        "Mean"
       ],
       "opposites": []
     },

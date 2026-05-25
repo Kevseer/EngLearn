@@ -372,8 +372,7 @@
       ],
       "sentence": "This is an example with the word \"amazing\".",
       "synonyms": [
-        "Impressive",
-        "Awful"
+        "Impressive"
       ],
       "opposites": []
     },
@@ -1008,7 +1007,6 @@
       ],
       "sentence": "This is an example with the word \"bed\".",
       "synonyms": [
-        "Love",
         "Bottom"
       ],
       "opposites": []
@@ -1494,12 +1492,10 @@
       ],
       "sentence": "This is an example with the word \"boy\".",
       "synonyms": [
-        "Child",
         "Son"
       ],
       "opposites": [
-        "Girl",
-        "Child"
+        "Girl"
       ]
     },
     {
@@ -1587,8 +1583,7 @@
       ],
       "sentence": "This is an example with the word \"brother\".",
       "synonyms": [
-        "Fellow",
-        "Sister"
+        "Fellow"
       ],
       "opposites": [
         "Sister"
@@ -1604,9 +1599,7 @@
         "Karartmak"
       ],
       "sentence": "This is an example with the word \"brown\".",
-      "synonyms": [
-        "Colored"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -2010,8 +2003,7 @@
       ],
       "sentence": "This is an example with the word \"century\".",
       "synonyms": [
-        "Hundred",
-        "100"
+        "Hundred"
       ],
       "opposites": []
     },
@@ -2139,11 +2131,9 @@
       ],
       "sentence": "This is an example with the word \"child\".",
       "synonyms": [
-        "Minor",
-        "Girl"
+        "Minor"
       ],
       "opposites": [
-        "Girl",
         "Boy"
       ]
     },
@@ -3576,10 +3566,7 @@
         "Sekiz rakamı (8, VIII)"
       ],
       "sentence": "This is an example with the word \"eight\".",
-      "synonyms": [
-        "Cardinal",
-        "8"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -3592,10 +3579,7 @@
         "On sekiz"
       ],
       "sentence": "This is an example with the word \"eighteen\".",
-      "synonyms": [
-        "Cardinal",
-        "18"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -3608,10 +3592,7 @@
         "80"
       ],
       "sentence": "This is an example with the word \"eighty\".",
-      "synonyms": [
-        "Cardinal",
-        "80"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -3635,10 +3616,7 @@
         "On bir"
       ],
       "sentence": "This is an example with the word \"eleven\".",
-      "synonyms": [
-        "Cardinal",
-        "11"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -4305,10 +4283,7 @@
         "On beş"
       ],
       "sentence": "This is an example with the word \"fifteen\".",
-      "synonyms": [
-        "Cardinal",
-        "15"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -4336,10 +4311,7 @@
         "50"
       ],
       "sentence": "This is an example with the word \"fifty\".",
-      "synonyms": [
-        "Cardinal",
-        "L"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -4513,7 +4485,6 @@
       ],
       "sentence": "This is an example with the word \"five\".",
       "synonyms": [
-        "Cardinal",
         "Fin"
       ],
       "opposites": []
@@ -4723,10 +4694,7 @@
         "40"
       ],
       "sentence": "This is an example with the word \"forty\".",
-      "synonyms": [
-        "Cardinal",
-        "40"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -4739,10 +4707,7 @@
         "Dört rakamı 4"
       ],
       "sentence": "This is an example with the word \"four\".",
-      "synonyms": [
-        "Cardinal",
-        "4"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -4755,10 +4720,7 @@
         "On dört"
       ],
       "sentence": "This is an example with the word \"fourteen\".",
-      "synonyms": [
-        "Cardinal",
-        "14"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -5029,11 +4991,9 @@
       ],
       "sentence": "This is an example with the word \"girl\".",
       "synonyms": [
-        "Miss",
-        "Child"
+        "Miss"
       ],
       "opposites": [
-        "Child",
         "Boy"
       ]
     },
@@ -5092,7 +5052,6 @@
       ],
       "sentence": "This is an example with the word \"go\".",
       "synonyms": [
-        "Break",
         "Crack"
       ],
       "opposites": [
@@ -5797,8 +5756,7 @@
       ],
       "sentence": "This is an example with the word \"hour\".",
       "synonyms": [
-        "Minute",
-        "Hr"
+        "Minute"
       ],
       "opposites": []
     },
@@ -5858,7 +5816,6 @@
       ],
       "sentence": "This is an example with the word \"hundred\".",
       "synonyms": [
-        "Cardinal",
         "Century"
       ],
       "opposites": []
@@ -5903,8 +5860,7 @@
       ],
       "sentence": "This is an example with the word \"i\".",
       "synonyms": [
-        "One",
-        "1"
+        "One"
       ],
       "opposites": []
     },
@@ -6367,8 +6323,7 @@
       ],
       "sentence": "This is an example with the word \"key\".",
       "synonyms": [
-        "Significant",
-        "Cardinal"
+        "Significant"
       ],
       "opposites": []
     },
@@ -6380,9 +6335,7 @@
         "Kilometre"
       ],
       "sentence": "This is an example with the word \"kilometre\".",
-      "synonyms": [
-        "Km"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -7404,9 +7357,7 @@
         "Tutanak tutmak"
       ],
       "sentence": "This is an example with the word \"million\".",
-      "synonyms": [
-        "Cardinal"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -7819,7 +7770,6 @@
       ],
       "sentence": "This is an example with the word \"near\".",
       "synonyms": [
-        "Good",
         "Close"
       ],
       "opposites": [
@@ -8002,7 +7952,6 @@
       ],
       "sentence": "This is an example with the word \"nine\".",
       "synonyms": [
-        "Cardinal",
         "Club"
       ],
       "opposites": []
@@ -8017,10 +7966,7 @@
         "On dokuz sayısı"
       ],
       "sentence": "This is an example with the word \"nineteen\".",
-      "synonyms": [
-        "Cardinal",
-        "19"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -8033,10 +7979,7 @@
         "90"
       ],
       "sentence": "This is an example with the word \"ninety\".",
-      "synonyms": [
-        "Cardinal",
-        "90"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -8402,7 +8345,6 @@
       ],
       "sentence": "This is an example with the word \"one\".",
       "synonyms": [
-        "Cardinal",
         "Single"
       ],
       "opposites": []
@@ -8516,9 +8458,7 @@
         "Portakal"
       ],
       "sentence": "This is an example with the word \"orange\".",
-      "synonyms": [
-        "Colored"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -9073,8 +9013,7 @@
       ],
       "sentence": "This is an example with the word \"pink\".",
       "synonyms": [
-        "Knock",
-        "Colored"
+        "Knock"
       ],
       "opposites": []
     },
@@ -10402,10 +10341,7 @@
         "On yedi"
       ],
       "sentence": "This is an example with the word \"seven\".",
-      "synonyms": [
-        "Cardinal",
-        "Vii"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -10418,10 +10354,7 @@
         "Yetmiş sayısı"
       ],
       "sentence": "This is an example with the word \"seventeen\".",
-      "synonyms": [
-        "Cardinal",
-        "17"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -10434,10 +10367,7 @@
         "Pay"
       ],
       "sentence": "This is an example with the word \"seventy\".",
-      "synonyms": [
-        "Cardinal",
-        "70"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -10731,10 +10661,7 @@
         "Altı"
       ],
       "sentence": "This is an example with the word \"six\".",
-      "synonyms": [
-        "Cardinal",
-        "Vi"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -10747,10 +10674,7 @@
         "On altı sayısı"
       ],
       "sentence": "This is an example with the word \"sixteen\".",
-      "synonyms": [
-        "Cardinal",
-        "16"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -10763,10 +10687,7 @@
         "Altmış sayısı (60, LX)"
       ],
       "sentence": "This is an example with the word \"sixty\".",
-      "synonyms": [
-        "Cardinal",
-        "60"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -10880,8 +10801,7 @@
       ],
       "sentence": "This is an example with the word \"snow\".",
       "synonyms": [
-        "Cocaine",
-        "C"
+        "Cocaine"
       ],
       "opposites": []
     },
@@ -11794,7 +11714,6 @@
       ],
       "sentence": "This is an example with the word \"television\".",
       "synonyms": [
-        "Tv",
         "Video"
       ],
       "opposites": []
@@ -11823,7 +11742,6 @@
       ],
       "sentence": "This is an example with the word \"ten\".",
       "synonyms": [
-        "Cardinal",
         "Decade"
       ],
       "opposites": []
@@ -12064,12 +11982,9 @@
       ],
       "sentence": "This is an example with the word \"thirsty\".",
       "synonyms": [
-        "Dry",
-        "Hungry"
+        "Dry"
       ],
-      "opposites": [
-        "Hungry"
-      ]
+      "opposites": []
     },
     {
       "id": "A1-52-8",
@@ -12081,10 +11996,7 @@
         "Se"
       ],
       "sentence": "This is an example with the word \"thirteen\".",
-      "synonyms": [
-        "Cardinal",
-        "13"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -12095,10 +12007,7 @@
         "Üzerinden"
       ],
       "sentence": "This is an example with the word \"thirty\".",
-      "synonyms": [
-        "Cardinal",
-        "30"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -12110,7 +12019,6 @@
       ],
       "sentence": "This is an example with the word \"thousand\".",
       "synonyms": [
-        "Cardinal",
         "Grand"
       ],
       "opposites": []
@@ -12125,10 +12033,7 @@
         "Müddet"
       ],
       "sentence": "This is an example with the word \"three\".",
-      "synonyms": [
-        "Cardinal",
-        "Iii"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -12545,7 +12450,6 @@
       ],
       "sentence": "This is an example with the word \"twelve\".",
       "synonyms": [
-        "Cardinal",
         "Dozen"
       ],
       "opposites": []
@@ -12561,7 +12465,6 @@
       ],
       "sentence": "This is an example with the word \"twenty\".",
       "synonyms": [
-        "Cardinal",
         "Score"
       ],
       "opposites": []
@@ -12591,10 +12494,7 @@
         "Tip"
       ],
       "sentence": "This is an example with the word \"two\".",
-      "synonyms": [
-        "Cardinal",
-        "2"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -12858,8 +12758,7 @@
       ],
       "sentence": "This is an example with the word \"video\".",
       "synonyms": [
-        "Picture",
-        "Tv"
+        "Picture"
       ],
       "opposites": []
     },
@@ -13286,8 +13185,7 @@
       ],
       "sentence": "This is an example with the word \"white\".",
       "synonyms": [
-        "Light",
-        "Good"
+        "Light"
       ],
       "opposites": [
         "Black",

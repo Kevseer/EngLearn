@@ -940,8 +940,8 @@
       ],
       "sentence": "This is an example with the word \"badly\".",
       "synonyms": [
-        "Ill",
-        "Severely"
+        "Severely",
+        "Ill"
       ],
       "opposites": [
         "Good",
@@ -1156,9 +1156,7 @@
         "Bilyon"
       ],
       "sentence": "This is an example with the word \"billion\".",
-      "synonyms": [
-        "Cardinal"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -2666,8 +2664,7 @@
       ],
       "sentence": "This is an example with the word \"cross\".",
       "synonyms": [
-        "Mark",
-        "Queer"
+        "Mark"
       ],
       "opposites": []
     },
@@ -3217,7 +3214,6 @@
       ],
       "sentence": "This is an example with the word \"discover\".",
       "synonyms": [
-        "Break",
         "Strike"
       ],
       "opposites": []
@@ -4828,8 +4824,7 @@
       ],
       "sentence": "This is an example with the word \"gold\".",
       "synonyms": [
-        "Metallic",
-        "Au"
+        "Metallic"
       ],
       "opposites": []
     },
@@ -8477,11 +8472,9 @@
       ],
       "sentence": "This is an example with the word \"pull\".",
       "synonyms": [
-        "Draw",
-        "Drive"
+        "Draw"
       ],
       "opposites": [
-        "Drive",
         "Push"
       ]
     },
@@ -9479,7 +9472,6 @@
       ],
       "sentence": "This is an example with the word \"score\".",
       "synonyms": [
-        "Cardinal",
         "Mark"
       ],
       "opposites": []
@@ -10544,7 +10536,6 @@
       ],
       "sentence": "This is an example with the word \"stone\".",
       "synonyms": [
-        "Colored",
         "Pit"
       ],
       "opposites": []
@@ -11128,7 +11119,6 @@
       ],
       "sentence": "This is an example with the word \"thin\".",
       "synonyms": [
-        "Light",
         "Lean"
       ],
       "opposites": [
@@ -11860,7 +11850,6 @@
       ],
       "sentence": "This is an example with the word \"weak\".",
       "synonyms": [
-        "Light",
         "Soft"
       ],
       "opposites": [
@@ -12243,7 +12232,6 @@
       ],
       "sentence": "This is an example with the word \"zero\".",
       "synonyms": [
-        "Cardinal",
         "Nothing"
       ],
       "opposites": []

@@ -1686,10 +1686,7 @@
         "Yayılmak"
       ],
       "sentence": "This is an example with the word \"bay\".",
-      "synonyms": [
-        "Colored",
-        "Coloured"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -8264,8 +8261,7 @@
       ],
       "sentence": "This is an example with the word \"halt\".",
       "synonyms": [
-        "Hold",
-        "Check"
+        "Hold"
       ],
       "opposites": [
         "Start",
@@ -10579,9 +10575,7 @@
         "El yazısı"
       ],
       "sentence": "This is an example with the word \"manuscript\".",
-      "synonyms": [
-        "Ms"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {

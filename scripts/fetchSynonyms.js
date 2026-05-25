@@ -43,7 +43,17 @@ const BLACKLIST = new Set([
   'bucks', 'scratch', 'gelt', 'shekels', 'cabbage', 'lettuce', 'bread', // "para" argoları
   'awful', 'terrible', // amazing'in arkaik "korkunç" anlamı
   'gay', 'queer', // eski anlamları modern kullanımda yanlış
+  'cardinal', 'colored', 'coloured', // sayı/renk için POS etiketi (synonym değil)
+  'hr', 'km', 'tv', 'au', 'cd', 'ms', 'vi', 'iv', 'ix', 'xi', 'iii', 'vii', 'viii', // kısaltma/sembol/Roma rakamı
 ]);
+
+// Bir adayın geçersiz biçimde olup olmadığını kontrol et (rakam, sembol)
+function isInvalidForm(word) {
+  if (/^[0-9]+$/.test(word)) return true;                 // saf rakam: 8, 18, 100
+  if (/^[ivxlcdm]+$/i.test(word) && word.length <= 4) return true; // Roma rakamı
+  if (word.length <= 1) return true;                       // tek harf sembol
+  return false;
+}
 
 const args = process.argv.slice(2);
 const DRY = args.includes('--dry');
@@ -88,6 +98,7 @@ function filterResults(candidates, sourceWord) {
     .filter(c => c.word && !/[\s-]/.test(c.word))          // tek kelime
     .filter(c => c.freq >= MIN_FREQ)                        // yeterince yaygın (nadir kelimeleri ele)
     .filter(c => !BLACKLIST.has(c.word.toLowerCase()))      // bilinen yanlış-anlam/argo çöplerini ele
+    .filter(c => !isInvalidForm(c.word))                    // rakam/sembol/Roma rakamı ele
     .filter(c => {
       const w = c.word.toLowerCase();
       // kaynak kelimeyle aynı veya birbirini içeren kökleri ele (happy/happiness gibi)

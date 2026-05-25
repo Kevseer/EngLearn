@@ -2308,9 +2308,7 @@
         "Muma benzeyen madde"
       ],
       "sentence": "This is an example with the word \"candle\".",
-      "synonyms": [
-        "Cd"
-      ],
+      "synonyms": [],
       "opposites": []
     },
     {
@@ -5750,7 +5748,6 @@
       ],
       "sentence": "This is an example with the word \"dozen\".",
       "synonyms": [
-        "Cardinal",
         "Twelve"
       ],
       "opposites": []
@@ -8066,8 +8063,7 @@
       ],
       "sentence": "This is an example with the word \"gain\".",
       "synonyms": [
-        "Advance",
-        "Clear"
+        "Advance"
       ],
       "opposites": [
         "Reduce",
