@@ -466,8 +466,9 @@ const styles = StyleSheet.create({
   hintText: { color: '#888', fontSize: 14, fontWeight: '600' },
 
   // Alt aksiyon butonları (swipe alternatifi)
+  // bottom: cihazın sistem navigasyon çubuğuyla (geri/ana sayfa) çakışmaması için yukarı alındı
   actionRow: {
-    position: 'absolute', bottom: 28, left: 20, right: 20,
+    position: 'absolute', bottom: 55, left: 20, right: 20,
     flexDirection: 'row', justifyContent: 'space-between', zIndex: 5,
   },
   actionBtn: {
