@@ -53,13 +53,26 @@ const CardItem = forwardRef(({ card, onRendered, isTopCard }: { card: Word; onRe
           <>
             <Text style={styles.translationText}>{card.translation}</Text>
             <Text style={styles.meaningText}>{card.meanings[0]}</Text>
-            <View style={styles.infoBox}>
-              <Text style={styles.infoLabel}>SYNONYMS</Text>
-              <Text style={styles.infoValue}>{card.synonyms?.length > 0 ? card.synonyms.join(', ') : 'None'}</Text>
-              <View style={styles.line} />
-              <Text style={styles.infoLabel}>OPPOSITES</Text>
-              <Text style={styles.infoValue}>{card.opposites?.length > 0 ? card.opposites.join(', ') : 'None'}</Text>
-            </View>
+            {/* Synonym/opposite yalnızca veri varsa gösterilir; boşsa bölüm gizlenir */}
+            {(card.synonyms?.length > 0 || card.opposites?.length > 0) && (
+              <View style={styles.infoBox}>
+                {card.synonyms?.length > 0 && (
+                  <>
+                    <Text style={styles.infoLabel}>SYNONYMS</Text>
+                    <Text style={styles.infoValue}>{card.synonyms.join(', ')}</Text>
+                  </>
+                )}
+                {card.synonyms?.length > 0 && card.opposites?.length > 0 && (
+                  <View style={styles.line} />
+                )}
+                {card.opposites?.length > 0 && (
+                  <>
+                    <Text style={styles.infoLabel}>OPPOSITES</Text>
+                    <Text style={styles.infoValue}>{card.opposites.join(', ')}</Text>
+                  </>
+                )}
+              </View>
+            )}
           </>
         )}
       </View>

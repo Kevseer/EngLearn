@@ -50,3 +50,5 @@ app/(tabs)/Untitled-1.json
 
 # proje komutları
 komut.txt
+# Datamuse fetch cache (regenerable)
+.cache/

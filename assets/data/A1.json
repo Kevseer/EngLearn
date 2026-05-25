@@ -10,7 +10,10 @@
         "Yaklaşık"
       ],
       "sentence": "This is an example with the word \"about\".",
-      "synonyms": [],
+      "synonyms": [
+        "Virtually",
+        "Near"
+      ],
       "opposites": []
     },
     {
@@ -22,8 +25,13 @@
         "Yukarıda"
       ],
       "sentence": "This is an example with the word \"above\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Supra"
+      ],
+      "opposites": [
+        "Beneath",
+        "Below"
+      ]
     },
     {
       "id": "A1-1-3",
@@ -35,7 +43,10 @@
         "Karşı karşıya"
       ],
       "sentence": "This is an example with the word \"across\".",
-      "synonyms": [],
+      "synonyms": [
+        "Over",
+        "Crossed"
+      ],
       "opposites": []
     },
     {
@@ -48,7 +59,9 @@
         "Aksiyon"
       ],
       "sentence": "This is an example with the word \"action\".",
-      "synonyms": [],
+      "synonyms": [
+        "Activity"
+      ],
       "opposites": []
     },
     {
@@ -61,8 +74,12 @@
         "Meşguliyet"
       ],
       "sentence": "This is an example with the word \"activity\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Action"
+      ],
+      "opposites": [
+        "Inertia"
+      ]
     },
     {
       "id": "A1-1-6",
@@ -74,7 +91,10 @@
         "Artist"
       ],
       "sentence": "This is an example with the word \"actor\".",
-      "synonyms": [],
+      "synonyms": [
+        "Player",
+        "Worker"
+      ],
       "opposites": []
     },
     {
@@ -100,7 +120,10 @@
         "Ilave etmek"
       ],
       "sentence": "This is an example with the word \"add\".",
-      "synonyms": [],
+      "synonyms": [
+        "Supply",
+        "Contribute"
+      ],
       "opposites": []
     },
     {
@@ -113,7 +136,10 @@
         "Adres"
       ],
       "sentence": "This is an example with the word \"address\".",
-      "synonyms": [],
+      "synonyms": [
+        "Work",
+        "Direct"
+      ],
       "opposites": []
     },
     {
@@ -126,8 +152,13 @@
         "Yetişkin kişi"
       ],
       "sentence": "This is an example with the word \"adult\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Big",
+        "Mature"
+      ],
+      "opposites": [
+        "Juvenile"
+      ]
     },
     {
       "id": "A1-1-11",
@@ -152,7 +183,9 @@
         "Ürkmüş"
       ],
       "sentence": "This is an example with the word \"afraid\".",
-      "synonyms": [],
+      "synonyms": [
+        "Concerned"
+      ],
       "opposites": []
     },
     {
@@ -165,7 +198,10 @@
         "Sonra gelen"
       ],
       "sentence": "This is an example with the word \"after\".",
-      "synonyms": [],
+      "synonyms": [
+        "Subsequently",
+        "Later"
+      ],
       "opposites": []
     },
     {
@@ -204,7 +240,10 @@
         "Devir"
       ],
       "sentence": "This is an example with the word \"age\".",
-      "synonyms": [],
+      "synonyms": [
+        "Mature",
+        "Years"
+      ],
       "opposites": []
     },
     {
@@ -217,7 +256,9 @@
         "Önce"
       ],
       "sentence": "This is an example with the word \"ago\".",
-      "synonyms": [],
+      "synonyms": [
+        "Past"
+      ],
       "opposites": []
     },
     {
@@ -230,8 +271,13 @@
         "Razı olmak"
       ],
       "sentence": "This is an example with the word \"agree\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Accord",
+        "Fit"
+      ],
+      "opposites": [
+        "Differ"
+      ]
     },
     {
       "id": "A1-2-4",
@@ -243,7 +289,10 @@
         "Hava"
       ],
       "sentence": "This is an example with the word \"air\".",
-      "synonyms": [],
+      "synonyms": [
+        "Strain",
+        "Beam"
+      ],
       "opposites": []
     },
     {
@@ -269,8 +318,14 @@
         "Hepsi"
       ],
       "sentence": "This is an example with the word \"all\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Complete",
+        "Wholly"
+      ],
+      "opposites": [
+        "Part",
+        "Partly"
+      ]
     },
     {
       "id": "A1-2-7",
@@ -282,7 +337,10 @@
         "Da"
       ],
       "sentence": "This is an example with the word \"also\".",
-      "synonyms": [],
+      "synonyms": [
+        "Likewise",
+        "Besides"
+      ],
       "opposites": []
     },
     {
@@ -295,8 +353,13 @@
         "Daima"
       ],
       "sentence": "This is an example with the word \"always\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ever",
+        "Forever"
+      ],
+      "opposites": [
+        "Never"
+      ]
     },
     {
       "id": "A1-2-9",
@@ -308,7 +371,10 @@
         "Hayrete düşürücü"
       ],
       "sentence": "This is an example with the word \"amazing\".",
-      "synonyms": [],
+      "synonyms": [
+        "Impressive",
+        "Awful"
+      ],
       "opposites": []
     },
     {
@@ -334,7 +400,10 @@
         "Hiddetli"
       ],
       "sentence": "This is an example with the word \"angry\".",
-      "synonyms": [],
+      "synonyms": [
+        "Wild",
+        "Black"
+      ],
       "opposites": []
     },
     {
@@ -347,8 +416,14 @@
         "Hayvani"
       ],
       "sentence": "This is an example with the word \"animal\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Beast",
+        "Creature"
+      ],
+      "opposites": [
+        "Vegetable",
+        "Mineral"
+      ]
     },
     {
       "id": "A1-2-13",
@@ -360,7 +435,10 @@
         "Ikinci bir"
       ],
       "sentence": "This is an example with the word \"another\".",
-      "synonyms": [],
+      "synonyms": [
+        "Different",
+        "Additional"
+      ],
       "opposites": []
     },
     {
@@ -373,8 +451,14 @@
         "Cevap vermek"
       ],
       "sentence": "This is an example with the word \"answer\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Resolve",
+        "Resolution"
+      ],
+      "opposites": [
+        "Inquiry",
+        "Enquiry"
+      ]
     },
     {
       "id": "A1-2-15",
@@ -386,7 +470,10 @@
         "Her"
       ],
       "sentence": "This is an example with the word \"any\".",
-      "synonyms": [],
+      "synonyms": [
+        "Whatever",
+        "Whatsoever"
+      ],
       "opposites": []
     },
     {
@@ -425,7 +512,9 @@
         "Apartman dairesi"
       ],
       "sentence": "This is an example with the word \"apartment\".",
-      "synonyms": [],
+      "synonyms": [
+        "Flat"
+      ],
       "opposites": []
     },
     {
@@ -462,7 +551,10 @@
         "Elma bölge"
       ],
       "sentence": "This is an example with the word \"area\".",
-      "synonyms": [],
+      "synonyms": [
+        "Domain",
+        "Field"
+      ],
       "opposites": []
     },
     {
@@ -475,7 +567,10 @@
         "Destek olmak"
       ],
       "sentence": "This is an example with the word \"arm\".",
-      "synonyms": [],
+      "synonyms": [
+        "Weapon",
+        "Branch"
+      ],
       "opposites": []
     },
     {
@@ -488,7 +583,10 @@
         "Etrafında"
       ],
       "sentence": "This is an example with the word \"around\".",
-      "synonyms": [],
+      "synonyms": [
+        "About",
+        "Some"
+      ],
       "opposites": []
     },
     {
@@ -501,8 +599,13 @@
         "Gelip çatmak"
       ],
       "sentence": "This is an example with the word \"arrive\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Get",
+        "Come"
+      ],
+      "opposites": [
+        "Leave"
+      ]
     },
     {
       "id": "A1-3-10",
@@ -514,7 +617,9 @@
         "Maharet"
       ],
       "sentence": "This is an example with the word \"art\".",
-      "synonyms": [],
+      "synonyms": [
+        "Graphics"
+      ],
       "opposites": []
     },
     {
@@ -527,7 +632,9 @@
         "(sözleşmede) madde"
       ],
       "sentence": "This is an example with the word \"article\".",
-      "synonyms": [],
+      "synonyms": [
+        "Clause"
+      ],
       "opposites": []
     },
     {
@@ -553,7 +660,9 @@
         "Dahi"
       ],
       "sentence": "This is an example with the word \"as\".",
-      "synonyms": [],
+      "synonyms": [
+        "Equally"
+      ],
       "opposites": []
     },
     {
@@ -566,8 +675,13 @@
         "Çağırmak"
       ],
       "sentence": "This is an example with the word \"ask\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Demand",
+        "Pose"
+      ],
+      "opposites": [
+        "Eliminate"
+      ]
     },
     {
       "id": "A1-3-15",
@@ -592,7 +706,10 @@
         "Ağustos ayı"
       ],
       "sentence": "This is an example with the word \"august\".",
-      "synonyms": [],
+      "synonyms": [
+        "Noble",
+        "Grand"
+      ],
       "opposites": []
     },
     {
@@ -606,7 +723,9 @@
       ],
       "sentence": "This is an example with the word \"aunt\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Uncle"
+      ]
     },
     {
       "id": "A1-4-3",
@@ -618,7 +737,9 @@
         "Hazan"
       ],
       "sentence": "This is an example with the word \"autumn\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fall"
+      ],
       "opposites": []
     },
     {
@@ -631,7 +752,10 @@
         "Uzakta"
       ],
       "sentence": "This is an example with the word \"away\".",
-      "synonyms": [],
+      "synonyms": [
+        "Outside",
+        "Out"
+      ],
       "opposites": []
     },
     {
@@ -644,7 +768,10 @@
         "Şımartmak"
       ],
       "sentence": "This is an example with the word \"baby\".",
-      "synonyms": [],
+      "synonyms": [
+        "New",
+        "Child"
+      ],
       "opposites": []
     },
     {
@@ -657,8 +784,14 @@
         "Sırt"
       ],
       "sentence": "This is an example with the word \"back\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Support",
+        "Cover"
+      ],
+      "opposites": [
+        "Advance",
+        "Look"
+      ]
     },
     {
       "id": "A1-4-7",
@@ -670,8 +803,14 @@
         "Bozuk"
       ],
       "sentence": "This is an example with the word \"bad\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Intense",
+        "Evil"
+      ],
+      "opposites": [
+        "Good",
+        "Goodness"
+      ]
     },
     {
       "id": "A1-4-8",
@@ -683,7 +822,10 @@
         "Çanta"
       ],
       "sentence": "This is an example with the word \"bag\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Grip"
+      ],
       "opposites": []
     },
     {
@@ -696,7 +838,10 @@
         "Bilye"
       ],
       "sentence": "This is an example with the word \"ball\".",
-      "synonyms": [],
+      "synonyms": [
+        "Nut",
+        "Globe"
+      ],
       "opposites": []
     },
     {
@@ -720,7 +865,10 @@
         "Şerit"
       ],
       "sentence": "This is an example with the word \"band\".",
-      "synonyms": [],
+      "synonyms": [
+        "Set",
+        "Ring"
+      ],
       "opposites": []
     },
     {
@@ -733,8 +881,14 @@
         "Kümelenmek"
       ],
       "sentence": "This is an example with the word \"bank\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Trust",
+        "Deposit"
+      ],
+      "opposites": [
+        "Draw",
+        "Withdraw"
+      ]
     },
     {
       "id": "A1-4-13",
@@ -759,7 +913,10 @@
         "Banyo odası"
       ],
       "sentence": "This is an example with the word \"bathroom\".",
-      "synonyms": [],
+      "synonyms": [
+        "Facility",
+        "John"
+      ],
       "opposites": []
     },
     {
@@ -772,8 +929,13 @@
         "Var olmak"
       ],
       "sentence": "This is an example with the word \"be\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Work",
+        "Constitute"
+      ],
+      "opposites": [
+        "Differ"
+      ]
     },
     {
       "id": "A1-5-1",
@@ -798,8 +960,13 @@
         "Ahım şahım"
       ],
       "sentence": "This is an example with the word \"beautiful\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Glorious",
+        "Fine"
+      ],
+      "opposites": [
+        "Ugly"
+      ]
     },
     {
       "id": "A1-5-3",
@@ -824,7 +991,10 @@
         "Dönüşmek"
       ],
       "sentence": "This is an example with the word \"become\".",
-      "synonyms": [],
+      "synonyms": [
+        "Turn",
+        "Get"
+      ],
       "opposites": []
     },
     {
@@ -837,7 +1007,10 @@
         "Oturtmak"
       ],
       "sentence": "This is an example with the word \"bed\".",
-      "synonyms": [],
+      "synonyms": [
+        "Love",
+        "Bottom"
+      ],
       "opposites": []
     },
     {
@@ -848,7 +1021,9 @@
         "Yatak odası"
       ],
       "sentence": "This is an example with the word \"bedroom\".",
-      "synonyms": [],
+      "synonyms": [
+        "Chamber"
+      ],
       "opposites": []
     },
     {
@@ -872,7 +1047,10 @@
         "Daha önce"
       ],
       "sentence": "This is an example with the word \"before\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ahead",
+        "Earlier"
+      ],
       "opposites": []
     },
     {
@@ -885,8 +1063,14 @@
         "Began - begun"
       ],
       "sentence": "This is an example with the word \"begin\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Start",
+        "Get"
+      ],
+      "opposites": [
+        "Terminate",
+        "Cease"
+      ]
     },
     {
       "id": "A1-5-10",
@@ -898,8 +1082,14 @@
         "Ilk adım"
       ],
       "sentence": "This is an example with the word \"beginning\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Offset",
+        "Source"
+      ],
+      "opposites": [
+        "Conclusion",
+        "End"
+      ]
     },
     {
       "id": "A1-5-11",
@@ -911,7 +1101,10 @@
         "Geriye"
       ],
       "sentence": "This is an example with the word \"behind\".",
-      "synonyms": [],
+      "synonyms": [
+        "Stern",
+        "Ass"
+      ],
       "opposites": []
     },
     {
@@ -923,7 +1116,10 @@
         "Kanmak"
       ],
       "sentence": "This is an example with the word \"believe\".",
-      "synonyms": [],
+      "synonyms": [
+        "Consider",
+        "Conceive"
+      ],
       "opposites": []
     },
     {
@@ -936,8 +1132,14 @@
         "Altta"
       ],
       "sentence": "This is an example with the word \"below\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Beneath",
+        "Under"
+      ],
+      "opposites": [
+        "Supra",
+        "Above"
+      ]
     },
     {
       "id": "A1-5-14",
@@ -949,8 +1151,13 @@
         "Baskın çıkmak"
       ],
       "sentence": "This is an example with the word \"best\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Optimal"
+      ],
+      "opposites": [
+        "Worst"
+      ]
     },
     {
       "id": "A1-5-15",
@@ -962,8 +1169,14 @@
         "Islah etmek"
       ],
       "sentence": "This is an example with the word \"better\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Break",
+        "Improve"
+      ],
+      "opposites": [
+        "Decline",
+        "Worse"
+      ]
     },
     {
       "id": "A1-6-1",
@@ -988,7 +1201,9 @@
         "Bisikletle gezmek"
       ],
       "sentence": "This is an example with the word \"bicycle\".",
-      "synonyms": [],
+      "synonyms": [
+        "Wheel"
+      ],
       "opposites": []
     },
     {
@@ -1001,8 +1216,14 @@
         "Kapı gibi"
       ],
       "sentence": "This is an example with the word \"big\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Conspicuous",
+        "Intense"
+      ],
+      "opposites": [
+        "Little",
+        "Small"
+      ]
     },
     {
       "id": "A1-6-4",
@@ -1014,7 +1235,10 @@
         "Bisiklet sürmek"
       ],
       "sentence": "This is an example with the word \"bike\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cycle",
+        "Bicycle"
+      ],
       "opposites": []
     },
     {
@@ -1027,7 +1251,10 @@
         "Ilan etmek"
       ],
       "sentence": "This is an example with the word \"bill\".",
-      "synonyms": [],
+      "synonyms": [
+        "Charge",
+        "Account"
+      ],
       "opposites": []
     },
     {
@@ -1040,7 +1267,10 @@
         "Kus"
       ],
       "sentence": "This is an example with the word \"bird\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dame",
+        "Skirt"
+      ],
       "opposites": []
     },
     {
@@ -1065,8 +1295,13 @@
         "Siyah"
       ],
       "sentence": "This is an example with the word \"black\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Grim",
+        "Evil"
+      ],
+      "opposites": [
+        "White"
+      ]
     },
     {
       "id": "A1-6-9",
@@ -1077,7 +1312,10 @@
         "Sarışın kız"
       ],
       "sentence": "This is an example with the word \"blonde\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fair",
+        "Sandy"
+      ],
       "opposites": []
     },
     {
@@ -1089,7 +1327,10 @@
         "Çarçur etmek"
       ],
       "sentence": "This is an example with the word \"blue\".",
-      "synonyms": [],
+      "synonyms": [
+        "Grim",
+        "Dark"
+      ],
       "opposites": []
     },
     {
@@ -1115,7 +1356,10 @@
         "Har vurup harman savurmak"
       ],
       "sentence": "This is an example with the word \"body\".",
-      "synonyms": [],
+      "synonyms": [
+        "Consistency",
+        "Trunk"
+      ],
       "opposites": []
     },
     {
@@ -1128,7 +1372,10 @@
         "Kayık"
       ],
       "sentence": "This is an example with the word \"book\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hold",
+        "Script"
+      ],
       "opposites": []
     },
     {
@@ -1141,7 +1388,10 @@
         "Vücut"
       ],
       "sentence": "This is an example with the word \"boot\".",
-      "synonyms": [],
+      "synonyms": [
+        "Kick",
+        "Trunk"
+      ],
       "opposites": []
     },
     {
@@ -1154,7 +1404,9 @@
         "Deftere işlemek"
       ],
       "sentence": "This is an example with the word \"bored\".",
-      "synonyms": [],
+      "synonyms": [
+        "Tired"
+      ],
       "opposites": []
     },
     {
@@ -1167,7 +1419,10 @@
         "Kovmak"
       ],
       "sentence": "This is an example with the word \"boring\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dull",
+        "Slow"
+      ],
       "opposites": []
     },
     {
@@ -1180,7 +1435,10 @@
         "Bıkkın"
       ],
       "sentence": "This is an example with the word \"born\".",
-      "synonyms": [],
+      "synonyms": [
+        "Innate",
+        "Dropped"
+      ],
       "opposites": []
     },
     {
@@ -1219,7 +1477,10 @@
         "Her ikisi (de)"
       ],
       "sentence": "This is an example with the word \"box\".",
-      "synonyms": [],
+      "synonyms": [
+        "Corner",
+        "Package"
+      ],
       "opposites": []
     },
     {
@@ -1232,8 +1493,14 @@
         "Oğlan"
       ],
       "sentence": "This is an example with the word \"boy\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Child",
+        "Son"
+      ],
+      "opposites": [
+        "Girl",
+        "Child"
+      ]
     },
     {
       "id": "A1-7-7",
@@ -1245,7 +1512,9 @@
         "Erkek arkadaş"
       ],
       "sentence": "This is an example with the word \"boyfriend\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fellow"
+      ],
       "opposites": []
     },
     {
@@ -1271,8 +1540,14 @@
         "Bozmak"
       ],
       "sentence": "This is an example with the word \"break\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Crack",
+        "Give"
+      ],
+      "opposites": [
+        "Advance",
+        "Promote"
+      ]
     },
     {
       "id": "A1-7-10",
@@ -1296,7 +1571,10 @@
         "Neden olmak"
       ],
       "sentence": "This is an example with the word \"bring\".",
-      "synonyms": [],
+      "synonyms": [
+        "Convey",
+        "Work"
+      ],
       "opposites": []
     },
     {
@@ -1308,8 +1586,13 @@
         "Erkek kardeş"
       ],
       "sentence": "This is an example with the word \"brother\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Fellow",
+        "Sister"
+      ],
+      "opposites": [
+        "Sister"
+      ]
     },
     {
       "id": "A1-7-13",
@@ -1321,7 +1604,9 @@
         "Karartmak"
       ],
       "sentence": "This is an example with the word \"brown\".",
-      "synonyms": [],
+      "synonyms": [
+        "Colored"
+      ],
       "opposites": []
     },
     {
@@ -1334,7 +1619,10 @@
         "Bina etmek"
       ],
       "sentence": "This is an example with the word \"build\".",
-      "synonyms": [],
+      "synonyms": [
+        "Establish",
+        "Construct"
+      ],
       "opposites": []
     },
     {
@@ -1347,7 +1635,10 @@
         "Yapma"
       ],
       "sentence": "This is an example with the word \"building\".",
-      "synonyms": [],
+      "synonyms": [
+        "Increasing",
+        "Construction"
+      ],
       "opposites": []
     },
     {
@@ -1360,7 +1651,10 @@
         "Otobüsle gitmek"
       ],
       "sentence": "This is an example with the word \"bus\".",
-      "synonyms": [],
+      "synonyms": [
+        "Coach",
+        "Heap"
+      ],
       "opposites": []
     },
     {
@@ -1373,7 +1667,10 @@
         "Iş kuruluşu"
       ],
       "sentence": "This is an example with the word \"business\".",
-      "synonyms": [],
+      "synonyms": [
+        "Concern",
+        "Line"
+      ],
       "opposites": []
     },
     {
@@ -1386,8 +1683,13 @@
         "Faal"
       ],
       "sentence": "This is an example with the word \"busy\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Fancy",
+        "Active"
+      ],
+      "opposites": [
+        "Idle"
+      ]
     },
     {
       "id": "A1-8-4",
@@ -1399,7 +1701,10 @@
         "Itiraz"
       ],
       "sentence": "This is an example with the word \"but\".",
-      "synonyms": [],
+      "synonyms": [
+        "Just",
+        "Merely"
+      ],
       "opposites": []
     },
     {
@@ -1425,8 +1730,13 @@
         "Almak"
       ],
       "sentence": "This is an example with the word \"buy\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Corrupt",
+        "Bargain"
+      ],
+      "opposites": [
+        "Sell"
+      ]
     },
     {
       "id": "A1-8-7",
@@ -1438,7 +1748,10 @@
         "Evde"
       ],
       "sentence": "This is an example with the word \"by\".",
-      "synonyms": [],
+      "synonyms": [
+        "Side",
+        "Past"
+      ],
       "opposites": []
     },
     {
@@ -1451,7 +1764,10 @@
         "Hoşçakal"
       ],
       "sentence": "This is an example with the word \"bye\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pass",
+        "Side"
+      ],
       "opposites": []
     },
     {
@@ -1477,7 +1793,10 @@
         "Kabuklaşmak"
       ],
       "sentence": "This is an example with the word \"cake\".",
-      "synonyms": [],
+      "synonyms": [
+        "Bar",
+        "Coat"
+      ],
       "opposites": []
     },
     {
@@ -1490,8 +1809,13 @@
         "Telefon etmek"
       ],
       "sentence": "This is an example with the word \"call\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ring",
+        "Cry"
+      ],
+      "opposites": [
+        "Put"
+      ]
     },
     {
       "id": "A1-8-12",
@@ -1516,8 +1840,14 @@
         "Konservelemek"
       ],
       "sentence": "This is an example with the word \"can\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Stern",
+        "Ass"
+      ],
+      "opposites": [
+        "Engage",
+        "Employ"
+      ]
     },
     {
       "id": "A1-8-14",
@@ -1542,7 +1872,9 @@
         "Kabin"
       ],
       "sentence": "This is an example with the word \"capital\".",
-      "synonyms": [],
+      "synonyms": [
+        "Great"
+      ],
       "opposites": []
     },
     {
@@ -1555,7 +1887,10 @@
         "Fişlemek"
       ],
       "sentence": "This is an example with the word \"car\".",
-      "synonyms": [],
+      "synonyms": [
+        "Automobile",
+        "Machine"
+      ],
       "opposites": []
     },
     {
@@ -1568,7 +1903,10 @@
         "Son hızda gitmek"
       ],
       "sentence": "This is an example with the word \"card\".",
-      "synonyms": [],
+      "synonyms": [
+        "Notice",
+        "Board"
+      ],
       "opposites": []
     },
     {
@@ -1581,7 +1919,9 @@
         "Ödül/teşvik"
       ],
       "sentence": "This is an example with the word \"career\".",
-      "synonyms": [],
+      "synonyms": [
+        "Calling"
+      ],
       "opposites": []
     },
     {
@@ -1607,7 +1947,10 @@
         "Kusmak"
       ],
       "sentence": "This is an example with the word \"carry\".",
-      "synonyms": [],
+      "synonyms": [
+        "Convey",
+        "Conduct"
+      ],
       "opposites": []
     },
     {
@@ -1619,7 +1962,10 @@
         "Istifra etmek"
       ],
       "sentence": "This is an example with the word \"cat\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cast",
+        "Sick"
+      ],
       "opposites": []
     },
     {
@@ -1632,7 +1978,9 @@
         "Konsantre olmak"
       ],
       "sentence": "This is an example with the word \"cent\".",
-      "synonyms": [],
+      "synonyms": [
+        "Penny"
+      ],
       "opposites": []
     },
     {
@@ -1645,7 +1993,10 @@
         "Iskemle"
       ],
       "sentence": "This is an example with the word \"centre\".",
-      "synonyms": [],
+      "synonyms": [
+        "Focus",
+        "Heart"
+      ],
       "opposites": []
     },
     {
@@ -1658,7 +2009,10 @@
         "Değişiklik"
       ],
       "sentence": "This is an example with the word \"century\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hundred",
+        "100"
+      ],
       "opposites": []
     },
     {
@@ -1671,7 +2025,10 @@
         "Haritaya almak"
       ],
       "sentence": "This is an example with the word \"chair\".",
-      "synonyms": [],
+      "synonyms": [
+        "Lead",
+        "Moderate"
+      ],
       "opposites": []
     },
     {
@@ -1684,8 +2041,14 @@
         "Değersiz"
       ],
       "sentence": "This is an example with the word \"change\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Shift",
+        "Alter"
+      ],
+      "opposites": [
+        "Rest",
+        "Remain"
+      ]
     },
     {
       "id": "A1-9-12",
@@ -1710,8 +2073,13 @@
         "Meyve konservesi"
       ],
       "sentence": "This is an example with the word \"cheap\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Inferior",
+        "Bargain"
+      ],
+      "opposites": [
+        "Expensive"
+      ]
     },
     {
       "id": "A1-9-14",
@@ -1723,8 +2091,13 @@
         "Korkak davranmak"
       ],
       "sentence": "This is an example with the word \"check\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ascertain",
+        "Control"
+      ],
+      "opposites": [
+        "Disagree"
+      ]
     },
     {
       "id": "A1-9-15",
@@ -1749,7 +2122,10 @@
         "Çikolatadan yapılmış"
       ],
       "sentence": "This is an example with the word \"chicken\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fearful",
+        "Yellow"
+      ],
       "opposites": []
     },
     {
@@ -1762,8 +2138,14 @@
         "Ayırmak"
       ],
       "sentence": "This is an example with the word \"child\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Minor",
+        "Girl"
+      ],
+      "opposites": [
+        "Girl",
+        "Boy"
+      ]
     },
     {
       "id": "A1-10-3",
@@ -1774,7 +2156,9 @@
         "Çikolatalı şekerleme"
       ],
       "sentence": "This is an example with the word \"chocolate\".",
-      "synonyms": [],
+      "synonyms": [
+        "Coffee"
+      ],
       "opposites": []
     },
     {
@@ -1787,7 +2171,10 @@
         "Metropol"
       ],
       "sentence": "This is an example with the word \"choose\".",
-      "synonyms": [],
+      "synonyms": [
+        "Take",
+        "Prefer"
+      ],
       "opposites": []
     },
     {
@@ -1800,7 +2187,9 @@
         "Saymak"
       ],
       "sentence": "This is an example with the word \"cinema\".",
-      "synonyms": [],
+      "synonyms": [
+        "Film"
+      ],
       "opposites": []
     },
     {
@@ -1825,7 +2214,10 @@
         "Sınıf"
       ],
       "sentence": "This is an example with the word \"class\".",
-      "synonyms": [],
+      "synonyms": [
+        "Form",
+        "Separate"
+      ],
       "opposites": []
     },
     {
@@ -1850,8 +2242,14 @@
         "Temizlenmek"
       ],
       "sentence": "This is an example with the word \"clean\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Light",
+        "Clear"
+      ],
+      "opposites": [
+        "Dirty",
+        "Soil"
+      ]
     },
     {
       "id": "A1-10-10",
@@ -1863,8 +2261,14 @@
         "Çıkmak"
       ],
       "sentence": "This is an example with the word \"climb\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Rise",
+        "Raise"
+      ],
+      "opposites": [
+        "Decline",
+        "Fall"
+      ]
     },
     {
       "id": "A1-10-11",
@@ -1876,7 +2280,9 @@
         "Ölçmek"
       ],
       "sentence": "This is an example with the word \"clock\".",
-      "synonyms": [],
+      "synonyms": [
+        "Time"
+      ],
       "opposites": []
     },
     {
@@ -1889,8 +2295,14 @@
         "Yakın"
       ],
       "sentence": "This is an example with the word \"close\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Intimate"
+      ],
+      "opposites": [
+        "Open",
+        "Distant"
+      ]
     },
     {
       "id": "A1-10-13",
@@ -1902,7 +2314,10 @@
         "Esvap"
       ],
       "sentence": "This is an example with the word \"clothes\".",
-      "synonyms": [],
+      "synonyms": [
+        "Wear",
+        "Clothing"
+      ],
       "opposites": []
     },
     {
@@ -1915,7 +2330,10 @@
         "Sopa ile dövmek"
       ],
       "sentence": "This is an example with the word \"club\".",
-      "synonyms": [],
+      "synonyms": [
+        "Order",
+        "Society"
+      ],
       "opposites": []
     },
     {
@@ -1928,7 +2346,10 @@
         "Mont"
       ],
       "sentence": "This is an example with the word \"coat\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cake",
+        "Surface"
+      ],
       "opposites": []
     },
     {
@@ -1941,7 +2362,10 @@
         "Kıraathane"
       ],
       "sentence": "This is an example with the word \"coffee\".",
-      "synonyms": [],
+      "synonyms": [
+        "Java",
+        "Chocolate"
+      ],
       "opposites": []
     },
     {
@@ -1954,8 +2378,14 @@
         "Soğuk"
       ],
       "sentence": "This is an example with the word \"cold\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Intense",
+        "Cool"
+      ],
+      "opposites": [
+        "Hot",
+        "Heat"
+      ]
     },
     {
       "id": "A1-11-3",
@@ -1980,7 +2410,9 @@
         "Yüzü kızarmak"
       ],
       "sentence": "This is an example with the word \"colour\".",
-      "synonyms": [],
+      "synonyms": [
+        "Color"
+      ],
       "opposites": []
     },
     {
@@ -1993,8 +2425,14 @@
         "Gelip dayanmak"
       ],
       "sentence": "This is an example with the word \"come\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Derive",
+        "Fall"
+      ],
+      "opposites": [
+        "Depart",
+        "Leave"
+      ]
     },
     {
       "id": "A1-11-6",
@@ -2006,8 +2444,13 @@
         "Yaygın"
       ],
       "sentence": "This is an example with the word \"common\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Standard",
+        "Familiar"
+      ],
+      "opposites": [
+        "Individual"
+      ]
     },
     {
       "id": "A1-11-7",
@@ -2019,7 +2462,10 @@
         "Firma"
       ],
       "sentence": "This is an example with the word \"company\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fellowship",
+        "Companion"
+      ],
       "opposites": []
     },
     {
@@ -2032,7 +2478,9 @@
         "Karşılaştırmak"
       ],
       "sentence": "This is an example with the word \"compare\".",
-      "synonyms": [],
+      "synonyms": [
+        "Comparison"
+      ],
       "opposites": []
     },
     {
@@ -2045,7 +2493,10 @@
         "Bütün"
       ],
       "sentence": "This is an example with the word \"complete\".",
-      "synonyms": [],
+      "synonyms": [
+        "Stark",
+        "Good"
+      ],
       "opposites": []
     },
     {
@@ -2097,7 +2548,10 @@
         "Aşçı"
       ],
       "sentence": "This is an example with the word \"cook\".",
-      "synonyms": [],
+      "synonyms": [
+        "Make",
+        "Prepare"
+      ],
       "opposites": []
     },
     {
@@ -2123,8 +2577,14 @@
         "Serin"
       ],
       "sentence": "This is an example with the word \"cool\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Keen",
+        "Good"
+      ],
+      "opposites": [
+        "Warm",
+        "Hot"
+      ]
     },
     {
       "id": "A1-12-1",
@@ -2136,8 +2596,13 @@
         "Haddini bildirmek"
       ],
       "sentence": "This is an example with the word \"correct\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Proper",
+        "Right"
+      ],
+      "opposites": [
+        "Wrong"
+      ]
     },
     {
       "id": "A1-12-2",
@@ -2149,7 +2614,10 @@
         "Ücret"
       ],
       "sentence": "This is an example with the word \"cost\".",
-      "synonyms": [],
+      "synonyms": [
+        "Be",
+        "Price"
+      ],
       "opposites": []
     },
     {
@@ -2162,7 +2630,9 @@
         "-ebilirdi"
       ],
       "sentence": "This is an example with the word \"could\".",
-      "synonyms": [],
+      "synonyms": [
+        "Might"
+      ],
       "opposites": []
     },
     {
@@ -2175,7 +2645,10 @@
         "Ülke"
       ],
       "sentence": "This is an example with the word \"country\".",
-      "synonyms": [],
+      "synonyms": [
+        "State",
+        "Area"
+      ],
       "opposites": []
     },
     {
@@ -2188,7 +2661,10 @@
         "Rota"
       ],
       "sentence": "This is an example with the word \"course\".",
-      "synonyms": [],
+      "synonyms": [
+        "Line",
+        "Flow"
+      ],
       "opposites": []
     },
     {
@@ -2227,7 +2703,9 @@
         "Krem"
       ],
       "sentence": "This is an example with the word \"cream\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pick"
+      ],
       "opposites": []
     },
     {
@@ -2240,7 +2718,10 @@
         "Yaratmak"
       ],
       "sentence": "This is an example with the word \"create\".",
-      "synonyms": [],
+      "synonyms": [
+        "Produce",
+        "Make"
+      ],
       "opposites": []
     },
     {
@@ -2278,7 +2759,9 @@
         "Tip"
       ],
       "sentence": "This is an example with the word \"customer\".",
-      "synonyms": [],
+      "synonyms": [
+        "Client"
+      ],
       "opposites": []
     },
     {
@@ -2291,8 +2774,13 @@
         "Kesik"
       ],
       "sentence": "This is an example with the word \"cut\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Issue",
+        "Reduce"
+      ],
+      "opposites": [
+        "Rough"
+      ]
     },
     {
       "id": "A1-12-14",
@@ -2304,7 +2792,10 @@
         "Babacık"
       ],
       "sentence": "This is an example with the word \"dad\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pop",
+        "Papa"
+      ],
       "opposites": []
     },
     {
@@ -2317,7 +2808,9 @@
         "Sıçramak"
       ],
       "sentence": "This is an example with the word \"dance\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dancing"
+      ],
       "opposites": []
     },
     {
@@ -2343,7 +2836,10 @@
         "Oynama"
       ],
       "sentence": "This is an example with the word \"dancing\".",
-      "synonyms": [],
+      "synonyms": [
+        "Active",
+        "Dance"
+      ],
       "opposites": []
     },
     {
@@ -2356,8 +2852,13 @@
         "Riskli"
       ],
       "sentence": "This is an example with the word \"dangerous\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Critical",
+        "Severe"
+      ],
+      "opposites": [
+        "Safe"
+      ]
     },
     {
       "id": "A1-13-4",
@@ -2369,8 +2870,14 @@
         "Belirsizlik"
       ],
       "sentence": "This is an example with the word \"dark\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Obscure",
+        "Grim"
+      ],
+      "opposites": [
+        "Light",
+        "Daylight"
+      ]
     },
     {
       "id": "A1-13-5",
@@ -2382,7 +2889,10 @@
         "Zaman"
       ],
       "sentence": "This is an example with the word \"date\".",
-      "synonyms": [],
+      "synonyms": [
+        "See",
+        "Engagement"
+      ],
       "opposites": []
     },
     {
@@ -2395,8 +2905,13 @@
         "Ilişki"
       ],
       "sentence": "This is an example with the word \"daughter\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Girl"
+      ],
+      "opposites": [
+        "Boy",
+        "Son"
+      ]
     },
     {
       "id": "A1-13-7",
@@ -2409,7 +2924,10 @@
       ],
       "sentence": "This is an example with the word \"day\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Dark",
+        "Night"
+      ]
     },
     {
       "id": "A1-13-8",
@@ -2421,7 +2939,10 @@
         "Tatlı kimse"
       ],
       "sentence": "This is an example with the word \"dear\".",
-      "synonyms": [],
+      "synonyms": [
+        "Earnest",
+        "Good"
+      ],
       "opposites": []
     },
     {
@@ -2446,7 +2967,10 @@
         "Azmetmek"
       ],
       "sentence": "This is an example with the word \"decide\".",
-      "synonyms": [],
+      "synonyms": [
+        "Resolve",
+        "Determine"
+      ],
       "opposites": []
     },
     {
@@ -2459,7 +2983,10 @@
         "Lezzetli"
       ],
       "sentence": "This is an example with the word \"delicious\".",
-      "synonyms": [],
+      "synonyms": [
+        "Delightful",
+        "Pleasing"
+      ],
       "opposites": []
     },
     {
@@ -2472,7 +2999,10 @@
         "Tarif etmek"
       ],
       "sentence": "This is an example with the word \"describe\".",
-      "synonyms": [],
+      "synonyms": [
+        "Trace",
+        "Draw"
+      ],
       "opposites": []
     },
     {
@@ -2498,7 +3028,10 @@
         "Tasarım"
       ],
       "sentence": "This is an example with the word \"design\".",
-      "synonyms": [],
+      "synonyms": [
+        "Project",
+        "Conception"
+      ],
       "opposites": []
     },
     {
@@ -2524,7 +3057,10 @@
         "Ayrıntılı anlatmak"
       ],
       "sentence": "This is an example with the word \"detail\".",
-      "synonyms": [],
+      "synonyms": [
+        "Contingent",
+        "Point"
+      ],
       "opposites": []
     },
     {
@@ -2562,7 +3098,10 @@
         "Kandilin yağı tükenmek"
       ],
       "sentence": "This is an example with the word \"die\".",
-      "synonyms": [],
+      "synonyms": [
+        "Break",
+        "Exit"
+      ],
       "opposites": []
     },
     {
@@ -2575,7 +3114,9 @@
         "Perhiz vermek"
       ],
       "sentence": "This is an example with the word \"diet\".",
-      "synonyms": [],
+      "synonyms": [
+        "Light"
+      ],
       "opposites": []
     },
     {
@@ -2588,7 +3129,10 @@
         "Dava"
       ],
       "sentence": "This is an example with the word \"difference\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dispute",
+        "Conflict"
+      ],
       "opposites": []
     },
     {
@@ -2601,8 +3145,14 @@
         "Başka"
       ],
       "sentence": "This is an example with the word \"different\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Distinct",
+        "Contrary"
+      ],
+      "opposites": [
+        "Like",
+        "Similar"
+      ]
     },
     {
       "id": "A1-14-8",
@@ -2614,8 +3164,13 @@
         "Zorlu"
       ],
       "sentence": "This is an example with the word \"difficult\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Delicate",
+        "Serious"
+      ],
+      "opposites": [
+        "Easy"
+      ]
     },
     {
       "id": "A1-14-9",
@@ -2640,8 +3195,13 @@
         "Kirli"
       ],
       "sentence": "This is an example with the word \"dirty\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Blue",
+        "Black"
+      ],
+      "opposites": [
+        "Clean"
+      ]
     },
     {
       "id": "A1-14-11",
@@ -2653,7 +3213,9 @@
         "Müzakere etmek"
       ],
       "sentence": "This is an example with the word \"discuss\".",
-      "synonyms": [],
+      "synonyms": [
+        "Discourse"
+      ],
       "opposites": []
     },
     {
@@ -2666,7 +3228,10 @@
         "Oymak"
       ],
       "sentence": "This is an example with the word \"dish\".",
-      "synonyms": [],
+      "synonyms": [
+        "Serve",
+        "Bag"
+      ],
       "opposites": []
     },
     {
@@ -2679,7 +3244,10 @@
         "Did - done"
       ],
       "sentence": "This is an example with the word \"do\".",
-      "synonyms": [],
+      "synonyms": [
+        "Set",
+        "Manage"
+      ],
       "opposites": []
     },
     {
@@ -2692,8 +3260,13 @@
         "Tahrif etmek"
       ],
       "sentence": "This is an example with the word \"doctor\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Repair",
+        "Restore"
+      ],
+      "opposites": [
+        "Break"
+      ]
     },
     {
       "id": "A1-14-15",
@@ -2705,7 +3278,10 @@
         "Bozulmak"
       ],
       "sentence": "This is an example with the word \"dog\".",
-      "synonyms": [],
+      "synonyms": [
+        "Track",
+        "Heel"
+      ],
       "opposites": []
     },
     {
@@ -2717,7 +3293,9 @@
         "Dolar"
       ],
       "sentence": "This is an example with the word \"dollar\".",
-      "synonyms": [],
+      "synonyms": [
+        "Buck"
+      ],
       "opposites": []
     },
     {
@@ -2729,7 +3307,9 @@
         "Eşik"
       ],
       "sentence": "This is an example with the word \"door\".",
-      "synonyms": [],
+      "synonyms": [
+        "Threshold"
+      ],
       "opposites": []
     },
     {
@@ -2742,8 +3322,14 @@
         "Alaşağı etmek"
       ],
       "sentence": "This is an example with the word \"down\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Blue",
+        "Low"
+      ],
+      "opposites": [
+        "Up",
+        "Upwards"
+      ]
     },
     {
       "id": "A1-15-4",
@@ -2755,8 +3341,12 @@
         "Alt kat"
       ],
       "sentence": "This is an example with the word \"downstairs\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Below"
+      ],
+      "opposites": [
+        "Upstairs"
+      ]
     },
     {
       "id": "A1-15-5",
@@ -2768,8 +3358,14 @@
         "Çizmek"
       ],
       "sentence": "This is an example with the word \"draw\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Trace",
+        "Cast"
+      ],
+      "opposites": [
+        "Push",
+        "Bank"
+      ]
     },
     {
       "id": "A1-15-6",
@@ -2781,8 +3377,13 @@
         "Giysi"
       ],
       "sentence": "This is an example with the word \"dress\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Set",
+        "Trim"
+      ],
+      "opposites": [
+        "Strip"
+      ]
     },
     {
       "id": "A1-15-7",
@@ -2794,7 +3395,10 @@
         "Drank - drunk"
       ],
       "sentence": "This is an example with the word \"drink\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pledge",
+        "Swallow"
+      ],
       "opposites": []
     },
     {
@@ -2807,8 +3411,14 @@
         "Dürtü"
       ],
       "sentence": "This is an example with the word \"drive\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Thrust",
+        "Run"
+      ],
+      "opposites": [
+        "Pull",
+        "Attract"
+      ]
     },
     {
       "id": "A1-15-9",
@@ -2881,8 +3491,14 @@
         "Ilkel"
       ],
       "sentence": "This is an example with the word \"early\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Crude",
+        "Primitive"
+      ],
+      "opposites": [
+        "Late",
+        "Middle"
+      ]
     },
     {
       "id": "A1-15-15",
@@ -2895,7 +3511,9 @@
       ],
       "sentence": "This is an example with the word \"east\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "West"
+      ]
     },
     {
       "id": "A1-16-1",
@@ -2907,8 +3525,14 @@
         "Basit"
       ],
       "sentence": "This is an example with the word \"easy\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Light",
+        "Soft"
+      ],
+      "opposites": [
+        "Hard",
+        "Difficult"
+      ]
     },
     {
       "id": "A1-16-2",
@@ -2920,7 +3544,10 @@
         "Ate - eaten"
       ],
       "sentence": "This is an example with the word \"eat\".",
-      "synonyms": [],
+      "synonyms": [
+        "Consume",
+        "Exhaust"
+      ],
       "opposites": []
     },
     {
@@ -2933,7 +3560,10 @@
         "Tahrik etmek"
       ],
       "sentence": "This is an example with the word \"egg\".",
-      "synonyms": [],
+      "synonyms": [
+        "Nut",
+        "Ball"
+      ],
       "opposites": []
     },
     {
@@ -2946,7 +3576,10 @@
         "Sekiz rakamı (8, VIII)"
       ],
       "sentence": "This is an example with the word \"eight\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "8"
+      ],
       "opposites": []
     },
     {
@@ -2959,7 +3592,10 @@
         "On sekiz"
       ],
       "sentence": "This is an example with the word \"eighteen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "18"
+      ],
       "opposites": []
     },
     {
@@ -2972,7 +3608,10 @@
         "80"
       ],
       "sentence": "This is an example with the word \"eighty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "80"
+      ],
       "opposites": []
     },
     {
@@ -2996,7 +3635,10 @@
         "On bir"
       ],
       "sentence": "This is an example with the word \"eleven\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "11"
+      ],
       "opposites": []
     },
     {
@@ -3009,7 +3651,10 @@
         "Daha"
       ],
       "sentence": "This is an example with the word \"else\".",
-      "synonyms": [],
+      "synonyms": [
+        "Additional",
+        "Other"
+      ],
       "opposites": []
     },
     {
@@ -3033,8 +3678,14 @@
         "Son bulmak"
       ],
       "sentence": "This is an example with the word \"end\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Close",
+        "Terminate"
+      ],
+      "opposites": [
+        "Offset",
+        "Start"
+      ]
     },
     {
       "id": "A1-16-12",
@@ -3046,8 +3697,14 @@
         "Anlamak"
       ],
       "sentence": "This is an example with the word \"enjoy\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Delight",
+        "Love"
+      ],
+      "opposites": [
+        "Endure",
+        "Suffer"
+      ]
     },
     {
       "id": "A1-16-13",
@@ -3059,7 +3716,10 @@
         "Yeter"
       ],
       "sentence": "This is an example with the word \"enough\".",
-      "synonyms": [],
+      "synonyms": [
+        "Adequate",
+        "Sufficient"
+      ],
       "opposites": []
     },
     {
@@ -3084,8 +3744,13 @@
         "Pürüzsüz"
       ],
       "sentence": "This is an example with the word \"even\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Level",
+        "True"
+      ],
+      "opposites": [
+        "Odd"
+      ]
     },
     {
       "id": "A1-17-1",
@@ -3109,7 +3774,9 @@
         "Yarışma"
       ],
       "sentence": "This is an example with the word \"event\".",
-      "synonyms": [],
+      "synonyms": [
+        "Case"
+      ],
       "opposites": []
     },
     {
@@ -3122,7 +3789,9 @@
         "Daima"
       ],
       "sentence": "This is an example with the word \"ever\".",
-      "synonyms": [],
+      "synonyms": [
+        "Always"
+      ],
       "opposites": []
     },
     {
@@ -3183,7 +3852,9 @@
         "Muayene"
       ],
       "sentence": "This is an example with the word \"exam\".",
-      "synonyms": [],
+      "synonyms": [
+        "Test"
+      ],
       "opposites": []
     },
     {
@@ -3196,7 +3867,10 @@
         "Numune"
       ],
       "sentence": "This is an example with the word \"example\".",
-      "synonyms": [],
+      "synonyms": [
+        "Case",
+        "Model"
+      ],
       "opposites": []
     },
     {
@@ -3209,7 +3883,10 @@
         "Coşkulu"
       ],
       "sentence": "This is an example with the word \"excited\".",
-      "synonyms": [],
+      "synonyms": [
+        "Wild",
+        "Aroused"
+      ],
       "opposites": []
     },
     {
@@ -3222,7 +3899,10 @@
         "Heyecanlandırma"
       ],
       "sentence": "This is an example with the word \"exciting\".",
-      "synonyms": [],
+      "synonyms": [
+        "Stimulating",
+        "Electric"
+      ],
       "opposites": []
     },
     {
@@ -3235,7 +3915,10 @@
         "Egzersiz"
       ],
       "sentence": "This is an example with the word \"exercise\".",
-      "synonyms": [],
+      "synonyms": [
+        "Work",
+        "Use"
+      ],
       "opposites": []
     },
     {
@@ -3248,8 +3931,12 @@
         "Pahalıya mal olan"
       ],
       "sentence": "This is an example with the word \"expensive\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Costly"
+      ],
+      "opposites": [
+        "Cheap"
+      ]
     },
     {
       "id": "A1-17-14",
@@ -3260,8 +3947,12 @@
         "Izah etmek"
       ],
       "sentence": "This is an example with the word \"explain\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Excuse"
+      ],
+      "opposites": [
+        "Retail"
+      ]
     },
     {
       "id": "A1-17-15",
@@ -3273,7 +3964,10 @@
         "Ilave"
       ],
       "sentence": "This is an example with the word \"extra\".",
-      "synonyms": [],
+      "synonyms": [
+        "Excess",
+        "Additional"
+      ],
       "opposites": []
     },
     {
@@ -3286,7 +3980,10 @@
         "Süzmek"
       ],
       "sentence": "This is an example with the word \"eye\".",
-      "synonyms": [],
+      "synonyms": [
+        "Heart",
+        "Centre"
+      ],
       "opposites": []
     },
     {
@@ -3299,8 +3996,14 @@
         "Yönelmek"
       ],
       "sentence": "This is an example with the word \"face\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Aspect",
+        "Present"
+      ],
+      "opposites": [
+        "Avoid",
+        "Back"
+      ]
     },
     {
       "id": "A1-18-3",
@@ -3325,8 +4028,14 @@
         "Güz"
       ],
       "sentence": "This is an example with the word \"fall\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Light",
+        "Diminish"
+      ],
+      "opposites": [
+        "Rise",
+        "Raise"
+      ]
     },
     {
       "id": "A1-18-5",
@@ -3338,8 +4047,13 @@
         "Sahte"
       ],
       "sentence": "This is an example with the word \"false\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Hollow",
+        "Artificial"
+      ],
+      "opposites": [
+        "True"
+      ]
     },
     {
       "id": "A1-18-6",
@@ -3351,7 +4065,10 @@
         "Hamile"
       ],
       "sentence": "This is an example with the word \"family\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fellowship",
+        "Home"
+      ],
       "opposites": []
     },
     {
@@ -3363,7 +4080,10 @@
         "Meşhur"
       ],
       "sentence": "This is an example with the word \"famous\".",
-      "synonyms": [],
+      "synonyms": [
+        "Notable",
+        "Noted"
+      ],
       "opposites": []
     },
     {
@@ -3376,7 +4096,10 @@
         "Harika"
       ],
       "sentence": "This is an example with the word \"fantastic\".",
-      "synonyms": [],
+      "synonyms": [
+        "Extraordinary",
+        "Strange"
+      ],
       "opposites": []
     },
     {
@@ -3389,8 +4112,14 @@
         "Çok fazla"
       ],
       "sentence": "This is an example with the word \"far\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Cold",
+        "Right"
+      ],
+      "opposites": [
+        "Close",
+        "Near"
+      ]
     },
     {
       "id": "A1-18-10",
@@ -3402,7 +4131,10 @@
         "Ekip biçmek"
       ],
       "sentence": "This is an example with the word \"farm\".",
-      "synonyms": [],
+      "synonyms": [
+        "Produce",
+        "Raise"
+      ],
       "opposites": []
     },
     {
@@ -3428,8 +4160,13 @@
         "Hızlı"
       ],
       "sentence": "This is an example with the word \"fast\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Prompt",
+        "Hot"
+      ],
+      "opposites": [
+        "Slow"
+      ]
     },
     {
       "id": "A1-18-13",
@@ -3441,8 +4178,14 @@
         "Yağ"
       ],
       "sentence": "This is an example with the word \"fat\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Heavy",
+        "Rich"
+      ],
+      "opposites": [
+        "Lean",
+        "Thin"
+      ]
     },
     {
       "id": "A1-18-14",
@@ -3454,8 +4197,13 @@
         "Baba"
       ],
       "sentence": "This is an example with the word \"father\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Generate",
+        "Get"
+      ],
+      "opposites": [
+        "Mother"
+      ]
     },
     {
       "id": "A1-18-15",
@@ -3466,7 +4214,10 @@
         "Favori"
       ],
       "sentence": "This is an example with the word \"favourite\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pet",
+        "Preferred"
+      ],
       "opposites": []
     },
     {
@@ -3492,7 +4243,10 @@
         "Sezmek"
       ],
       "sentence": "This is an example with the word \"feel\".",
-      "synonyms": [],
+      "synonyms": [
+        "Spirit",
+        "Look"
+      ],
       "opposites": []
     },
     {
@@ -3505,7 +4259,10 @@
         "Şefkat"
       ],
       "sentence": "This is an example with the word \"feeling\".",
-      "synonyms": [],
+      "synonyms": [
+        "Notion",
+        "Spirit"
+      ],
       "opposites": []
     },
     {
@@ -3518,7 +4275,9 @@
         "Festival"
       ],
       "sentence": "This is an example with the word \"festival\".",
-      "synonyms": [],
+      "synonyms": [
+        "Feast"
+      ],
       "opposites": []
     },
     {
@@ -3532,7 +4291,9 @@
       ],
       "sentence": "This is an example with the word \"few\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Many"
+      ]
     },
     {
       "id": "A1-19-6",
@@ -3544,7 +4305,10 @@
         "On beş"
       ],
       "sentence": "This is an example with the word \"fifteen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "15"
+      ],
       "opposites": []
     },
     {
@@ -3557,7 +4321,9 @@
         "Beşi"
       ],
       "sentence": "This is an example with the word \"fifth\".",
-      "synonyms": [],
+      "synonyms": [
+        "5th"
+      ],
       "opposites": []
     },
     {
@@ -3570,7 +4336,10 @@
         "50"
       ],
       "sentence": "This is an example with the word \"fifty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "L"
+      ],
       "opposites": []
     },
     {
@@ -3583,8 +4352,14 @@
         "Şişirmek"
       ],
       "sentence": "This is an example with the word \"fill\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Close",
+        "Take"
+      ],
+      "opposites": [
+        "Discharge",
+        "Empty"
+      ]
     },
     {
       "id": "A1-19-10",
@@ -3596,7 +4371,10 @@
         "Filme almak"
       ],
       "sentence": "This is an example with the word \"film\".",
-      "synonyms": [],
+      "synonyms": [
+        "Take",
+        "Picture"
+      ],
       "opposites": []
     },
     {
@@ -3609,7 +4387,10 @@
         "Kesin"
       ],
       "sentence": "This is an example with the word \"final\".",
-      "synonyms": [],
+      "synonyms": [
+        "Terminal",
+        "Ultimate"
+      ],
       "opposites": []
     },
     {
@@ -3622,8 +4403,13 @@
         "Rastlamak"
       ],
       "sentence": "This is an example with the word \"find\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ascertain",
+        "Observe"
+      ],
+      "opposites": [
+        "Lose"
+      ]
     },
     {
       "id": "A1-19-13",
@@ -3635,8 +4421,13 @@
         "Hoş"
       ],
       "sentence": "This is an example with the word \"fine\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Delicate",
+        "Beautiful"
+      ],
+      "opposites": [
+        "Coarse"
+      ]
     },
     {
       "id": "A1-19-14",
@@ -3648,8 +4439,14 @@
         "Bitmek"
       ],
       "sentence": "This is an example with the word \"finish\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Close",
+        "Complete"
+      ],
+      "opposites": [
+        "Start",
+        "Begin"
+      ]
     },
     {
       "id": "A1-19-15",
@@ -3661,8 +4458,14 @@
         "Yangın"
       ],
       "sentence": "This is an example with the word \"fire\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Discharge",
+        "Blast"
+      ],
+      "opposites": [
+        "Engage",
+        "Employ"
+      ]
     },
     {
       "id": "A1-20-1",
@@ -3674,8 +4477,14 @@
         "Önce"
       ],
       "sentence": "This is an example with the word \"first\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Initiative",
+        "Offset"
+      ],
+      "opposites": [
+        "Intermediate",
+        "Last"
+      ]
     },
     {
       "id": "A1-20-2",
@@ -3687,7 +4496,10 @@
         "Avlamak"
       ],
       "sentence": "This is an example with the word \"fish\".",
-      "synonyms": [],
+      "synonyms": [
+        "Mark",
+        "Fool"
+      ],
       "opposites": []
     },
     {
@@ -3700,7 +4512,10 @@
         "Iskambilde beşli"
       ],
       "sentence": "This is an example with the word \"five\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Fin"
+      ],
       "opposites": []
     },
     {
@@ -3713,8 +4528,14 @@
         "Yassı"
       ],
       "sentence": "This is an example with the word \"flat\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Dull",
+        "Level"
+      ],
+      "opposites": [
+        "Sharp",
+        "Natural"
+      ]
     },
     {
       "id": "A1-20-5",
@@ -3726,7 +4547,10 @@
         "Yağmur (kurşun, ok vb)"
       ],
       "sentence": "This is an example with the word \"flight\".",
-      "synonyms": [],
+      "synonyms": [
+        "Escape",
+        "Flying"
+      ],
       "opposites": []
     },
     {
@@ -3739,7 +4563,10 @@
         "Yer"
       ],
       "sentence": "This is an example with the word \"floor\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Level"
+      ],
       "opposites": []
     },
     {
@@ -3752,7 +4579,10 @@
         "Çiçeklenmek"
       ],
       "sentence": "This is an example with the word \"flower\".",
-      "synonyms": [],
+      "synonyms": [
+        "Flush",
+        "Prime"
+      ],
       "opposites": []
     },
     {
@@ -3765,7 +4595,10 @@
         "Flew - flown"
       ],
       "sentence": "This is an example with the word \"fly\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pilot",
+        "Wing"
+      ],
       "opposites": []
     },
     {
@@ -3778,8 +4611,13 @@
         "Kollamak"
       ],
       "sentence": "This is an example with the word \"follow\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Trace",
+        "Observe"
+      ],
+      "opposites": [
+        "Lead"
+      ]
     },
     {
       "id": "A1-20-10",
@@ -3791,7 +4629,9 @@
         "Gıda"
       ],
       "sentence": "This is an example with the word \"food\".",
-      "synonyms": [],
+      "synonyms": [
+        "Nutrient"
+      ],
       "opposites": []
     },
     {
@@ -3804,8 +4644,13 @@
         "Çıkarmak"
       ],
       "sentence": "This is an example with the word \"foot\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Base",
+        "Foundation"
+      ],
+      "opposites": [
+        "Head"
+      ]
     },
     {
       "id": "A1-20-12",
@@ -3843,8 +4688,14 @@
         "Ihmal etmek"
       ],
       "sentence": "This is an example with the word \"forget\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Block",
+        "Leave"
+      ],
+      "opposites": [
+        "Mind",
+        "Recall"
+      ]
     },
     {
       "id": "A1-20-15",
@@ -3856,7 +4707,10 @@
         "Oluşturmak"
       ],
       "sentence": "This is an example with the word \"form\".",
-      "synonyms": [],
+      "synonyms": [
+        "Constitute",
+        "Strain"
+      ],
       "opposites": []
     },
     {
@@ -3869,7 +4723,10 @@
         "40"
       ],
       "sentence": "This is an example with the word \"forty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "40"
+      ],
       "opposites": []
     },
     {
@@ -3882,7 +4739,10 @@
         "Dört rakamı 4"
       ],
       "sentence": "This is an example with the word \"four\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "4"
+      ],
       "opposites": []
     },
     {
@@ -3895,7 +4755,10 @@
         "On dört"
       ],
       "sentence": "This is an example with the word \"fourteen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "14"
+      ],
       "opposites": []
     },
     {
@@ -3908,7 +4771,10 @@
         "Dördüncü"
       ],
       "sentence": "This is an example with the word \"fourth\".",
-      "synonyms": [],
+      "synonyms": [
+        "Quarter",
+        "4th"
+      ],
       "opposites": []
     },
     {
@@ -3921,8 +4787,14 @@
         "Muaf"
       ],
       "sentence": "This is an example with the word \"free\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Clear",
+        "Discharge"
+      ],
+      "opposites": [
+        "Apply",
+        "Implement"
+      ]
     },
     {
       "id": "A1-21-6",
@@ -3946,8 +4818,13 @@
         "Dost"
       ],
       "sentence": "This is an example with the word \"friend\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Champion",
+        "Acquaintance"
+      ],
+      "opposites": [
+        "Enemy"
+      ]
     },
     {
       "id": "A1-21-8",
@@ -3959,8 +4836,13 @@
         "Cana yakın"
       ],
       "sentence": "This is an example with the word \"friendly\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Intimate",
+        "Favorable"
+      ],
+      "opposites": [
+        "Hostile"
+      ]
     },
     {
       "id": "A1-21-9",
@@ -3985,8 +4867,14 @@
         "Cephe"
       ],
       "sentence": "This is an example with the word \"front\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Look",
+        "Presence"
+      ],
+      "opposites": [
+        "Back",
+        "Rear"
+      ]
     },
     {
       "id": "A1-21-11",
@@ -3998,7 +4886,9 @@
         "Meyvelenmek"
       ],
       "sentence": "This is an example with the word \"fruit\".",
-      "synonyms": [],
+      "synonyms": [
+        "Yield"
+      ],
       "opposites": []
     },
     {
@@ -4011,8 +4901,14 @@
         "Dolu"
       ],
       "sentence": "This is an example with the word \"full\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ample",
+        "Good"
+      ],
+      "opposites": [
+        "Thin",
+        "Empty"
+      ]
     },
     {
       "id": "A1-21-13",
@@ -4024,7 +4920,10 @@
         "Şaka etmek"
       ],
       "sentence": "This is an example with the word \"fun\".",
-      "synonyms": [],
+      "synonyms": [
+        "Play",
+        "Amusing"
+      ],
       "opposites": []
     },
     {
@@ -4037,7 +4936,10 @@
         "Güldürücü"
       ],
       "sentence": "This is an example with the word \"funny\".",
-      "synonyms": [],
+      "synonyms": [
+        "Peculiar",
+        "Strange"
+      ],
       "opposites": []
     },
     {
@@ -4050,8 +4952,13 @@
         "Gelecek zaman"
       ],
       "sentence": "This is an example with the word \"future\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Forthcoming",
+        "Prospective"
+      ],
+      "opposites": [
+        "Past"
+      ]
     },
     {
       "id": "A1-22-1",
@@ -4063,7 +4970,10 @@
         "Maç"
       ],
       "sentence": "This is an example with the word \"game\".",
-      "synonyms": [],
+      "synonyms": [
+        "Brave",
+        "Back"
+      ],
       "opposites": []
     },
     {
@@ -4100,8 +5010,14 @@
         "Kazanmak"
       ],
       "sentence": "This is an example with the word \"get\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Convey",
+        "Induce"
+      ],
+      "opposites": [
+        "Terminate",
+        "Cease"
+      ]
     },
     {
       "id": "A1-22-5",
@@ -4112,8 +5028,14 @@
         "Kız arkadaş"
       ],
       "sentence": "This is an example with the word \"girl\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Miss",
+        "Child"
+      ],
+      "opposites": [
+        "Child",
+        "Boy"
+      ]
     },
     {
       "id": "A1-22-6",
@@ -4138,8 +5060,13 @@
         "Bahşetmek"
       ],
       "sentence": "This is an example with the word \"give\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Yield",
+        "Render"
+      ],
+      "opposites": [
+        "Take"
+      ]
     },
     {
       "id": "A1-22-8",
@@ -4164,8 +5091,14 @@
         "Went - gone"
       ],
       "sentence": "This is an example with the word \"go\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Break",
+        "Crack"
+      ],
+      "opposites": [
+        "Come",
+        "Stop"
+      ]
     },
     {
       "id": "A1-22-10",
@@ -4177,8 +5110,14 @@
         "Iyi"
       ],
       "sentence": "This is an example with the word \"good\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Keen",
+        "Virtuous"
+      ],
+      "opposites": [
+        "Evil",
+        "Wicked"
+      ]
     },
     {
       "id": "A1-22-11",
@@ -4242,7 +5181,10 @@
         "Harika"
       ],
       "sentence": "This is an example with the word \"great\".",
-      "synonyms": [],
+      "synonyms": [
+        "Eminent",
+        "Keen"
+      ],
       "opposites": []
     },
     {
@@ -4255,8 +5197,14 @@
         "Yeşile boyamak"
       ],
       "sentence": "This is an example with the word \"green\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Naive",
+        "Common"
+      ],
+      "opposites": [
+        "Mature",
+        "Ripe"
+      ]
     },
     {
       "id": "A1-23-2",
@@ -4268,7 +5216,10 @@
         "Gri"
       ],
       "sentence": "This is an example with the word \"grey\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dull",
+        "Old"
+      ],
       "opposites": []
     },
     {
@@ -4281,7 +5232,10 @@
         "Toplanmak"
       ],
       "sentence": "This is an example with the word \"group\".",
-      "synonyms": [],
+      "synonyms": [
+        "Radical",
+        "Communal"
+      ],
       "opposites": []
     },
     {
@@ -4294,7 +5248,10 @@
         "Grew - grown"
       ],
       "sentence": "This is an example with the word \"grow\".",
-      "synonyms": [],
+      "synonyms": [
+        "Produce",
+        "Develop"
+      ],
       "opposites": []
     },
     {
@@ -4307,7 +5264,10 @@
         "Sanmak"
       ],
       "sentence": "This is an example with the word \"guess\".",
-      "synonyms": [],
+      "synonyms": [
+        "Venture",
+        "Gauge"
+      ],
       "opposites": []
     },
     {
@@ -4360,7 +5320,9 @@
       ],
       "sentence": "This is an example with the word \"half\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Whole"
+      ]
     },
     {
       "id": "A1-23-10",
@@ -4372,7 +5334,10 @@
         "Uzatmak"
       ],
       "sentence": "This is an example with the word \"hand\".",
-      "synonyms": [],
+      "synonyms": [
+        "Give",
+        "Pass"
+      ],
       "opposites": []
     },
     {
@@ -4385,7 +5350,10 @@
         "Başından geçmek"
       ],
       "sentence": "This is an example with the word \"happen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pass",
+        "Encounter"
+      ],
       "opposites": []
     },
     {
@@ -4398,8 +5366,13 @@
         "Çakırkeyif"
       ],
       "sentence": "This is an example with the word \"happy\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Content",
+        "Bright"
+      ],
+      "opposites": [
+        "Sad"
+      ]
     },
     {
       "id": "A1-23-13",
@@ -4411,8 +5384,14 @@
         "Zahmetli"
       ],
       "sentence": "This is an example with the word \"hard\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Delicate",
+        "Heavy"
+      ],
+      "opposites": [
+        "Soft",
+        "Easy"
+      ]
     },
     {
       "id": "A1-23-14",
@@ -4423,7 +5402,9 @@
         "Başlık"
       ],
       "sentence": "This is an example with the word \"hat\".",
-      "synonyms": [],
+      "synonyms": [
+        "Lid"
+      ],
       "opposites": []
     },
     {
@@ -4436,8 +5417,12 @@
         "Kin beslemek"
       ],
       "sentence": "This is an example with the word \"hate\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Hatred"
+      ],
+      "opposites": [
+        "Love"
+      ]
     },
     {
       "id": "A1-24-1",
@@ -4449,8 +5434,14 @@
         "Elinde tutmak"
       ],
       "sentence": "This is an example with the word \"have\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Induce",
+        "Sustain"
+      ],
+      "opposites": [
+        "Decline",
+        "Reject"
+      ]
     },
     {
       "id": "A1-24-2",
@@ -4475,8 +5466,14 @@
         "Baş"
       ],
       "sentence": "This is an example with the word \"head\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Lead",
+        "Direct"
+      ],
+      "opposites": [
+        "Rear",
+        "Foot"
+      ]
     },
     {
       "id": "A1-24-4",
@@ -4501,7 +5498,10 @@
         "Sağlığa yararlı"
       ],
       "sentence": "This is an example with the word \"healthy\".",
-      "synonyms": [],
+      "synonyms": [
+        "Good",
+        "Sensible"
+      ],
       "opposites": []
     },
     {
@@ -4514,7 +5514,10 @@
         "Heard - heard"
       ],
       "sentence": "This is an example with the word \"hear\".",
-      "synonyms": [],
+      "synonyms": [
+        "See",
+        "Try"
+      ],
       "opposites": []
     },
     {
@@ -4526,7 +5529,9 @@
         "Selam"
       ],
       "sentence": "This is an example with the word \"hello\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hi"
+      ],
       "opposites": []
     },
     {
@@ -4539,7 +5544,10 @@
         "Muavenet etmek"
       ],
       "sentence": "This is an example with the word \"help\".",
-      "synonyms": [],
+      "synonyms": [
+        "Facilitate",
+        "Assist"
+      ],
       "opposites": []
     },
     {
@@ -4577,7 +5585,9 @@
         "Selam"
       ],
       "sentence": "This is an example with the word \"hi\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hello"
+      ],
       "opposites": []
     },
     {
@@ -4590,8 +5600,14 @@
         "Öfkelenmek"
       ],
       "sentence": "This is an example with the word \"high\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Eminent",
+        "Sharp"
+      ],
+      "opposites": [
+        "Low",
+        "Middle"
+      ]
     },
     {
       "id": "A1-24-13",
@@ -4629,7 +5645,10 @@
         "Kayıtlar"
       ],
       "sentence": "This is an example with the word \"history\".",
-      "synonyms": [],
+      "synonyms": [
+        "Chronicle",
+        "Account"
+      ],
       "opposites": []
     },
     {
@@ -4655,7 +5674,9 @@
         "Tatil yapmak"
       ],
       "sentence": "This is an example with the word \"holiday\".",
-      "synonyms": [],
+      "synonyms": [
+        "Vacation"
+      ],
       "opposites": []
     },
     {
@@ -4668,7 +5689,10 @@
         "Yuvasına dönmek"
       ],
       "sentence": "This is an example with the word \"home\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Dwelling"
+      ],
       "opposites": []
     },
     {
@@ -4680,7 +5704,9 @@
         "Ev ödevi"
       ],
       "sentence": "This is an example with the word \"homework\".",
-      "synonyms": [],
+      "synonyms": [
+        "Preparation"
+      ],
       "opposites": []
     },
     {
@@ -4693,8 +5719,13 @@
         "Ümit etmek"
       ],
       "sentence": "This is an example with the word \"hope\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Desire",
+        "Trust"
+      ],
+      "opposites": [
+        "Despair"
+      ]
     },
     {
       "id": "A1-25-6",
@@ -4706,7 +5737,10 @@
         "Oynamak"
       ],
       "sentence": "This is an example with the word \"horse\".",
-      "synonyms": [],
+      "synonyms": [
+        "Knight",
+        "Cavalry"
+      ],
       "opposites": []
     },
     {
@@ -4732,8 +5766,14 @@
         "Acı"
       ],
       "sentence": "This is an example with the word \"hot\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Close"
+      ],
+      "opposites": [
+        "Cold",
+        "Cool"
+      ]
     },
     {
       "id": "A1-25-9",
@@ -4756,7 +5796,10 @@
         "Zaman"
       ],
       "sentence": "This is an example with the word \"hour\".",
-      "synonyms": [],
+      "synonyms": [
+        "Minute",
+        "Hr"
+      ],
       "opposites": []
     },
     {
@@ -4769,7 +5812,10 @@
         "Kendi evine almak"
       ],
       "sentence": "This is an example with the word \"house\".",
-      "synonyms": [],
+      "synonyms": [
+        "Firm",
+        "Home"
+      ],
       "opposites": []
     },
     {
@@ -4795,7 +5841,10 @@
         "Her nasılsa"
       ],
       "sentence": "This is an example with the word \"however\".",
-      "synonyms": [],
+      "synonyms": [
+        "Nonetheless",
+        "Nevertheless"
+      ],
       "opposites": []
     },
     {
@@ -4808,7 +5857,10 @@
         "Yüz sayısı, 100"
       ],
       "sentence": "This is an example with the word \"hundred\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Century"
+      ],
       "opposites": []
     },
     {
@@ -4821,7 +5873,9 @@
         "Istekli"
       ],
       "sentence": "This is an example with the word \"hungry\".",
-      "synonyms": [],
+      "synonyms": [
+        "Empty"
+      ],
       "opposites": []
     },
     {
@@ -4835,7 +5889,10 @@
       ],
       "sentence": "This is an example with the word \"husband\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Waste",
+        "Wife"
+      ]
     },
     {
       "id": "A1-26-2",
@@ -4845,7 +5902,10 @@
         "Ben"
       ],
       "sentence": "This is an example with the word \"i\".",
-      "synonyms": [],
+      "synonyms": [
+        "One",
+        "1"
+      ],
       "opposites": []
     },
     {
@@ -4869,7 +5929,9 @@
         "Buz"
       ],
       "sentence": "This is an example with the word \"ice\".",
-      "synonyms": [],
+      "synonyms": [
+        "Frost"
+      ],
       "opposites": []
     },
     {
@@ -4882,7 +5944,10 @@
         "Şart"
       ],
       "sentence": "This is an example with the word \"idea\".",
-      "synonyms": [],
+      "synonyms": [
+        "Mind",
+        "Theme"
+      ],
       "opposites": []
     },
     {
@@ -4908,7 +5973,10 @@
         "Gururlu"
       ],
       "sentence": "This is an example with the word \"imagine\".",
-      "synonyms": [],
+      "synonyms": [
+        "Think",
+        "Suppose"
+      ],
       "opposites": []
     },
     {
@@ -4921,8 +5989,13 @@
         "Ilerletmek"
       ],
       "sentence": "This is an example with the word \"important\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Eminent",
+        "Profound"
+      ],
+      "opposites": [
+        "Insignificant"
+      ]
     },
     {
       "id": "A1-26-9",
@@ -4934,8 +6007,12 @@
         "Iç"
       ],
       "sentence": "This is an example with the word \"improve\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Better"
+      ],
+      "opposites": [
+        "Decline"
+      ]
     },
     {
       "id": "A1-26-10",
@@ -4947,8 +6024,12 @@
         "Kapsamak"
       ],
       "sentence": "This is an example with the word \"in\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Fashionable"
+      ],
+      "opposites": [
+        "Out"
+      ]
     },
     {
       "id": "A1-26-11",
@@ -4960,8 +6041,13 @@
         "Iddia"
       ],
       "sentence": "This is an example with the word \"include\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Admit"
+      ],
+      "opposites": [
+        "Exclude",
+        "Shut"
+      ]
     },
     {
       "id": "A1-26-12",
@@ -4973,7 +6059,9 @@
         "Faiz"
       ],
       "sentence": "This is an example with the word \"information\".",
-      "synonyms": [],
+      "synonyms": [
+        "Data"
+      ],
       "opposites": []
     },
     {
@@ -4986,8 +6074,14 @@
         "Hissedar"
       ],
       "sentence": "This is an example with the word \"interest\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Concern",
+        "Worry"
+      ],
+      "opposites": [
+        "Bore",
+        "Tire"
+      ]
     },
     {
       "id": "A1-26-14",
@@ -4999,7 +6093,10 @@
         "Ilgilenme"
       ],
       "sentence": "This is an example with the word \"interested\".",
-      "synonyms": [],
+      "synonyms": [
+        "Curious",
+        "Involved"
+      ],
       "opposites": []
     },
     {
@@ -5012,7 +6109,9 @@
         "Mülakat"
       ],
       "sentence": "This is an example with the word \"interesting\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fascinating"
+      ],
       "opposites": []
     },
     {
@@ -5025,7 +6124,10 @@
         "Biçimine"
       ],
       "sentence": "This is an example with the word \"interview\".",
-      "synonyms": [],
+      "synonyms": [
+        "Question",
+        "Audience"
+      ],
       "opposites": []
     },
     {
@@ -5049,7 +6151,10 @@
         "Içeri sokmak"
       ],
       "sentence": "This is an example with the word \"introduce\".",
-      "synonyms": [],
+      "synonyms": [
+        "Present",
+        "Premise"
+      ],
       "opposites": []
     },
     {
@@ -5138,7 +6243,10 @@
         "Kiraya vermek"
       ],
       "sentence": "This is an example with the word \"job\".",
-      "synonyms": [],
+      "synonyms": [
+        "Work",
+        "Problem"
+      ],
       "opposites": []
     },
     {
@@ -5151,7 +6259,10 @@
         "Katmak"
       ],
       "sentence": "This is an example with the word \"join\".",
-      "synonyms": [],
+      "synonyms": [
+        "Link",
+        "Connect"
+      ],
       "opposites": []
     },
     {
@@ -5164,7 +6275,9 @@
         "Yolculuk etmek"
       ],
       "sentence": "This is an example with the word \"journey\".",
-      "synonyms": [],
+      "synonyms": [
+        "Travel"
+      ],
       "opposites": []
     },
     {
@@ -5216,8 +6329,13 @@
         "Yalnızca"
       ],
       "sentence": "This is an example with the word \"just\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Virtuous",
+        "Good"
+      ],
+      "opposites": [
+        "Unfair"
+      ]
     },
     {
       "id": "A1-28-2",
@@ -5229,8 +6347,14 @@
         "Kept - kept"
       ],
       "sentence": "This is an example with the word \"keep\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Sustain",
+        "Support"
+      ],
+      "opposites": [
+        "Allow",
+        "Permit"
+      ]
     },
     {
       "id": "A1-28-3",
@@ -5242,7 +6366,10 @@
         "Girmek bilgisayar"
       ],
       "sentence": "This is an example with the word \"key\".",
-      "synonyms": [],
+      "synonyms": [
+        "Significant",
+        "Cardinal"
+      ],
       "opposites": []
     },
     {
@@ -5253,7 +6380,9 @@
         "Kilometre"
       ],
       "sentence": "This is an example with the word \"kilometre\".",
-      "synonyms": [],
+      "synonyms": [
+        "Km"
+      ],
       "opposites": []
     },
     {
@@ -5266,7 +6395,10 @@
         "Cins"
       ],
       "sentence": "This is an example with the word \"kind\".",
-      "synonyms": [],
+      "synonyms": [
+        "Good",
+        "Benign"
+      ],
       "opposites": []
     },
     {
@@ -5292,8 +6424,13 @@
         "Knew - known"
       ],
       "sentence": "This is an example with the word \"know\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Experience",
+        "Recognize"
+      ],
+      "opposites": [
+        "Ignore"
+      ]
     },
     {
       "id": "A1-28-8",
@@ -5305,7 +6442,10 @@
         "Karaya çıkmak"
       ],
       "sentence": "This is an example with the word \"land\".",
-      "synonyms": [],
+      "synonyms": [
+        "State",
+        "Domain"
+      ],
       "opposites": []
     },
     {
@@ -5318,7 +6458,10 @@
         "Edebiyat"
       ],
       "sentence": "This is an example with the word \"language\".",
-      "synonyms": [],
+      "synonyms": [
+        "Speech",
+        "Terminology"
+      ],
       "opposites": []
     },
     {
@@ -5331,8 +6474,14 @@
         "Büyük"
       ],
       "sentence": "This is an example with the word \"large\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Conspicuous",
+        "Significant"
+      ],
+      "opposites": [
+        "Little",
+        "Small"
+      ]
     },
     {
       "id": "A1-28-11",
@@ -5344,8 +6493,14 @@
         "Tutunmak"
       ],
       "sentence": "This is an example with the word \"last\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Close",
+        "Endure"
+      ],
+      "opposites": [
+        "Intermediate",
+        "First"
+      ]
     },
     {
       "id": "A1-28-12",
@@ -5357,8 +6512,14 @@
         "Her zamanki"
       ],
       "sentence": "This is an example with the word \"late\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Deep",
+        "New"
+      ],
+      "opposites": [
+        "Early",
+        "Middle"
+      ]
     },
     {
       "id": "A1-28-13",
@@ -5370,7 +6531,10 @@
         "Sonraki"
       ],
       "sentence": "This is an example with the word \"later\".",
-      "synonyms": [],
+      "synonyms": [
+        "Subsequently",
+        "Last"
+      ],
       "opposites": []
     },
     {
@@ -5383,8 +6547,12 @@
         "Gülüş"
       ],
       "sentence": "This is an example with the word \"laugh\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Joke"
+      ],
+      "opposites": [
+        "Cry"
+      ]
     },
     {
       "id": "A1-28-15",
@@ -5396,7 +6564,10 @@
         "Işitmek"
       ],
       "sentence": "This is an example with the word \"learn\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ascertain",
+        "See"
+      ],
       "opposites": []
     },
     {
@@ -5409,8 +6580,14 @@
         "Terk etmek"
       ],
       "sentence": "This is an example with the word \"leave\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Lead",
+        "Give"
+      ],
+      "opposites": [
+        "Alter",
+        "Change"
+      ]
     },
     {
       "id": "A1-29-2",
@@ -5422,8 +6599,14 @@
         "Sol kanat"
       ],
       "sentence": "This is an example with the word \"left\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Port",
+        "Odd"
+      ],
+      "opposites": [
+        "Right",
+        "Center"
+      ]
     },
     {
       "id": "A1-29-3",
@@ -5435,7 +6618,10 @@
         "Koşmak"
       ],
       "sentence": "This is an example with the word \"leg\".",
-      "synonyms": [],
+      "synonyms": [
+        "Stage",
+        "Fork"
+      ],
       "opposites": []
     },
     {
@@ -5448,7 +6634,10 @@
         "Hisse"
       ],
       "sentence": "This is an example with the word \"lesson\".",
-      "synonyms": [],
+      "synonyms": [
+        "Moral",
+        "Example"
+      ],
       "opposites": []
     },
     {
@@ -5461,8 +6650,14 @@
         "Vermek"
       ],
       "sentence": "This is an example with the word \"let\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Have",
+        "Allow"
+      ],
+      "opposites": [
+        "Keep",
+        "Prevent"
+      ]
     },
     {
       "id": "A1-29-6",
@@ -5500,8 +6695,14 @@
         "Yalan söylemek"
       ],
       "sentence": "This is an example with the word \"lie\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Dwell",
+        "Rest"
+      ],
+      "opposites": [
+        "Rise",
+        "Arise"
+      ]
     },
     {
       "id": "A1-29-9",
@@ -5513,7 +6714,10 @@
         "Can"
       ],
       "sentence": "This is an example with the word \"life\".",
-      "synonyms": [],
+      "synonyms": [
+        "Spirit",
+        "Living"
+      ],
       "opposites": []
     },
     {
@@ -5526,8 +6730,14 @@
         "Işık"
       ],
       "sentence": "This is an example with the word \"light\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Clear",
+        "Bright"
+      ],
+      "opposites": [
+        "Heavy",
+        "Dark"
+      ]
     },
     {
       "id": "A1-29-11",
@@ -5539,8 +6749,14 @@
         "Sevmek"
       ],
       "sentence": "This is an example with the word \"like\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Corresponding",
+        "Equivalent"
+      ],
+      "opposites": [
+        "Different",
+        "Unequal"
+      ]
     },
     {
       "id": "A1-29-12",
@@ -5552,7 +6768,10 @@
         "Hat"
       ],
       "sentence": "This is an example with the word \"line\".",
-      "synonyms": [],
+      "synonyms": [
+        "Trace",
+        "Strain"
+      ],
       "opposites": []
     },
     {
@@ -5578,7 +6797,10 @@
         "Kaydetmek"
       ],
       "sentence": "This is an example with the word \"list\".",
-      "synonyms": [],
+      "synonyms": [
+        "Inclination",
+        "Lean"
+      ],
       "opposites": []
     },
     {
@@ -5590,7 +6812,10 @@
         "Kulak asmak"
       ],
       "sentence": "This is an example with the word \"listen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Mind",
+        "Hear"
+      ],
       "opposites": []
     },
     {
@@ -5603,8 +6828,14 @@
         "Küçük"
       ],
       "sentence": "This is an example with the word \"little\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Mean",
+        "Trivial"
+      ],
+      "opposites": [
+        "Large",
+        "Big"
+      ]
     },
     {
       "id": "A1-30-2",
@@ -5616,8 +6847,14 @@
         "Ikamet etmek"
       ],
       "sentence": "This is an example with the word \"live\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Endure",
+        "Hot"
+      ],
+      "opposites": [
+        "Dead",
+        "Recorded"
+      ]
     },
     {
       "id": "A1-30-3",
@@ -5629,8 +6866,14 @@
         "Yerli"
       ],
       "sentence": "This is an example with the word \"local\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Community",
+        "Topical"
+      ],
+      "opposites": [
+        "Express",
+        "General"
+      ]
     },
     {
       "id": "A1-30-4",
@@ -5642,8 +6885,13 @@
         "Susamak"
       ],
       "sentence": "This is an example with the word \"long\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Abundant",
+        "Eternal"
+      ],
+      "opposites": [
+        "Short"
+      ]
     },
     {
       "id": "A1-30-5",
@@ -5655,8 +6903,13 @@
         "Bakış"
       ],
       "sentence": "This is an example with the word \"look\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Aspect",
+        "Spirit"
+      ],
+      "opposites": [
+        "Back"
+      ]
     },
     {
       "id": "A1-30-6",
@@ -5668,8 +6921,13 @@
         "Lost - lost"
       ],
       "sentence": "This is an example with the word \"lose\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Miss"
+      ],
+      "opposites": [
+        "Advance",
+        "Keep"
+      ]
     },
     {
       "id": "A1-30-7",
@@ -5681,7 +6939,10 @@
         "Taksim etmek"
       ],
       "sentence": "This is an example with the word \"lot\".",
-      "synonyms": [],
+      "synonyms": [
+        "Set",
+        "Draw"
+      ],
       "opposites": []
     },
     {
@@ -5694,8 +6955,14 @@
         "Aşk"
       ],
       "sentence": "This is an example with the word \"love\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Passion",
+        "Enjoy"
+      ],
+      "opposites": [
+        "Hatred",
+        "Hate"
+      ]
     },
     {
       "id": "A1-30-9",
@@ -5720,7 +6987,10 @@
         "Makine ile yapmak"
       ],
       "sentence": "This is an example with the word \"machine\".",
-      "synonyms": [],
+      "synonyms": [
+        "Automobile",
+        "Car"
+      ],
       "opposites": []
     },
     {
@@ -5733,7 +7003,9 @@
         "Mecmua"
       ],
       "sentence": "This is an example with the word \"magazine\".",
-      "synonyms": [],
+      "synonyms": [
+        "Clip"
+      ],
       "opposites": []
     },
     {
@@ -5746,7 +7018,10 @@
         "Baş"
       ],
       "sentence": "This is an example with the word \"main\".",
-      "synonyms": [],
+      "synonyms": [
+        "Principal",
+        "Independent"
+      ],
       "opposites": []
     },
     {
@@ -5759,8 +7034,13 @@
         "Katetmek"
       ],
       "sentence": "This is an example with the word \"make\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Induce",
+        "Clear"
+      ],
+      "opposites": [
+        "Break"
+      ]
     },
     {
       "id": "A1-30-14",
@@ -5772,8 +7052,13 @@
         "Erkek"
       ],
       "sentence": "This is an example with the word \"man\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "World",
+        "Piece"
+      ],
+      "opposites": [
+        "Civilian"
+      ]
     },
     {
       "id": "A1-30-15",
@@ -5785,8 +7070,12 @@
         "Çoğu"
       ],
       "sentence": "This is an example with the word \"many\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Numerous"
+      ],
+      "opposites": [
+        "Few"
+      ]
     },
     {
       "id": "A1-31-1",
@@ -5798,7 +7087,10 @@
         "Saptamak"
       ],
       "sentence": "This is an example with the word \"map\".",
-      "synonyms": [],
+      "synonyms": [
+        "Represent",
+        "Correspondence"
+      ],
       "opposites": []
     },
     {
@@ -5811,7 +7103,10 @@
         "Mart ayı"
       ],
       "sentence": "This is an example with the word \"march\".",
-      "synonyms": [],
+      "synonyms": [
+        "Exhibit",
+        "Demonstrate"
+      ],
       "opposites": []
     },
     {
@@ -5837,8 +7132,13 @@
         "Başı bağlı"
       ],
       "sentence": "This is an example with the word \"married\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Marital",
+        "Joined"
+      ],
+      "opposites": [
+        "Single"
+      ]
     },
     {
       "id": "A1-31-5",
@@ -5850,8 +7150,13 @@
         "Eş"
       ],
       "sentence": "This is an example with the word \"match\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Touch",
+        "Peer"
+      ],
+      "opposites": [
+        "Disagree"
+      ]
     },
     {
       "id": "A1-31-6",
@@ -5863,7 +7168,10 @@
         "Mümkün olmak"
       ],
       "sentence": "This is an example with the word \"may\".",
-      "synonyms": [],
+      "synonyms": [
+        "Get",
+        "Might"
+      ],
       "opposites": []
     },
     {
@@ -5876,7 +7184,10 @@
         "Belki de"
       ],
       "sentence": "This is an example with the word \"maybe\".",
-      "synonyms": [],
+      "synonyms": [
+        "Perhaps",
+        "Possibly"
+      ],
       "opposites": []
     },
     {
@@ -5915,7 +7226,10 @@
         "Anlamına gelmek"
       ],
       "sentence": "This is an example with the word \"mean\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Skilled"
+      ],
       "opposites": []
     },
     {
@@ -5928,7 +7242,10 @@
         "Anlam"
       ],
       "sentence": "This is an example with the word \"meaning\".",
-      "synonyms": [],
+      "synonyms": [
+        "Significant",
+        "Significance"
+      ],
       "opposites": []
     },
     {
@@ -5941,7 +7258,10 @@
         "Öz"
       ],
       "sentence": "This is an example with the word \"meat\".",
-      "synonyms": [],
+      "synonyms": [
+        "Essence",
+        "Core"
+      ],
       "opposites": []
     },
     {
@@ -5954,7 +7274,10 @@
         "Görüşme yapmak"
       ],
       "sentence": "This is an example with the word \"meet\".",
-      "synonyms": [],
+      "synonyms": [
+        "Touch",
+        "Just"
+      ],
       "opposites": []
     },
     {
@@ -5967,7 +7290,10 @@
         "Miting"
       ],
       "sentence": "This is an example with the word \"meeting\".",
-      "synonyms": [],
+      "synonyms": [
+        "Encounter",
+        "Junction"
+      ],
       "opposites": []
     },
     {
@@ -5979,7 +7305,10 @@
         "Mensup"
       ],
       "sentence": "This is an example with the word \"member\".",
-      "synonyms": [],
+      "synonyms": [
+        "Penis",
+        "Extremity"
+      ],
       "opposites": []
     },
     {
@@ -5991,7 +7320,10 @@
         "Içeceklerin listesi"
       ],
       "sentence": "This is an example with the word \"menu\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fare",
+        "Card"
+      ],
       "opposites": []
     },
     {
@@ -6004,7 +7336,10 @@
         "Vezin"
       ],
       "sentence": "This is an example with the word \"message\".",
-      "synonyms": [],
+      "synonyms": [
+        "Content",
+        "Substance"
+      ],
       "opposites": []
     },
     {
@@ -6016,7 +7351,9 @@
         "Gece yarısı"
       ],
       "sentence": "This is an example with the word \"metre\".",
-      "synonyms": [],
+      "synonyms": [
+        "Meter"
+      ],
       "opposites": []
     },
     {
@@ -6041,7 +7378,9 @@
         "Faydalanmak"
       ],
       "sentence": "This is an example with the word \"mile\".",
-      "synonyms": [],
+      "synonyms": [
+        "Knot"
+      ],
       "opposites": []
     },
     {
@@ -6065,7 +7404,9 @@
         "Tutanak tutmak"
       ],
       "sentence": "This is an example with the word \"million\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal"
+      ],
       "opposites": []
     },
     {
@@ -6078,7 +7419,10 @@
         "Kaçırmak"
       ],
       "sentence": "This is an example with the word \"minute\".",
-      "synonyms": [],
+      "synonyms": [
+        "Bit",
+        "Little"
+      ],
       "opposites": []
     },
     {
@@ -6091,8 +7435,14 @@
         "Yanlış"
       ],
       "sentence": "This is an example with the word \"miss\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Neglect",
+        "Drop"
+      ],
+      "opposites": [
+        "Strike",
+        "Have"
+      ]
     },
     {
       "id": "A1-32-10",
@@ -6104,7 +7454,10 @@
         "Modellik etmek"
       ],
       "sentence": "This is an example with the word \"mistake\".",
-      "synonyms": [],
+      "synonyms": [
+        "Slip",
+        "Error"
+      ],
       "opposites": []
     },
     {
@@ -6117,7 +7470,10 @@
         "Modern kimse"
       ],
       "sentence": "This is an example with the word \"model\".",
-      "synonyms": [],
+      "synonyms": [
+        "Framework",
+        "Pose"
+      ],
       "opposites": []
     },
     {
@@ -6130,7 +7486,10 @@
         "Cevher"
       ],
       "sentence": "This is an example with the word \"modern\".",
-      "synonyms": [],
+      "synonyms": [
+        "Contemporary",
+        "Innovative"
+      ],
       "opposites": []
     },
     {
@@ -6141,7 +7500,10 @@
         "An"
       ],
       "sentence": "This is an example with the word \"moment\".",
-      "synonyms": [],
+      "synonyms": [
+        "Consequence",
+        "Bit"
+      ],
       "opposites": []
     },
     {
@@ -6192,8 +7554,13 @@
         "Başlama"
       ],
       "sentence": "This is an example with the word \"more\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Additional",
+        "Further"
+      ],
+      "opposites": [
+        "Less"
+      ]
     },
     {
       "id": "A1-33-3",
@@ -6206,7 +7573,9 @@
       ],
       "sentence": "This is an example with the word \"morning\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Sunset"
+      ]
     },
     {
       "id": "A1-33-4",
@@ -6218,8 +7587,13 @@
         "Anne gibi davranmak"
       ],
       "sentence": "This is an example with the word \"most\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Virtually",
+        "Near"
+      ],
+      "opposites": [
+        "Least"
+      ]
     },
     {
       "id": "A1-33-5",
@@ -6231,8 +7605,13 @@
         "Cebel"
       ],
       "sentence": "This is an example with the word \"mother\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Generate",
+        "Get"
+      ],
+      "opposites": [
+        "Father"
+      ]
     },
     {
       "id": "A1-33-6",
@@ -6255,7 +7634,10 @@
         "Fare"
       ],
       "sentence": "This is an example with the word \"mouse\".",
-      "synonyms": [],
+      "synonyms": [
+        "Creep",
+        "Steal"
+      ],
       "opposites": []
     },
     {
@@ -6267,7 +7649,10 @@
         "Hareket etmek"
       ],
       "sentence": "This is an example with the word \"mouth\".",
-      "synonyms": [],
+      "synonyms": [
+        "Speak",
+        "Lip"
+      ],
       "opposites": []
     },
     {
@@ -6279,8 +7664,14 @@
         "Sinema"
       ],
       "sentence": "This is an example with the word \"move\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Prompt",
+        "Strike"
+      ],
+      "opposites": [
+        "Rest",
+        "Refrain"
+      ]
     },
     {
       "id": "A1-33-10",
@@ -6290,7 +7681,10 @@
         "Film (sinemada gösterilen)"
       ],
       "sentence": "This is an example with the word \"movie\".",
-      "synonyms": [],
+      "synonyms": [
+        "Picture",
+        "Film"
+      ],
       "opposites": []
     },
     {
@@ -6303,7 +7697,10 @@
         "Çok şey"
       ],
       "sentence": "This is an example with the word \"much\".",
-      "synonyms": [],
+      "synonyms": [
+        "Practically",
+        "Often"
+      ],
       "opposites": []
     },
     {
@@ -6316,7 +7713,10 @@
         "Hanımefendi"
       ],
       "sentence": "This is an example with the word \"mum\".",
-      "synonyms": [],
+      "synonyms": [
+        "Silent",
+        "Mama"
+      ],
       "opposites": []
     },
     {
@@ -6340,7 +7740,9 @@
         "Nağme"
       ],
       "sentence": "This is an example with the word \"music\".",
-      "synonyms": [],
+      "synonyms": [
+        "Medicine"
+      ],
       "opposites": []
     },
     {
@@ -6353,7 +7755,10 @@
         "-meli"
       ],
       "sentence": "This is an example with the word \"must\".",
-      "synonyms": [],
+      "synonyms": [
+        "Need",
+        "Have"
+      ],
       "opposites": []
     },
     {
@@ -6378,7 +7783,10 @@
         "Ismiyle çağırmak"
       ],
       "sentence": "This is an example with the word \"name\".",
-      "synonyms": [],
+      "synonyms": [
+        "Constitute",
+        "Call"
+      ],
       "opposites": []
     },
     {
@@ -6391,8 +7799,14 @@
         "Natürel"
       ],
       "sentence": "This is an example with the word \"natural\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Wild",
+        "Intuitive"
+      ],
+      "opposites": [
+        "Deliberate",
+        "Sharp"
+      ]
     },
     {
       "id": "A1-34-4",
@@ -6404,8 +7818,13 @@
         "Yaklaşmak"
       ],
       "sentence": "This is an example with the word \"near\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Close"
+      ],
+      "opposites": [
+        "Far"
+      ]
     },
     {
       "id": "A1-34-5",
@@ -6417,8 +7836,13 @@
         "Gereksinim"
       ],
       "sentence": "This is an example with the word \"need\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Demand",
+        "Want"
+      ],
+      "opposites": [
+        "Eliminate"
+      ]
     },
     {
       "id": "A1-34-6",
@@ -6430,8 +7854,14 @@
         "Etkisiz hale getirmek"
       ],
       "sentence": "This is an example with the word \"negative\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Bad",
+        "Harmful"
+      ],
+      "opposites": [
+        "Positive",
+        "Affirmative"
+      ]
     },
     {
       "id": "A1-34-7",
@@ -6443,7 +7873,10 @@
         "Yaklaşmak"
       ],
       "sentence": "This is an example with the word \"neighbour\".",
-      "synonyms": [],
+      "synonyms": [
+        "Close",
+        "Near"
+      ],
       "opposites": []
     },
     {
@@ -6457,7 +7890,9 @@
       ],
       "sentence": "This is an example with the word \"never\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Always"
+      ]
     },
     {
       "id": "A1-34-9",
@@ -6469,8 +7904,13 @@
         "Değişik"
       ],
       "sentence": "This is an example with the word \"new\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Radical",
+        "Novel"
+      ],
+      "opposites": [
+        "Old"
+      ]
     },
     {
       "id": "A1-34-10",
@@ -6482,7 +7922,10 @@
         "Bilgi"
       ],
       "sentence": "This is an example with the word \"news\".",
-      "synonyms": [],
+      "synonyms": [
+        "Intelligence",
+        "Word"
+      ],
       "opposites": []
     },
     {
@@ -6506,7 +7949,10 @@
         "En bitişik"
       ],
       "sentence": "This is an example with the word \"next\".",
-      "synonyms": [],
+      "synonyms": [
+        "Close",
+        "Adjacent"
+      ],
       "opposites": []
     },
     {
@@ -6519,8 +7965,13 @@
         "Hoş"
       ],
       "sentence": "This is an example with the word \"nice\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Pleasant"
+      ],
+      "opposites": [
+        "Awful"
+      ]
     },
     {
       "id": "A1-34-14",
@@ -6532,8 +7983,13 @@
         "Karanlık"
       ],
       "sentence": "This is an example with the word \"night\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Dark"
+      ],
+      "opposites": [
+        "Daylight",
+        "Day"
+      ]
     },
     {
       "id": "A1-34-15",
@@ -6545,7 +8001,10 @@
         "9"
       ],
       "sentence": "This is an example with the word \"nine\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Club"
+      ],
       "opposites": []
     },
     {
@@ -6558,7 +8017,10 @@
         "On dokuz sayısı"
       ],
       "sentence": "This is an example with the word \"nineteen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "19"
+      ],
       "opposites": []
     },
     {
@@ -6571,7 +8033,10 @@
         "90"
       ],
       "sentence": "This is an example with the word \"ninety\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "90"
+      ],
       "opposites": []
     },
     {
@@ -6585,7 +8050,9 @@
       ],
       "sentence": "This is an example with the word \"no\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Yes"
+      ]
     },
     {
       "id": "A1-35-4",
@@ -6611,7 +8078,9 @@
       ],
       "sentence": "This is an example with the word \"north\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "South"
+      ]
     },
     {
       "id": "A1-35-6",
@@ -6623,7 +8092,10 @@
         "Yavaş ilerlemek"
       ],
       "sentence": "This is an example with the word \"nose\".",
-      "synonyms": [],
+      "synonyms": [
+        "Scent",
+        "Wind"
+      ],
       "opposites": []
     },
     {
@@ -6649,8 +8121,13 @@
         "Nota"
       ],
       "sentence": "This is an example with the word \"note\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Observe",
+        "Mark"
+      ],
+      "opposites": [
+        "Ignore"
+      ]
     },
     {
       "id": "A1-35-9",
@@ -6662,7 +8139,9 @@
         "Önemsiz (şey)"
       ],
       "sentence": "This is an example with the word \"nothing\".",
-      "synonyms": [],
+      "synonyms": [
+        "Zero"
+      ],
       "opposites": []
     },
     {
@@ -6686,7 +8165,10 @@
         "Derhal"
       ],
       "sentence": "This is an example with the word \"now\".",
-      "synonyms": [],
+      "synonyms": [
+        "Immediately",
+        "Instantly"
+      ],
       "opposites": []
     },
     {
@@ -6699,7 +8181,10 @@
         "Sayı"
       ],
       "sentence": "This is an example with the word \"number\".",
-      "synonyms": [],
+      "synonyms": [
+        "Issue",
+        "Figure"
+      ],
       "opposites": []
     },
     {
@@ -6712,7 +8197,10 @@
         "Bakıcılık yapmak"
       ],
       "sentence": "This is an example with the word \"nurse\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hold",
+        "Harbor"
+      ],
       "opposites": []
     },
     {
@@ -6725,7 +8213,10 @@
         "Karşı çıkmak"
       ],
       "sentence": "This is an example with the word \"object\".",
-      "synonyms": [],
+      "synonyms": [
+        "Aim",
+        "Target"
+      ],
       "opposites": []
     },
     {
@@ -6775,8 +8266,13 @@
         "Kalkmak"
       ],
       "sentence": "This is an example with the word \"off\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Unsatisfactory",
+        "Away"
+      ],
+      "opposites": [
+        "On"
+      ]
     },
     {
       "id": "A1-36-4",
@@ -6788,7 +8284,10 @@
         "Büro"
       ],
       "sentence": "This is an example with the word \"office\".",
-      "synonyms": [],
+      "synonyms": [
+        "Power",
+        "Authority"
+      ],
       "opposites": []
     },
     {
@@ -6801,8 +8300,14 @@
         "Sık"
       ],
       "sentence": "This is an example with the word \"often\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Frequently",
+        "Much"
+      ],
+      "opposites": [
+        "Seldom",
+        "Rarely"
+      ]
     },
     {
       "id": "A1-36-6",
@@ -6826,8 +8331,13 @@
         "Kabul etmek"
       ],
       "sentence": "This is an example with the word \"ok\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Sanction",
+        "Fine"
+      ],
+      "opposites": [
+        "Reject"
+      ]
     },
     {
       "id": "A1-36-8",
@@ -6839,8 +8349,14 @@
         "Eski"
       ],
       "sentence": "This is an example with the word \"old\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ancient",
+        "Experienced"
+      ],
+      "opposites": [
+        "New",
+        "Young"
+      ]
     },
     {
       "id": "A1-36-9",
@@ -6852,8 +8368,12 @@
         "Yanmak"
       ],
       "sentence": "This is an example with the word \"on\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Happening"
+      ],
+      "opposites": [
+        "Off"
+      ]
     },
     {
       "id": "A1-36-10",
@@ -6865,7 +8385,10 @@
         "Birkez"
       ],
       "sentence": "This is an example with the word \"once\".",
-      "synonyms": [],
+      "synonyms": [
+        "Former",
+        "When"
+      ],
       "opposites": []
     },
     {
@@ -6878,7 +8401,10 @@
         "Biri"
       ],
       "sentence": "This is an example with the word \"one\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Single"
+      ],
       "opposites": []
     },
     {
@@ -6914,7 +8440,10 @@
         "Yalnızca"
       ],
       "sentence": "This is an example with the word \"only\".",
-      "synonyms": [],
+      "synonyms": [
+        "Solitary",
+        "Just"
+      ],
       "opposites": []
     },
     {
@@ -6925,8 +8454,14 @@
         "Açılmak"
       ],
       "sentence": "This is an example with the word \"open\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Conspicuous",
+        "Free"
+      ],
+      "opposites": [
+        "Close",
+        "Fold"
+      ]
     },
     {
       "id": "A1-37-1",
@@ -6938,7 +8473,10 @@
         "Açık"
       ],
       "sentence": "This is an example with the word \"opinion\".",
-      "synonyms": [],
+      "synonyms": [
+        "Sentiment",
+        "Judgment"
+      ],
       "opposites": []
     },
     {
@@ -6949,8 +8487,13 @@
         "Zıt"
       ],
       "sentence": "This is an example with the word \"opposite\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Contrary",
+        "Inverse"
+      ],
+      "opposites": [
+        "Alternate"
+      ]
     },
     {
       "id": "A1-37-3",
@@ -6973,7 +8516,9 @@
         "Portakal"
       ],
       "sentence": "This is an example with the word \"orange\".",
-      "synonyms": [],
+      "synonyms": [
+        "Colored"
+      ],
       "opposites": []
     },
     {
@@ -6986,7 +8531,10 @@
         "Karşıt"
       ],
       "sentence": "This is an example with the word \"order\".",
-      "synonyms": [],
+      "synonyms": [
+        "Range",
+        "Tell"
+      ],
       "opposites": []
     },
     {
@@ -6997,8 +8545,13 @@
         "Öbür"
       ],
       "sentence": "This is an example with the word \"other\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Strange",
+        "Unusual"
+      ],
+      "opposites": [
+        "Same"
+      ]
     },
     {
       "id": "A1-37-7",
@@ -7021,8 +8574,13 @@
         "Çıkış"
       ],
       "sentence": "This is an example with the word \"out\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Prohibited",
+        "Away"
+      ],
+      "opposites": [
+        "In"
+      ]
     },
     {
       "id": "A1-37-9",
@@ -7034,8 +8592,14 @@
         "Portakalrengi"
       ],
       "sentence": "This is an example with the word \"outside\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Extra",
+        "Remote"
+      ],
+      "opposites": [
+        "Within",
+        "Inside"
+      ]
     },
     {
       "id": "A1-37-10",
@@ -7045,7 +8609,10 @@
         "Bitmiş"
       ],
       "sentence": "This is an example with the word \"over\".",
-      "synonyms": [],
+      "synonyms": [
+        "Complete",
+        "Concluded"
+      ],
       "opposites": []
     },
     {
@@ -7058,7 +8625,10 @@
         "Buyurmak"
       ],
       "sentence": "This is an example with the word \"own\".",
-      "synonyms": [],
+      "synonyms": [
+        "Possess",
+        "Have"
+      ],
       "opposites": []
     },
     {
@@ -7081,7 +8651,9 @@
         "Tablo"
       ],
       "sentence": "This is an example with the word \"painting\".",
-      "synonyms": [],
+      "synonyms": [
+        "Picture"
+      ],
       "opposites": []
     },
     {
@@ -7094,7 +8666,10 @@
         "Dışarı"
       ],
       "sentence": "This is an example with the word \"pair\".",
-      "synonyms": [],
+      "synonyms": [
+        "Span",
+        "Mate"
+      ],
       "opposites": []
     },
     {
@@ -7105,7 +8680,10 @@
         "Kağıt"
       ],
       "sentence": "This is an example with the word \"paper\".",
-      "synonyms": [],
+      "synonyms": [
+        "Composition",
+        "Report"
+      ],
       "opposites": []
     },
     {
@@ -7129,8 +8707,14 @@
         "Ebeveynlik etmek"
       ],
       "sentence": "This is an example with the word \"parent\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Raise",
+        "Rear"
+      ],
+      "opposites": [
+        "Child",
+        "Kid"
+      ]
     },
     {
       "id": "A1-38-3",
@@ -7142,7 +8726,10 @@
         "Üstüne"
       ],
       "sentence": "This is an example with the word \"park\".",
-      "synonyms": [],
+      "synonyms": [
+        "Common",
+        "Commons"
+      ],
       "opposites": []
     },
     {
@@ -7153,8 +8740,14 @@
         "Parça"
       ],
       "sentence": "This is an example with the word \"part\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Break",
+        "Component"
+      ],
+      "opposites": [
+        "All",
+        "Wholly"
+      ]
     },
     {
       "id": "A1-38-5",
@@ -7166,7 +8759,10 @@
         "Itiraf etmek"
       ],
       "sentence": "This is an example with the word \"partner\".",
-      "synonyms": [],
+      "synonyms": [
+        "Mate",
+        "Spouse"
+      ],
       "opposites": []
     },
     {
@@ -7177,7 +8773,9 @@
         "Taraf"
       ],
       "sentence": "This is an example with the word \"party\".",
-      "synonyms": [],
+      "synonyms": [
+        "Company"
+      ],
       "opposites": []
     },
     {
@@ -7202,8 +8800,14 @@
         "Bir kimsenin geçmişi"
       ],
       "sentence": "This is an example with the word \"past\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Preceding",
+        "Old"
+      ],
+      "opposites": [
+        "Hereafter",
+        "Future"
+      ]
     },
     {
       "id": "A1-38-9",
@@ -7213,8 +8817,13 @@
         "Ödemek"
       ],
       "sentence": "This is an example with the word \"pay\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Yield",
+        "Give"
+      ],
+      "opposites": [
+        "Default"
+      ]
     },
     {
       "id": "A1-38-10",
@@ -7226,7 +8835,9 @@
         "Ücret"
       ],
       "sentence": "This is an example with the word \"pen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Write"
+      ],
       "opposites": []
     },
     {
@@ -7250,7 +8861,10 @@
         "Kaleme almak"
       ],
       "sentence": "This is an example with the word \"people\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dwell",
+        "Mass"
+      ],
       "opposites": []
     },
     {
@@ -7274,7 +8888,10 @@
         "Kurşunkalemle çizmek"
       ],
       "sentence": "This is an example with the word \"perfect\".",
-      "synonyms": [],
+      "synonyms": [
+        "Stark",
+        "Cold"
+      ],
       "opposites": []
     },
     {
@@ -7285,7 +8902,10 @@
         "Devir"
       ],
       "sentence": "This is an example with the word \"period\".",
-      "synonyms": [],
+      "synonyms": [
+        "Point",
+        "Flow"
+      ],
       "opposites": []
     },
     {
@@ -7298,7 +8918,10 @@
         "Halk"
       ],
       "sentence": "This is an example with the word \"person\".",
-      "synonyms": [],
+      "synonyms": [
+        "Soul",
+        "Individual"
+      ],
       "opposites": []
     },
     {
@@ -7309,7 +8932,10 @@
         "Kişisel"
       ],
       "sentence": "This is an example with the word \"personal\".",
-      "synonyms": [],
+      "synonyms": [
+        "Intimate",
+        "Subjective"
+      ],
       "opposites": []
     },
     {
@@ -7322,7 +8948,10 @@
         "Pul biber koymak"
       ],
       "sentence": "This is an example with the word \"phone\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ring",
+        "Call"
+      ],
       "opposites": []
     },
     {
@@ -7333,7 +8962,9 @@
         "Foto"
       ],
       "sentence": "This is an example with the word \"photo\".",
-      "synonyms": [],
+      "synonyms": [
+        "Exposure"
+      ],
       "opposites": []
     },
     {
@@ -7346,7 +8977,10 @@
         "Mükemmelleştirmek"
       ],
       "sentence": "This is an example with the word \"photograph\".",
-      "synonyms": [],
+      "synonyms": [
+        "Snap",
+        "Exposure"
+      ],
       "opposites": []
     },
     {
@@ -7359,7 +8993,10 @@
         "Çağ"
       ],
       "sentence": "This is an example with the word \"phrase\".",
-      "synonyms": [],
+      "synonyms": [
+        "Articulate",
+        "Formulate"
+      ],
       "opposites": []
     },
     {
@@ -7372,8 +9009,14 @@
         "Kimse"
       ],
       "sentence": "This is an example with the word \"piano\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Soft",
+        "Softly"
+      ],
+      "opposites": [
+        "Loud",
+        "Loudly"
+      ]
     },
     {
       "id": "A1-39-8",
@@ -7383,7 +9026,10 @@
         "Resim"
       ],
       "sentence": "This is an example with the word \"picture\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fancy",
+        "Project"
+      ],
       "opposites": []
     },
     {
@@ -7396,7 +9042,10 @@
         "Şahsi"
       ],
       "sentence": "This is an example with the word \"piece\".",
-      "synonyms": [],
+      "synonyms": [
+        "Composition",
+        "Part"
+      ],
       "opposites": []
     },
     {
@@ -7407,7 +9056,10 @@
         "Domuz"
       ],
       "sentence": "This is an example with the word \"pig\".",
-      "synonyms": [],
+      "synonyms": [
+        "Raven",
+        "Bull"
+      ],
       "opposites": []
     },
     {
@@ -7420,7 +9072,10 @@
         "Telefonlamak"
       ],
       "sentence": "This is an example with the word \"pink\".",
-      "synonyms": [],
+      "synonyms": [
+        "Knock",
+        "Colored"
+      ],
       "opposites": []
     },
     {
@@ -7431,7 +9086,10 @@
         "Koymak"
       ],
       "sentence": "This is an example with the word \"place\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Order"
+      ],
       "opposites": []
     },
     {
@@ -7444,7 +9102,10 @@
         "Resim vermek"
       ],
       "sentence": "This is an example with the word \"plan\".",
-      "synonyms": [],
+      "synonyms": [
+        "Project",
+        "Program"
+      ],
       "opposites": []
     },
     {
@@ -7455,7 +9116,10 @@
         "Düzlemek"
       ],
       "sentence": "This is an example with the word \"plane\".",
-      "synonyms": [],
+      "synonyms": [
+        "Level",
+        "Flat"
+      ],
       "opposites": []
     },
     {
@@ -7468,7 +9132,10 @@
         "Resim vermek"
       ],
       "sentence": "This is an example with the word \"plant\".",
-      "synonyms": [],
+      "synonyms": [
+        "Constitute",
+        "Set"
+      ],
       "opposites": []
     },
     {
@@ -7481,7 +9148,10 @@
         "Piyes"
       ],
       "sentence": "This is an example with the word \"play\".",
-      "synonyms": [],
+      "synonyms": [
+        "Render",
+        "Work"
+      ],
       "opposites": []
     },
     {
@@ -7494,7 +9164,10 @@
         "Sporcu"
       ],
       "sentence": "This is an example with the word \"player\".",
-      "synonyms": [],
+      "synonyms": [
+        "Actor",
+        "Participant"
+      ],
       "opposites": []
     },
     {
@@ -7507,7 +9180,9 @@
         "Gönlünü hoş etmek"
       ],
       "sentence": "This is an example with the word \"please\".",
-      "synonyms": [],
+      "synonyms": [
+        "Delight"
+      ],
       "opposites": []
     },
     {
@@ -7520,7 +9195,10 @@
         "Uç"
       ],
       "sentence": "This is an example with the word \"point\".",
-      "synonyms": [],
+      "synonyms": [
+        "Charge",
+        "Indicate"
+      ],
       "opposites": []
     },
     {
@@ -7533,7 +9211,10 @@
         "Güvenliği sağlamak"
       ],
       "sentence": "This is an example with the word \"police\".",
-      "synonyms": [],
+      "synonyms": [
+        "Law",
+        "Patrol"
+      ],
       "opposites": []
     },
     {
@@ -7546,7 +9227,9 @@
         "Polis (memuru)"
       ],
       "sentence": "This is an example with the word \"policeman\".",
-      "synonyms": [],
+      "synonyms": [
+        "Officer"
+      ],
       "opposites": []
     },
     {
@@ -7559,7 +9242,10 @@
         "Karı paylaşmak"
       ],
       "sentence": "This is an example with the word \"pool\".",
-      "synonyms": [],
+      "synonyms": [
+        "Combine",
+        "Pond"
+      ],
       "opposites": []
     },
     {
@@ -7572,8 +9258,13 @@
         "Zavallı"
       ],
       "sentence": "This is an example with the word \"poor\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Mean",
+        "Wretched"
+      ],
+      "opposites": [
+        "Rich"
+      ]
     },
     {
       "id": "A1-40-9",
@@ -7585,7 +9276,10 @@
         "Halka hitap eden"
       ],
       "sentence": "This is an example with the word \"popular\".",
-      "synonyms": [],
+      "synonyms": [
+        "Common",
+        "Plain"
+      ],
       "opposites": []
     },
     {
@@ -7598,8 +9292,14 @@
         "Olumlu"
       ],
       "sentence": "This is an example with the word \"positive\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Enthusiastic",
+        "Confident"
+      ],
+      "opposites": [
+        "Neutral",
+        "Negative"
+      ]
     },
     {
       "id": "A1-40-11",
@@ -7611,8 +9311,13 @@
         "Muhtemel"
       ],
       "sentence": "This is an example with the word \"possible\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Contingent",
+        "Feasible"
+      ],
+      "opposites": [
+        "Actual"
+      ]
     },
     {
       "id": "A1-40-12",
@@ -7624,7 +9329,10 @@
         "Direk"
       ],
       "sentence": "This is an example with the word \"post\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Position"
+      ],
       "opposites": []
     },
     {
@@ -7637,7 +9345,9 @@
         "Kafa"
       ],
       "sentence": "This is an example with the word \"potato\".",
-      "synonyms": [],
+      "synonyms": [
+        "Murphy"
+      ],
       "opposites": []
     },
     {
@@ -7650,7 +9360,10 @@
         "Dalgaya çarpmak (gemi)"
       ],
       "sentence": "This is an example with the word \"pound\".",
-      "synonyms": [],
+      "synonyms": [
+        "Beat",
+        "Lumber"
+      ],
       "opposites": []
     },
     {
@@ -7663,7 +9376,10 @@
         "Yapmak"
       ],
       "sentence": "This is an example with the word \"practice\".",
-      "synonyms": [],
+      "synonyms": [
+        "Apply",
+        "Use"
+      ],
       "opposites": []
     },
     {
@@ -7676,7 +9392,10 @@
         "Etmek"
       ],
       "sentence": "This is an example with the word \"practise\".",
-      "synonyms": [],
+      "synonyms": [
+        "Practice",
+        "Exercise"
+      ],
       "opposites": []
     },
     {
@@ -7689,7 +9408,10 @@
         "Yeğ tutmak"
       ],
       "sentence": "This is an example with the word \"prefer\".",
-      "synonyms": [],
+      "synonyms": [
+        "Choose",
+        "Favour"
+      ],
       "opposites": []
     },
     {
@@ -7702,7 +9424,10 @@
         "Pişirmek"
       ],
       "sentence": "This is an example with the word \"prepare\".",
-      "synonyms": [],
+      "synonyms": [
+        "Set",
+        "Develop"
+      ],
       "opposites": []
     },
     {
@@ -7715,8 +9440,13 @@
         "Şimdiki zaman"
       ],
       "sentence": "This is an example with the word \"present\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Exhibit",
+        "Demonstrate"
+      ],
+      "opposites": [
+        "Absent"
+      ]
     },
     {
       "id": "A1-41-5",
@@ -7728,7 +9458,10 @@
         "Güzel"
       ],
       "sentence": "This is an example with the word \"pretty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Beautiful",
+        "Fine"
+      ],
       "opposites": []
     },
     {
@@ -7741,7 +9474,10 @@
         "Ücret"
       ],
       "sentence": "This is an example with the word \"price\".",
-      "synonyms": [],
+      "synonyms": [
+        "Damage",
+        "Terms"
+      ],
       "opposites": []
     },
     {
@@ -7754,7 +9490,9 @@
         "Muhtemel olarak"
       ],
       "sentence": "This is an example with the word \"probably\".",
-      "synonyms": [],
+      "synonyms": [
+        "Likely"
+      ],
       "opposites": []
     },
     {
@@ -7767,7 +9505,10 @@
         "Sorun"
       ],
       "sentence": "This is an example with the word \"problem\".",
-      "synonyms": [],
+      "synonyms": [
+        "Trouble",
+        "Job"
+      ],
       "opposites": []
     },
     {
@@ -7780,7 +9521,10 @@
         "Meyve"
       ],
       "sentence": "This is an example with the word \"product\".",
-      "synonyms": [],
+      "synonyms": [
+        "Intersection",
+        "Merchandise"
+      ],
       "opposites": []
     },
     {
@@ -7793,7 +9537,10 @@
         "Planlamak"
       ],
       "sentence": "This is an example with the word \"programme\".",
-      "synonyms": [],
+      "synonyms": [
+        "Broadcast",
+        "Plan"
+      ],
       "opposites": []
     },
     {
@@ -7806,7 +9553,10 @@
         "Planını çizmek"
       ],
       "sentence": "This is an example with the word \"project\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cast",
+        "Fancy"
+      ],
       "opposites": []
     },
     {
@@ -7819,7 +9569,10 @@
         "Erguvan rengi"
       ],
       "sentence": "This is an example with the word \"purple\".",
-      "synonyms": [],
+      "synonyms": [
+        "Noble",
+        "Rhetorical"
+      ],
       "opposites": []
     },
     {
@@ -7832,8 +9585,13 @@
         "Hamletmek"
       ],
       "sentence": "This is an example with the word \"put\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Order",
+        "Cast"
+      ],
+      "opposites": [
+        "Call"
+      ]
     },
     {
       "id": "A1-41-14",
@@ -7845,7 +9603,10 @@
         "Yerleştirmek"
       ],
       "sentence": "This is an example with the word \"quarter\".",
-      "synonyms": [],
+      "synonyms": [
+        "Stern",
+        "Tail"
+      ],
       "opposites": []
     },
     {
@@ -7858,8 +9619,13 @@
         "Sorgulamak"
       ],
       "sentence": "This is an example with the word \"question\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Inquiry",
+        "Head"
+      ],
+      "opposites": [
+        "Answer"
+      ]
     },
     {
       "id": "A1-42-1",
@@ -7871,7 +9637,10 @@
         "Çabuk"
       ],
       "sentence": "This is an example with the word \"quick\".",
-      "synonyms": [],
+      "synonyms": [
+        "Prompt",
+        "Warm"
+      ],
       "opposites": []
     },
     {
@@ -7884,8 +9653,14 @@
         "Süratle"
       ],
       "sentence": "This is an example with the word \"quickly\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Promptly",
+        "Rapidly"
+      ],
+      "opposites": [
+        "Easy",
+        "Slow"
+      ]
     },
     {
       "id": "A1-42-3",
@@ -7897,8 +9672,14 @@
         "Sessiz"
       ],
       "sentence": "This is an example with the word \"quiet\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Soft",
+        "Calm"
+      ],
+      "opposites": [
+        "Charge",
+        "Sound"
+      ]
     },
     {
       "id": "A1-42-4",
@@ -7910,7 +9691,9 @@
         "Epey"
       ],
       "sentence": "This is an example with the word \"quite\".",
-      "synonyms": [],
+      "synonyms": [
+        "Rather"
+      ],
       "opposites": []
     },
     {
@@ -7923,7 +9706,9 @@
         "Telsizle haber vermek"
       ],
       "sentence": "This is an example with the word \"radio\".",
-      "synonyms": [],
+      "synonyms": [
+        "Wireless"
+      ],
       "opposites": []
     },
     {
@@ -7948,7 +9733,10 @@
         "Çözmek"
       ],
       "sentence": "This is an example with the word \"read\".",
-      "synonyms": [],
+      "synonyms": [
+        "Show",
+        "Understand"
+      ],
       "opposites": []
     },
     {
@@ -7974,7 +9762,10 @@
         "Yorum"
       ],
       "sentence": "This is an example with the word \"reading\".",
-      "synonyms": [],
+      "synonyms": [
+        "Interpretation",
+        "Version"
+      ],
       "opposites": []
     },
     {
@@ -7987,7 +9778,10 @@
         "Peşin para"
       ],
       "sentence": "This is an example with the word \"ready\".",
-      "synonyms": [],
+      "synonyms": [
+        "Prompt",
+        "Set"
+      ],
       "opposites": []
     },
     {
@@ -8000,8 +9794,13 @@
         "Taşınmaz"
       ],
       "sentence": "This is an example with the word \"real\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Substantial",
+        "Tangible"
+      ],
+      "opposites": [
+        "Nominal"
+      ]
     },
     {
       "id": "A1-42-12",
@@ -8013,7 +9812,10 @@
         "Cidden"
       ],
       "sentence": "This is an example with the word \"really\".",
-      "synonyms": [],
+      "synonyms": [
+        "Actually",
+        "Very"
+      ],
       "opposites": []
     },
     {
@@ -8026,7 +9828,10 @@
         "Gerekçe"
       ],
       "sentence": "This is an example with the word \"reason\".",
-      "synonyms": [],
+      "synonyms": [
+        "Understanding",
+        "Ground"
+      ],
       "opposites": []
     },
     {
@@ -8039,8 +9844,13 @@
         "Kırmızı"
       ],
       "sentence": "This is an example with the word \"red\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Violent",
+        "Cherry"
+      ],
+      "opposites": [
+        "White"
+      ]
     },
     {
       "id": "A1-42-15",
@@ -8052,8 +9862,13 @@
         "Dinlenmek"
       ],
       "sentence": "This is an example with the word \"relax\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Loose"
+      ],
+      "opposites": [
+        "Strain",
+        "Tense"
+      ]
     },
     {
       "id": "A1-43-1",
@@ -8065,8 +9880,14 @@
         "Anmak"
       ],
       "sentence": "This is an example with the word \"remember\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Recall",
+        "Think"
+      ],
+      "opposites": [
+        "Block",
+        "Forget"
+      ]
     },
     {
       "id": "A1-43-2",
@@ -8078,7 +9899,10 @@
         "Tekerrür etmek"
       ],
       "sentence": "This is an example with the word \"repeat\".",
-      "synonyms": [],
+      "synonyms": [
+        "Echo",
+        "Double"
+      ],
       "opposites": []
     },
     {
@@ -8090,7 +9914,10 @@
         "Ihbar etmek"
       ],
       "sentence": "This is an example with the word \"report\".",
-      "synonyms": [],
+      "synonyms": [
+        "Composition",
+        "Cover"
+      ],
       "opposites": []
     },
     {
@@ -8103,7 +9930,10 @@
         "Sonucu olmak"
       ],
       "sentence": "This is an example with the word \"result\".",
-      "synonyms": [],
+      "synonyms": [
+        "Issue",
+        "Lead"
+      ],
       "opposites": []
     },
     {
@@ -8116,7 +9946,10 @@
         "Iade etmek"
       ],
       "sentence": "This is an example with the word \"return\".",
-      "synonyms": [],
+      "synonyms": [
+        "Yield",
+        "Render"
+      ],
       "opposites": []
     },
     {
@@ -8142,8 +9975,14 @@
         "Bol bol"
       ],
       "sentence": "This is an example with the word \"rich\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Robust",
+        "Ample"
+      ],
+      "opposites": [
+        "Lean",
+        "Poor"
+      ]
     },
     {
       "id": "A1-43-8",
@@ -8155,8 +9994,13 @@
         "Rode - ridden"
       ],
       "sentence": "This is an example with the word \"ride\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Drive",
+        "Mount"
+      ],
+      "opposites": [
+        "Walk"
+      ]
     },
     {
       "id": "A1-43-9",
@@ -8168,8 +10012,14 @@
         "Haklı"
       ],
       "sentence": "This is an example with the word \"right\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Powerful"
+      ],
+      "opposites": [
+        "Port",
+        "Wrong"
+      ]
     },
     {
       "id": "A1-43-10",
@@ -8193,7 +10043,10 @@
         "Başvurulması gereken yöntem"
       ],
       "sentence": "This is an example with the word \"road\".",
-      "synonyms": [],
+      "synonyms": [
+        "Moving",
+        "Route"
+      ],
       "opposites": []
     },
     {
@@ -8206,7 +10059,10 @@
         "Hergünkü işler"
       ],
       "sentence": "This is an example with the word \"room\".",
-      "synonyms": [],
+      "synonyms": [
+        "Way",
+        "Board"
+      ],
       "opposites": []
     },
     {
@@ -8219,7 +10075,10 @@
         "Kural"
       ],
       "sentence": "This is an example with the word \"routine\".",
-      "synonyms": [],
+      "synonyms": [
+        "Procedure",
+        "Function"
+      ],
       "opposites": []
     },
     {
@@ -8232,7 +10091,10 @@
         "Koşmak"
       ],
       "sentence": "This is an example with the word \"rule\".",
-      "synonyms": [],
+      "synonyms": [
+        "Principle",
+        "Convention"
+      ],
       "opposites": []
     },
     {
@@ -8245,8 +10107,13 @@
         "Üzücü"
       ],
       "sentence": "This is an example with the word \"run\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Work",
+        "Lead"
+      ],
+      "opposites": [
+        "Idle"
+      ]
     },
     {
       "id": "A1-44-1",
@@ -8257,8 +10124,14 @@
         "Mahzun"
       ],
       "sentence": "This is an example with the word \"sad\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Melancholy",
+        "Wretched"
+      ],
+      "opposites": [
+        "Happy",
+        "Glad"
+      ]
     },
     {
       "id": "A1-44-2",
@@ -8282,8 +10155,12 @@
         "Farksız"
       ],
       "sentence": "This is an example with the word \"salt\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Sharp"
+      ],
+      "opposites": [
+        "Fresh"
+      ]
     },
     {
       "id": "A1-44-4",
@@ -8295,8 +10172,14 @@
         "Arasına sıkıştırmak"
       ],
       "sentence": "This is an example with the word \"same\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Corresponding",
+        "Like"
+      ],
+      "opposites": [
+        "Different",
+        "Other"
+      ]
     },
     {
       "id": "A1-44-5",
@@ -8332,7 +10215,10 @@
         "Yetiştirmek"
       ],
       "sentence": "This is an example with the word \"say\".",
-      "synonyms": [],
+      "synonyms": [
+        "Articulate",
+        "State"
+      ],
       "opposites": []
     },
     {
@@ -8345,7 +10231,10 @@
         "Beceri"
       ],
       "sentence": "This is an example with the word \"school\".",
-      "synonyms": [],
+      "synonyms": [
+        "Train",
+        "Educate"
+      ],
       "opposites": []
     },
     {
@@ -8358,7 +10247,9 @@
         "Bilim adamı"
       ],
       "sentence": "This is an example with the word \"science\".",
-      "synonyms": [],
+      "synonyms": [
+        "Skill"
+      ],
       "opposites": []
     },
     {
@@ -8384,7 +10275,9 @@
         "Destek vermek"
       ],
       "sentence": "This is an example with the word \"sea\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ocean"
+      ],
       "opposites": []
     },
     {
@@ -8397,8 +10290,13 @@
         "Kısım"
       ],
       "sentence": "This is an example with the word \"second\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Bit",
+        "Forward"
+      ],
+      "opposites": [
+        "First"
+      ]
     },
     {
       "id": "A1-44-13",
@@ -8410,7 +10308,10 @@
         "Saw - seen"
       ],
       "sentence": "This is an example with the word \"section\".",
-      "synonyms": [],
+      "synonyms": [
+        "Part",
+        "Segment"
+      ],
       "opposites": []
     },
     {
@@ -8423,7 +10324,10 @@
         "Sold - sold"
       ],
       "sentence": "This is an example with the word \"see\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ascertain",
+        "Regard"
+      ],
       "opposites": []
     },
     {
@@ -8436,8 +10340,14 @@
         "Sent - sent"
       ],
       "sentence": "This is an example with the word \"sell\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Deal",
+        "Trade"
+      ],
+      "opposites": [
+        "Purchase",
+        "Buy"
+      ]
     },
     {
       "id": "A1-45-1",
@@ -8449,7 +10359,10 @@
         "Hüküm giydirmek"
       ],
       "sentence": "This is an example with the word \"send\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Charge"
+      ],
       "opposites": []
     },
     {
@@ -8461,7 +10374,10 @@
         "Mahkum etmek"
       ],
       "sentence": "This is an example with the word \"sentence\".",
-      "synonyms": [],
+      "synonyms": [
+        "Conviction",
+        "Time"
+      ],
       "opposites": []
     },
     {
@@ -8486,7 +10402,10 @@
         "On yedi"
       ],
       "sentence": "This is an example with the word \"seven\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Vii"
+      ],
       "opposites": []
     },
     {
@@ -8499,7 +10418,10 @@
         "Yetmiş sayısı"
       ],
       "sentence": "This is an example with the word \"seventeen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "17"
+      ],
       "opposites": []
     },
     {
@@ -8512,7 +10434,10 @@
         "Pay"
       ],
       "sentence": "This is an example with the word \"seventy\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "70"
+      ],
       "opposites": []
     },
     {
@@ -8525,7 +10450,10 @@
         "Kadın"
       ],
       "sentence": "This is an example with the word \"share\".",
-      "synonyms": [],
+      "synonyms": [
+        "Part",
+        "Deal"
+      ],
       "opposites": []
     },
     {
@@ -8590,7 +10518,10 @@
         "Çarşıya çıkma"
       ],
       "sentence": "This is an example with the word \"shop\".",
-      "synonyms": [],
+      "synonyms": [
+        "Frequent",
+        "Rat"
+      ],
       "opposites": []
     },
     {
@@ -8616,8 +10547,14 @@
         "-meli"
       ],
       "sentence": "This is an example with the word \"short\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Tender",
+        "Light"
+      ],
+      "opposites": [
+        "Long",
+        "Tall"
+      ]
     },
     {
       "id": "A1-45-15",
@@ -8629,7 +10566,10 @@
         "Showed - shown/showed"
       ],
       "sentence": "This is an example with the word \"should\".",
-      "synonyms": [],
+      "synonyms": [
+        "Need",
+        "Must"
+      ],
       "opposites": []
     },
     {
@@ -8642,8 +10582,14 @@
         "Duş almak"
       ],
       "sentence": "This is an example with the word \"show\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Exhibit",
+        "Display"
+      ],
+      "opposites": [
+        "Conceal",
+        "Hide"
+      ]
     },
     {
       "id": "A1-46-2",
@@ -8668,8 +10614,13 @@
         "Benzeş"
       ],
       "sentence": "This is an example with the word \"sick\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Light",
+        "Cast"
+      ],
+      "opposites": [
+        "Well"
+      ]
     },
     {
       "id": "A1-46-4",
@@ -8681,8 +10632,14 @@
         "Şarkı söylemek"
       ],
       "sentence": "This is an example with the word \"similar\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Analogous",
+        "Corresponding"
+      ],
+      "opposites": [
+        "Different",
+        "Unlike"
+      ]
     },
     {
       "id": "A1-46-5",
@@ -8694,7 +10651,9 @@
         "Şair"
       ],
       "sentence": "This is an example with the word \"sing\".",
-      "synonyms": [],
+      "synonyms": [
+        "Talk"
+      ],
       "opposites": []
     },
     {
@@ -8720,8 +10679,13 @@
         "Tünemek"
       ],
       "sentence": "This is an example with the word \"sister\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Fellow",
+        "Baby"
+      ],
+      "opposites": [
+        "Brother"
+      ]
     },
     {
       "id": "A1-46-8",
@@ -8732,8 +10696,14 @@
         "Sat - sat"
       ],
       "sentence": "This is an example with the word \"sit\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Model",
+        "Pose"
+      ],
+      "opposites": [
+        "Lie",
+        "Rise"
+      ]
     },
     {
       "id": "A1-46-9",
@@ -8745,7 +10715,10 @@
         "Ekmek kapısı"
       ],
       "sentence": "This is an example with the word \"situation\".",
-      "synonyms": [],
+      "synonyms": [
+        "Position",
+        "Post"
+      ],
       "opposites": []
     },
     {
@@ -8758,7 +10731,10 @@
         "Altı"
       ],
       "sentence": "This is an example with the word \"six\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Vi"
+      ],
       "opposites": []
     },
     {
@@ -8771,7 +10747,10 @@
         "On altı sayısı"
       ],
       "sentence": "This is an example with the word \"sixteen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "16"
+      ],
       "opposites": []
     },
     {
@@ -8784,7 +10763,10 @@
         "Altmış sayısı (60, LX)"
       ],
       "sentence": "This is an example with the word \"sixty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "60"
+      ],
       "opposites": []
     },
     {
@@ -8797,7 +10779,10 @@
         "Hüner"
       ],
       "sentence": "This is an example with the word \"skill\".",
-      "synonyms": [],
+      "synonyms": [
+        "Acquisition",
+        "Accomplishment"
+      ],
       "opposites": []
     },
     {
@@ -8810,7 +10795,10 @@
         "Uzak durmak"
       ],
       "sentence": "This is an example with the word \"skirt\".",
-      "synonyms": [],
+      "synonyms": [
+        "Dame",
+        "Border"
+      ],
       "opposites": []
     },
     {
@@ -8823,8 +10811,12 @@
         "Slept - slept"
       ],
       "sentence": "This is an example with the word \"sleep\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Rest"
+      ],
+      "opposites": [
+        "Wake"
+      ]
     },
     {
       "id": "A1-47-1",
@@ -8836,8 +10828,14 @@
         "Ağır"
       ],
       "sentence": "This is an example with the word \"slow\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Dull",
+        "Dim"
+      ],
+      "opposites": [
+        "Fast",
+        "Rapidly"
+      ]
     },
     {
       "id": "A1-47-2",
@@ -8849,8 +10847,14 @@
         "Ufak"
       ],
       "sentence": "This is an example with the word \"small\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Mean",
+        "Modest"
+      ],
+      "opposites": [
+        "Large",
+        "Big"
+      ]
     },
     {
       "id": "A1-47-3",
@@ -8875,7 +10879,10 @@
         "Karla kaplamak"
       ],
       "sentence": "This is an example with the word \"snow\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cocaine",
+        "C"
+      ],
       "opposites": []
     },
     {
@@ -8888,7 +10895,10 @@
         "Böyle"
       ],
       "sentence": "This is an example with the word \"so\".",
-      "synonyms": [],
+      "synonyms": [
+        "Thus",
+        "Indeed"
+      ],
       "opposites": []
     },
     {
@@ -8901,7 +10911,10 @@
         "Birkaç"
       ],
       "sentence": "This is an example with the word \"some\".",
-      "synonyms": [],
+      "synonyms": [
+        "Extraordinary",
+        "About"
+      ],
       "opposites": []
     },
     {
@@ -8914,7 +10927,10 @@
         "Şahsiyet"
       ],
       "sentence": "This is an example with the word \"somebody\".",
-      "synonyms": [],
+      "synonyms": [
+        "Soul",
+        "Individual"
+      ],
       "opposites": []
     },
     {
@@ -8927,7 +10943,10 @@
         "Bir kimse"
       ],
       "sentence": "This is an example with the word \"someone\".",
-      "synonyms": [],
+      "synonyms": [
+        "Soul",
+        "Individual"
+      ],
       "opposites": []
     },
     {
@@ -8938,8 +10957,12 @@
         "Bir şey"
       ],
       "sentence": "This is an example with the word \"something\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Entity"
+      ],
+      "opposites": [
+        "Unable"
+      ]
     },
     {
       "id": "A1-47-10",
@@ -8963,8 +10986,14 @@
         "Mahdum"
       ],
       "sentence": "This is an example with the word \"son\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Word",
+        "Boy"
+      ],
+      "opposites": [
+        "Girl",
+        "Daughter"
+      ]
     },
     {
       "id": "A1-47-12",
@@ -8976,7 +11005,10 @@
         "Güfte"
       ],
       "sentence": "This is an example with the word \"song\".",
-      "synonyms": [],
+      "synonyms": [
+        "Strain",
+        "Call"
+      ],
       "opposites": []
     },
     {
@@ -8989,7 +11021,10 @@
         "Az sonra"
       ],
       "sentence": "This is an example with the word \"soon\".",
-      "synonyms": [],
+      "synonyms": [
+        "Presently",
+        "Shortly"
+      ],
       "opposites": []
     },
     {
@@ -9002,7 +11037,10 @@
         "Eseflenmek"
       ],
       "sentence": "This is an example with the word \"sorry\".",
-      "synonyms": [],
+      "synonyms": [
+        "Sad",
+        "Bad"
+      ],
       "opposites": []
     },
     {
@@ -9015,8 +11053,14 @@
         "Derine dalmak (balina)"
       ],
       "sentence": "This is an example with the word \"sound\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Profound",
+        "Substantial"
+      ],
+      "opposites": [
+        "Quiet",
+        "Silence"
+      ]
     },
     {
       "id": "A1-48-1",
@@ -9042,7 +11086,9 @@
       ],
       "sentence": "This is an example with the word \"south\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "North"
+      ]
     },
     {
       "id": "A1-48-3",
@@ -9054,7 +11100,10 @@
         "Mekan"
       ],
       "sentence": "This is an example with the word \"space\".",
-      "synonyms": [],
+      "synonyms": [
+        "Blank",
+        "Distance"
+      ],
       "opposites": []
     },
     {
@@ -9067,7 +11116,10 @@
         "Ses çıkarmak"
       ],
       "sentence": "This is an example with the word \"speak\".",
-      "synonyms": [],
+      "synonyms": [
+        "Address",
+        "Mouth"
+      ],
       "opposites": []
     },
     {
@@ -9080,7 +11132,10 @@
         "Özel sayı"
       ],
       "sentence": "This is an example with the word \"special\".",
-      "synonyms": [],
+      "synonyms": [
+        "Peculiar",
+        "Extraordinary"
+      ],
       "opposites": []
     },
     {
@@ -9093,7 +11148,10 @@
         "Spelled/spelt - spelled/spelt"
       ],
       "sentence": "This is an example with the word \"spell\".",
-      "synonyms": [],
+      "synonyms": [
+        "Charm",
+        "Piece"
+      ],
       "opposites": []
     },
     {
@@ -9119,7 +11177,10 @@
         "Spent - spent"
       ],
       "sentence": "This is an example with the word \"spend\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pass",
+        "Drop"
+      ],
       "opposites": []
     },
     {
@@ -9132,7 +11193,10 @@
         "Oynamak"
       ],
       "sentence": "This is an example with the word \"sport\".",
-      "synonyms": [],
+      "synonyms": [
+        "Play",
+        "Feature"
+      ],
       "opposites": []
     },
     {
@@ -9145,7 +11209,10 @@
         "Bahar"
       ],
       "sentence": "This is an example with the word \"spring\".",
-      "synonyms": [],
+      "synonyms": [
+        "Give",
+        "Form"
+      ],
       "opposites": []
     },
     {
@@ -9158,8 +11225,14 @@
         "Ayakta durmak"
       ],
       "sentence": "This is an example with the word \"stand\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Base",
+        "Support"
+      ],
+      "opposites": [
+        "Yield",
+        "Lie"
+      ]
     },
     {
       "id": "A1-48-12",
@@ -9171,7 +11244,10 @@
         "Başrolde oynatmak"
       ],
       "sentence": "This is an example with the word \"star\".",
-      "synonyms": [],
+      "synonyms": [
+        "Lead",
+        "Sensation"
+      ],
       "opposites": []
     },
     {
@@ -9184,8 +11260,14 @@
         "Başlangıç"
       ],
       "sentence": "This is an example with the word \"start\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Offset",
+        "Initiate"
+      ],
+      "opposites": [
+        "Terminate",
+        "Cease"
+      ]
     },
     {
       "id": "A1-48-14",
@@ -9197,7 +11279,10 @@
         "Beyan"
       ],
       "sentence": "This is an example with the word \"statement\".",
-      "synonyms": [],
+      "synonyms": [
+        "Assertion",
+        "Command"
+      ],
       "opposites": []
     },
     {
@@ -9210,7 +11295,10 @@
         "Görevlendirmek"
       ],
       "sentence": "This is an example with the word \"station\".",
-      "synonyms": [],
+      "synonyms": [
+        "Base",
+        "Post"
+      ],
       "opposites": []
     },
     {
@@ -9223,8 +11311,14 @@
         "Kalma"
       ],
       "sentence": "This is an example with the word \"stay\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Check",
+        "Persist"
+      ],
+      "opposites": [
+        "Change",
+        "Move"
+      ]
     },
     {
       "id": "A1-49-2",
@@ -9236,8 +11330,14 @@
         "Hala"
       ],
       "sentence": "This is an example with the word \"still\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Nonetheless",
+        "Nevertheless"
+      ],
+      "opposites": [
+        "Charge",
+        "Moving"
+      ]
     },
     {
       "id": "A1-49-3",
@@ -9249,8 +11349,14 @@
         "Dinmek"
       ],
       "sentence": "This is an example with the word \"stop\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Break",
+        "Point"
+      ],
+      "opposites": [
+        "Preserve",
+        "Start"
+      ]
     },
     {
       "id": "A1-49-4",
@@ -9262,7 +11368,10 @@
         "Tarih"
       ],
       "sentence": "This is an example with the word \"story\".",
-      "synonyms": [],
+      "synonyms": [
+        "Narrative",
+        "Level"
+      ],
       "opposites": []
     },
     {
@@ -9288,8 +11397,13 @@
         "Domuz gibi"
       ],
       "sentence": "This is an example with the word \"strong\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Robust",
+        "Substantial"
+      ],
+      "opposites": [
+        "Weak"
+      ]
     },
     {
       "id": "A1-49-7",
@@ -9301,7 +11415,10 @@
         "Mektepli"
       ],
       "sentence": "This is an example with the word \"student\".",
-      "synonyms": [],
+      "synonyms": [
+        "Scholar",
+        "Pupil"
+      ],
       "opposites": []
     },
     {
@@ -9314,7 +11431,10 @@
         "Çalışma"
       ],
       "sentence": "This is an example with the word \"study\".",
-      "synonyms": [],
+      "synonyms": [
+        "Subject",
+        "Work"
+      ],
       "opposites": []
     },
     {
@@ -9327,7 +11447,10 @@
         "Biçem"
       ],
       "sentence": "This is an example with the word \"style\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cut",
+        "Mode"
+      ],
       "opposites": []
     },
     {
@@ -9340,7 +11463,10 @@
         "Konu"
       ],
       "sentence": "This is an example with the word \"subject\".",
-      "synonyms": [],
+      "synonyms": [
+        "Content",
+        "Subordinate"
+      ],
       "opposites": []
     },
     {
@@ -9353,8 +11479,12 @@
         "Başarılmış iş"
       ],
       "sentence": "This is an example with the word \"success\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Winner"
+      ],
+      "opposites": [
+        "Failure"
+      ]
     },
     {
       "id": "A1-49-12",
@@ -9366,7 +11496,9 @@
         "Şeker katmak"
       ],
       "sentence": "This is an example with the word \"sugar\".",
-      "synonyms": [],
+      "synonyms": [
+        "Carbohydrate"
+      ],
       "opposites": []
     },
     {
@@ -9405,7 +11537,10 @@
         "Bayramlık"
       ],
       "sentence": "This is an example with the word \"sunday\".",
-      "synonyms": [],
+      "synonyms": [
+        "Good",
+        "Best"
+      ],
       "opposites": []
     },
     {
@@ -9430,8 +11565,13 @@
         "Soruşturmak"
       ],
       "sentence": "This is an example with the word \"sure\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Secure",
+        "Reliable"
+      ],
+      "opposites": [
+        "Uncertain"
+      ]
     },
     {
       "id": "A1-50-3",
@@ -9456,8 +11596,14 @@
         "Swam - swum"
       ],
       "sentence": "This is an example with the word \"swim\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Master",
+        "Float"
+      ],
+      "opposites": [
+        "Settle",
+        "Sink"
+      ]
     },
     {
       "id": "A1-50-5",
@@ -9469,7 +11615,10 @@
         "Yüzme sporu"
       ],
       "sentence": "This is an example with the word \"swimming\".",
-      "synonyms": [],
+      "synonyms": [
+        "Liquid",
+        "Horizontal"
+      ],
       "opposites": []
     },
     {
@@ -9482,7 +11631,9 @@
         "Sofra"
       ],
       "sentence": "This is an example with the word \"table\".",
-      "synonyms": [],
+      "synonyms": [
+        "Board"
+      ],
       "opposites": []
     },
     {
@@ -9495,8 +11646,14 @@
         "Götürmek"
       ],
       "sentence": "This is an example with the word \"take\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Yield",
+        "Convey"
+      ],
+      "opposites": [
+        "Decline",
+        "Give"
+      ]
     },
     {
       "id": "A1-50-8",
@@ -9508,7 +11665,10 @@
         "Konuşma"
       ],
       "sentence": "This is an example with the word \"talk\".",
-      "synonyms": [],
+      "synonyms": [
+        "Mouth",
+        "Lecture"
+      ],
       "opposites": []
     },
     {
@@ -9521,8 +11681,13 @@
         "Uzun boylu"
       ],
       "sentence": "This is an example with the word \"tall\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Long",
+        "Rhetorical"
+      ],
+      "opposites": [
+        "Short"
+      ]
     },
     {
       "id": "A1-50-10",
@@ -9534,7 +11699,9 @@
         "Birini taksiyle götürmek"
       ],
       "sentence": "This is an example with the word \"taxi\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cab"
+      ],
       "opposites": []
     },
     {
@@ -9559,7 +11726,9 @@
         "Öğretmen"
       ],
       "sentence": "This is an example with the word \"teach\".",
-      "synonyms": [],
+      "synonyms": [
+        "Learn"
+      ],
       "opposites": []
     },
     {
@@ -9570,7 +11739,9 @@
         "Takım halinde yapmak"
       ],
       "sentence": "This is an example with the word \"teacher\".",
-      "synonyms": [],
+      "synonyms": [
+        "Instructor"
+      ],
       "opposites": []
     },
     {
@@ -9594,7 +11765,9 @@
         "Ekip"
       ],
       "sentence": "This is an example with the word \"teenager\".",
-      "synonyms": [],
+      "synonyms": [
+        "Adolescent"
+      ],
       "opposites": []
     },
     {
@@ -9605,7 +11778,10 @@
         "On üç ile on dokuz yaşlar arasındaki delikanlı"
       ],
       "sentence": "This is an example with the word \"telephone\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ring",
+        "Call"
+      ],
       "opposites": []
     },
     {
@@ -9617,7 +11793,10 @@
         "Anlatmak"
       ],
       "sentence": "This is an example with the word \"television\".",
-      "synonyms": [],
+      "synonyms": [
+        "Tv",
+        "Video"
+      ],
       "opposites": []
     },
     {
@@ -9628,7 +11807,10 @@
         "Onlu"
       ],
       "sentence": "This is an example with the word \"tell\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ascertain",
+        "State"
+      ],
       "opposites": []
     },
     {
@@ -9640,7 +11822,10 @@
         "Telefon etmek"
       ],
       "sentence": "This is an example with the word \"ten\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Decade"
+      ],
       "opposites": []
     },
     {
@@ -9663,7 +11848,10 @@
         "Test"
       ],
       "sentence": "This is an example with the word \"terrible\".",
-      "synonyms": [],
+      "synonyms": [
+        "Intense",
+        "Dread"
+      ],
       "opposites": []
     },
     {
@@ -9674,7 +11862,10 @@
         "Parça"
       ],
       "sentence": "This is an example with the word \"test\".",
-      "synonyms": [],
+      "synonyms": [
+        "Assay",
+        "Examine"
+      ],
       "opposites": []
     },
     {
@@ -9759,7 +11950,10 @@
         "Ora"
       ],
       "sentence": "This is an example with the word \"theatre\".",
-      "synonyms": [],
+      "synonyms": [
+        "House",
+        "Theater"
+      ],
       "opposites": []
     },
     {
@@ -9783,7 +11977,9 @@
         "Thought - thought"
       ],
       "sentence": "This is an example with the word \"then\".",
-      "synonyms": [],
+      "synonyms": [
+        "So"
+      ],
       "opposites": []
     },
     {
@@ -9820,7 +12016,10 @@
         "On üç"
       ],
       "sentence": "This is an example with the word \"thing\".",
-      "synonyms": [],
+      "synonyms": [
+        "Affair",
+        "Matter"
+      ],
       "opposites": []
     },
     {
@@ -9831,8 +12030,14 @@
         "30"
       ],
       "sentence": "This is an example with the word \"think\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Mean",
+        "Consider"
+      ],
+      "opposites": [
+        "Block",
+        "Forget"
+      ]
     },
     {
       "id": "A1-52-6",
@@ -9844,7 +12049,10 @@
         "Bu kadar"
       ],
       "sentence": "This is an example with the word \"third\".",
-      "synonyms": [],
+      "synonyms": [
+        "3rd",
+        "Tertiary"
+      ],
       "opposites": []
     },
     {
@@ -9855,8 +12063,13 @@
         "Binlik"
       ],
       "sentence": "This is an example with the word \"thirsty\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Dry",
+        "Hungry"
+      ],
+      "opposites": [
+        "Hungry"
+      ]
     },
     {
       "id": "A1-52-8",
@@ -9868,7 +12081,10 @@
         "Se"
       ],
       "sentence": "This is an example with the word \"thirteen\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "13"
+      ],
       "opposites": []
     },
     {
@@ -9879,7 +12095,10 @@
         "Üzerinden"
       ],
       "sentence": "This is an example with the word \"thirty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "30"
+      ],
       "opposites": []
     },
     {
@@ -9890,7 +12109,10 @@
         "Etiketlemek"
       ],
       "sentence": "This is an example with the word \"thousand\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Grand"
+      ],
       "opposites": []
     },
     {
@@ -9903,7 +12125,10 @@
         "Müddet"
       ],
       "sentence": "This is an example with the word \"three\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Iii"
+      ],
       "opposites": []
     },
     {
@@ -9926,7 +12151,10 @@
         "Onların"
       ],
       "sentence": "This is an example with the word \"time\".",
-      "synonyms": [],
+      "synonyms": [
+        "Clip",
+        "Meter"
+      ],
       "opposites": []
     },
     {
@@ -9939,8 +12167,13 @@
         "Yorgun düşmüş"
       ],
       "sentence": "This is an example with the word \"tired\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Weary",
+        "Stock"
+      ],
+      "opposites": [
+        "Rested"
+      ]
     },
     {
       "id": "A1-52-15",
@@ -9952,7 +12185,10 @@
         "Isimlendirmek"
       ],
       "sentence": "This is an example with the word \"title\".",
-      "synonyms": [],
+      "synonyms": [
+        "Claim",
+        "Deed"
+      ],
       "opposites": []
     },
     {
@@ -9978,7 +12214,10 @@
         "Bu günlerde"
       ],
       "sentence": "This is an example with the word \"today\".",
-      "synonyms": [],
+      "synonyms": [
+        "Nowadays",
+        "Now"
+      ],
       "opposites": []
     },
     {
@@ -9991,7 +12230,10 @@
         "Kuyruk (kimse)"
       ],
       "sentence": "This is an example with the word \"together\".",
-      "synonyms": [],
+      "synonyms": [
+        "Assembled",
+        "Jointly"
+      ],
       "opposites": []
     },
     {
@@ -10004,7 +12246,10 @@
         "Makyaj"
       ],
       "sentence": "This is an example with the word \"toilet\".",
-      "synonyms": [],
+      "synonyms": [
+        "Facility",
+        "Pot"
+      ],
       "opposites": []
     },
     {
@@ -10053,7 +12298,10 @@
         "Dişlemek"
       ],
       "sentence": "This is an example with the word \"too\".",
-      "synonyms": [],
+      "synonyms": [
+        "Likewise",
+        "Besides"
+      ],
       "opposites": []
     },
     {
@@ -10079,7 +12327,10 @@
         "Seyyah"
       ],
       "sentence": "This is an example with the word \"topic\".",
-      "synonyms": [],
+      "synonyms": [
+        "Subject",
+        "Issue"
+      ],
       "opposites": []
     },
     {
@@ -10131,7 +12382,10 @@
         "Yolculuk etmek"
       ],
       "sentence": "This is an example with the word \"train\".",
-      "synonyms": [],
+      "synonyms": [
+        "Direct",
+        "Develop"
+      ],
       "opposites": []
     },
     {
@@ -10144,7 +12398,10 @@
         "Çarmıh"
       ],
       "sentence": "This is an example with the word \"travel\".",
-      "synonyms": [],
+      "synonyms": [
+        "Trip",
+        "Move"
+      ],
       "opposites": []
     },
     {
@@ -10169,7 +12426,10 @@
         "Yolculuk"
       ],
       "sentence": "This is an example with the word \"trip\".",
-      "synonyms": [],
+      "synonyms": [
+        "Slip",
+        "Spark"
+      ],
       "opposites": []
     },
     {
@@ -10181,7 +12441,9 @@
         "Doğru"
       ],
       "sentence": "This is an example with the word \"trousers\".",
-      "synonyms": [],
+      "synonyms": [
+        "Pants"
+      ],
       "opposites": []
     },
     {
@@ -10194,8 +12456,13 @@
         "Yoklamak"
       ],
       "sentence": "This is an example with the word \"true\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Reliable",
+        "Constant"
+      ],
+      "opposites": [
+        "False"
+      ]
     },
     {
       "id": "A1-54-5",
@@ -10206,7 +12473,10 @@
         "Deneme"
       ],
       "sentence": "This is an example with the word \"try\".",
-      "synonyms": [],
+      "synonyms": [
+        "Endeavor",
+        "Render"
+      ],
       "opposites": []
     },
     {
@@ -10217,7 +12487,9 @@
         "Tişört"
       ],
       "sentence": "This is an example with the word \"t-shirt\".",
-      "synonyms": [],
+      "synonyms": [
+        "Jersey"
+      ],
       "opposites": []
     },
     {
@@ -10241,7 +12513,10 @@
         "Döndürmek"
       ],
       "sentence": "This is an example with the word \"turn\".",
-      "synonyms": [],
+      "synonyms": [
+        "Convert",
+        "Play"
+      ],
       "opposites": []
     },
     {
@@ -10253,7 +12528,10 @@
         "On iki"
       ],
       "sentence": "This is an example with the word \"tv\".",
-      "synonyms": [],
+      "synonyms": [
+        "Television",
+        "Video"
+      ],
       "opposites": []
     },
     {
@@ -10266,7 +12544,10 @@
         "20"
       ],
       "sentence": "This is an example with the word \"twelve\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Dozen"
+      ],
       "opposites": []
     },
     {
@@ -10279,7 +12560,10 @@
         "Iki kere"
       ],
       "sentence": "This is an example with the word \"twenty\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "Score"
+      ],
       "opposites": []
     },
     {
@@ -10292,7 +12576,9 @@
         "Iki rakamı"
       ],
       "sentence": "This is an example with the word \"twice\".",
-      "synonyms": [],
+      "synonyms": [
+        "Double"
+      ],
       "opposites": []
     },
     {
@@ -10305,7 +12591,10 @@
         "Tip"
       ],
       "sentence": "This is an example with the word \"two\".",
-      "synonyms": [],
+      "synonyms": [
+        "Cardinal",
+        "2"
+      ],
       "opposites": []
     },
     {
@@ -10318,7 +12607,10 @@
         "Koruyucu"
       ],
       "sentence": "This is an example with the word \"type\".",
-      "synonyms": [],
+      "synonyms": [
+        "Case",
+        "Character"
+      ],
       "opposites": []
     },
     {
@@ -10331,7 +12623,9 @@
         "Enişte"
       ],
       "sentence": "This is an example with the word \"umbrella\".",
-      "synonyms": [],
+      "synonyms": [
+        "Comprehensive"
+      ],
       "opposites": []
     },
     {
@@ -10345,7 +12639,9 @@
       ],
       "sentence": "This is an example with the word \"uncle\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Aunt"
+      ]
     },
     {
       "id": "A1-55-2",
@@ -10357,7 +12653,10 @@
         "Understood - understood"
       ],
       "sentence": "This is an example with the word \"under\".",
-      "synonyms": [],
+      "synonyms": [
+        "Low",
+        "Below"
+      ],
       "opposites": []
     },
     {
@@ -10370,7 +12669,10 @@
         "Bilimyurt"
       ],
       "sentence": "This is an example with the word \"understand\".",
-      "synonyms": [],
+      "synonyms": [
+        "See",
+        "Interpret"
+      ],
       "opposites": []
     },
     {
@@ -10408,8 +12710,14 @@
         "Yukarı kat"
       ],
       "sentence": "This is an example with the word \"up\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Rising",
+        "Leading"
+      ],
+      "opposites": [
+        "Down",
+        "Downward"
+      ]
     },
     {
       "id": "A1-55-7",
@@ -10421,7 +12729,10 @@
       ],
       "sentence": "This is an example with the word \"upstairs\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Downstairs",
+        "Below"
+      ]
     },
     {
       "id": "A1-55-8",
@@ -10433,7 +12744,9 @@
         "Kullanma"
       ],
       "sentence": "This is an example with the word \"us\".",
-      "synonyms": [],
+      "synonyms": [
+        "America"
+      ],
       "opposites": []
     },
     {
@@ -10446,7 +12759,10 @@
         "Kullanışlı"
       ],
       "sentence": "This is an example with the word \"use\".",
-      "synonyms": [],
+      "synonyms": [
+        "Employ",
+        "Function"
+      ],
       "opposites": []
     },
     {
@@ -10459,8 +12775,13 @@
         "Çoğu zaman"
       ],
       "sentence": "This is an example with the word \"useful\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Important",
+        "Valuable"
+      ],
+      "opposites": [
+        "Useless"
+      ]
     },
     {
       "id": "A1-55-11",
@@ -10472,8 +12793,13 @@
         "Izin"
       ],
       "sentence": "This is an example with the word \"usually\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Ordinarily",
+        "Normally"
+      ],
+      "opposites": [
+        "Remarkably"
+      ]
     },
     {
       "id": "A1-55-12",
@@ -10485,7 +12811,9 @@
         "Göveri"
       ],
       "sentence": "This is an example with the word \"vacation\".",
-      "synonyms": [],
+      "synonyms": [
+        "Holiday"
+      ],
       "opposites": []
     },
     {
@@ -10499,7 +12827,10 @@
       ],
       "sentence": "This is an example with the word \"vegetable\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Animal",
+        "Mineral"
+      ]
     },
     {
       "id": "A1-55-14",
@@ -10511,7 +12842,10 @@
         "Video filmi"
       ],
       "sentence": "This is an example with the word \"very\".",
-      "synonyms": [],
+      "synonyms": [
+        "Identical",
+        "Real"
+      ],
       "opposites": []
     },
     {
@@ -10523,7 +12857,10 @@
         "Ekran"
       ],
       "sentence": "This is an example with the word \"video\".",
-      "synonyms": [],
+      "synonyms": [
+        "Picture",
+        "Tv"
+      ],
       "opposites": []
     },
     {
@@ -10536,7 +12873,10 @@
         "Gezmek"
       ],
       "sentence": "This is an example with the word \"village\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hamlet",
+        "Settlement"
+      ],
       "opposites": []
     },
     {
@@ -10548,7 +12888,10 @@
         "Ziyaret"
       ],
       "sentence": "This is an example with the word \"visit\".",
-      "synonyms": [],
+      "synonyms": [
+        "Call",
+        "See"
+      ],
       "opposites": []
     },
     {
@@ -10573,7 +12916,10 @@
         "Bekleme"
       ],
       "sentence": "This is an example with the word \"wait\".",
-      "synonyms": [],
+      "synonyms": [
+        "Hold",
+        "Look"
+      ],
       "opposites": []
     },
     {
@@ -10585,7 +12931,9 @@
         "Erkek garson"
       ],
       "sentence": "This is an example with the word \"waiter\".",
-      "synonyms": [],
+      "synonyms": [
+        "Server"
+      ],
       "opposites": []
     },
     {
@@ -10598,8 +12946,12 @@
         "Woke/waked - woken/waked"
       ],
       "sentence": "This is an example with the word \"wake\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Viewing"
+      ],
+      "opposites": [
+        "Sleep"
+      ]
     },
     {
       "id": "A1-56-7",
@@ -10611,8 +12963,12 @@
         "Yürüyerek gitmek"
       ],
       "sentence": "This is an example with the word \"walk\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Pass"
+      ],
+      "opposites": [
+        "Ride"
+      ]
     },
     {
       "id": "A1-56-8",
@@ -10624,7 +12980,9 @@
         "Ayırmak"
       ],
       "sentence": "This is an example with the word \"wall\".",
-      "synonyms": [],
+      "synonyms": [
+        "Fence"
+      ],
       "opposites": []
     },
     {
@@ -10637,7 +12995,10 @@
         "Isteklenmek"
       ],
       "sentence": "This is an example with the word \"want\".",
-      "synonyms": [],
+      "synonyms": [
+        "Desire",
+        "Deficiency"
+      ],
       "opposites": []
     },
     {
@@ -10650,8 +13011,13 @@
         "Ilık"
       ],
       "sentence": "This is an example with the word \"warm\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Tender",
+        "Close"
+      ],
+      "opposites": [
+        "Cool"
+      ]
     },
     {
       "id": "A1-56-11",
@@ -10663,7 +13029,9 @@
         "Yıkamak"
       ],
       "sentence": "This is an example with the word \"wash\".",
-      "synonyms": [],
+      "synonyms": [
+        "Race"
+      ],
       "opposites": []
     },
     {
@@ -10676,7 +13044,10 @@
         "Gözlemek"
       ],
       "sentence": "This is an example with the word \"watch\".",
-      "synonyms": [],
+      "synonyms": [
+        "Ascertain",
+        "Observe"
+      ],
       "opposites": []
     },
     {
@@ -10689,7 +13060,10 @@
         "Islatmak"
       ],
       "sentence": "This is an example with the word \"water\".",
-      "synonyms": [],
+      "synonyms": [
+        "Sweat",
+        "Urine"
+      ],
       "opposites": []
     },
     {
@@ -10702,7 +13076,10 @@
         "Tarz"
       ],
       "sentence": "This is an example with the word \"way\".",
-      "synonyms": [],
+      "synonyms": [
+        "Agency",
+        "Path"
+      ],
       "opposites": []
     },
     {
@@ -10726,7 +13103,10 @@
         "Aşındırmak"
       ],
       "sentence": "This is an example with the word \"wear\".",
-      "synonyms": [],
+      "synonyms": [
+        "Break",
+        "Endure"
+      ],
       "opposites": []
     },
     {
@@ -10739,7 +13119,10 @@
         "Yalpalamak"
       ],
       "sentence": "This is an example with the word \"weather\".",
-      "synonyms": [],
+      "synonyms": [
+        "Endure",
+        "Brave"
+      ],
       "opposites": []
     },
     {
@@ -10799,7 +13182,10 @@
         "Hoş karşılamak"
       ],
       "sentence": "This is an example with the word \"welcome\".",
-      "synonyms": [],
+      "synonyms": [
+        "Receive",
+        "Wanted"
+      ],
       "opposites": []
     },
     {
@@ -10812,8 +13198,14 @@
         "Iyi"
       ],
       "sentence": "This is an example with the word \"well\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Good",
+        "Fine"
+      ],
+      "opposites": [
+        "Sick",
+        "Ill"
+      ]
     },
     {
       "id": "A1-57-9",
@@ -10826,7 +13218,9 @@
       ],
       "sentence": "This is an example with the word \"west\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "East"
+      ]
     },
     {
       "id": "A1-57-10",
@@ -10851,7 +13245,9 @@
         "Ne vakit"
       ],
       "sentence": "This is an example with the word \"when\".",
-      "synonyms": [],
+      "synonyms": [
+        "Once"
+      ],
       "opposites": []
     },
     {
@@ -10889,8 +13285,14 @@
         "Solgun"
       ],
       "sentence": "This is an example with the word \"white\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Light",
+        "Good"
+      ],
+      "opposites": [
+        "Black",
+        "Red"
+      ]
     },
     {
       "id": "A1-57-15",
@@ -10929,7 +13331,9 @@
       ],
       "sentence": "This is an example with the word \"wife\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "Husband"
+      ]
     },
     {
       "id": "A1-58-3",
@@ -10941,7 +13345,10 @@
         "Dilemek"
       ],
       "sentence": "This is an example with the word \"will\".",
-      "synonyms": [],
+      "synonyms": [
+        "Shall",
+        "Testament"
+      ],
       "opposites": []
     },
     {
@@ -10954,8 +13361,14 @@
         "Zafer"
       ],
       "sentence": "This is an example with the word \"win\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Advance",
+        "Profits"
+      ],
+      "opposites": [
+        "Lose",
+        "Losses"
+      ]
     },
     {
       "id": "A1-58-5",
@@ -11044,7 +13457,10 @@
         "Harika"
       ],
       "sentence": "This is an example with the word \"wonderful\".",
-      "synonyms": [],
+      "synonyms": [
+        "Extraordinary",
+        "Tremendous"
+      ],
       "opposites": []
     },
     {
@@ -11057,7 +13473,10 @@
         "Sözcük"
       ],
       "sentence": "This is an example with the word \"word\".",
-      "synonyms": [],
+      "synonyms": [
+        "Articulate",
+        "Formulate"
+      ],
       "opposites": []
     },
     {
@@ -11070,8 +13489,13 @@
         "Iş yapmak"
       ],
       "sentence": "This is an example with the word \"work\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Address",
+        "Process"
+      ],
+      "opposites": [
+        "Idle"
+      ]
     },
     {
       "id": "A1-58-14",
@@ -11083,7 +13507,9 @@
         "Amele"
       ],
       "sentence": "This is an example with the word \"worker\".",
-      "synonyms": [],
+      "synonyms": [
+        "Actor"
+      ],
       "opposites": []
     },
     {
@@ -11096,7 +13522,10 @@
         "Evren"
       ],
       "sentence": "This is an example with the word \"world\".",
-      "synonyms": [],
+      "synonyms": [
+        "Existence",
+        "Domain"
+      ],
       "opposites": []
     },
     {
@@ -11122,7 +13551,10 @@
         "Kaydetmek"
       ],
       "sentence": "This is an example with the word \"write\".",
-      "synonyms": [],
+      "synonyms": [
+        "Spell",
+        "Pen"
+      ],
       "opposites": []
     },
     {
@@ -11135,7 +13567,9 @@
         "Muharrir"
       ],
       "sentence": "This is an example with the word \"writer\".",
-      "synonyms": [],
+      "synonyms": [
+        "Author"
+      ],
       "opposites": []
     },
     {
@@ -11148,7 +13582,9 @@
         "Yazı"
       ],
       "sentence": "This is an example with the word \"writing\".",
-      "synonyms": [],
+      "synonyms": [
+        "Composition"
+      ],
       "opposites": []
     },
     {
@@ -11161,8 +13597,14 @@
         "Haksızlık etmek"
       ],
       "sentence": "This is an example with the word \"wrong\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Base",
+        "Improper"
+      ],
+      "opposites": [
+        "Right",
+        "Correct"
+      ]
     },
     {
       "id": "A1-59-6",
@@ -11187,7 +13629,9 @@
         "Ihtiyarlık"
       ],
       "sentence": "This is an example with the word \"year\".",
-      "synonyms": [],
+      "synonyms": [
+        "Class"
+      ],
       "opposites": []
     },
     {
@@ -11200,7 +13644,10 @@
         "Sarartmak"
       ],
       "sentence": "This is an example with the word \"yellow\".",
-      "synonyms": [],
+      "synonyms": [
+        "Old",
+        "Fearful"
+      ],
       "opposites": []
     },
     {
@@ -11214,7 +13661,9 @@
       ],
       "sentence": "This is an example with the word \"yes\".",
       "synonyms": [],
-      "opposites": []
+      "opposites": [
+        "No"
+      ]
     },
     {
       "id": "A1-59-10",
@@ -11250,8 +13699,14 @@
         "Döl"
       ],
       "sentence": "This is an example with the word \"young\".",
-      "synonyms": [],
-      "opposites": []
+      "synonyms": [
+        "Tender",
+        "Vulnerable"
+      ],
+      "opposites": [
+        "Old",
+        "Aged"
+      ]
     },
     {
       "id": "A1-59-13",
@@ -11308,7 +13763,10 @@
         "Ördek"
       ],
       "sentence": "This is an example with the word \"duck\".",
-      "synonyms": [],
+      "synonyms": [
+        "Skirt",
+        "Dip"
+      ],
       "opposites": []
     },
     {
@@ -11354,7 +13812,10 @@
         "Bal"
       ],
       "sentence": "This is an example with the word \"honey\".",
-      "synonyms": [],
+      "synonyms": [
+        "Love",
+        "Beloved"
+      ],
       "opposites": []
     },
     {
@@ -11365,7 +13826,9 @@
         "Yastık"
       ],
       "sentence": "This is an example with the word \"pillow\".",
-      "synonyms": [],
+      "synonyms": [
+        "Rest"
+      ],
       "opposites": []
     },
     {
@@ -11387,7 +13850,10 @@
         "Şeftali"
       ],
       "sentence": "This is an example with the word \"peach\".",
-      "synonyms": [],
+      "synonyms": [
+        "Rat",
+        "Beauty"
+      ],
       "opposites": []
     },
     {
