@@ -1,3 +1,4 @@
+import type { Word } from '../store/useVocabularyStore';
 // @ts-ignore
 import A1Data from '../assets/data/A1.json';
 // @ts-ignore
@@ -45,6 +46,28 @@ export function getChapters(level: string) {
   const words = getLevelWords(level);
   const numChapters = Math.ceil(words.length / CHAPTER_SIZE);
   return Array.from({ length: numChapters }, (_, i) => i + 1);
+}
+
+// Kelime ID'lerinden (örn. ['A1-1-3','A2-11-7']) gerçek kelime objelerini bulur.
+// ID kelimeyle birlikte taşındığı için (shuffle güvenli), ID'nin seviye prefix'inden
+// doğru JSON'a bakıp eşleştirir. Bulunamayan ID'ler atlanır.
+export function getWordsByIds(ids: string[]): Word[] {
+  if (!ids || ids.length === 0) return [];
+  const byLevel: Record<string, Set<string>> = {};
+  for (const id of ids) {
+    const level = id.split('-')[0]; // 'A1-1-3' -> 'A1'
+    if (!byLevel[level]) byLevel[level] = new Set();
+    byLevel[level].add(id);
+  }
+  const result: Word[] = [];
+  for (const level of Object.keys(byLevel)) {
+    const data = levelDataMap[level];
+    if (!data || !data.words) continue;
+    for (const w of data.words) {
+      if (byLevel[level].has(w.id)) result.push(w);
+    }
+  }
+  return result;
 }
 
 // İstenilen bölümün CHAPTER_SIZE (15) kelimesini döndürür

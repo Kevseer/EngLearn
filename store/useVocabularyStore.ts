@@ -62,8 +62,15 @@ interface VocabularyState {
   streak: number;
   lastStreakDate: string | null; // YYYY-MM-DD formatında
 
+  // Onboarding seviye belirleme testinin önerdiği seviye (kalıcı)
+  userLevel: string | null;
+
+  // Tamamlanan bölümler (kalıcı): { 'A2-11': true } biçiminde, key = `${level}-${chapter}`
+  completedChapters: Record<string, boolean>;
+
   loadChapter: (level: string, chapter: number, chapterData: any) => void;
   addFailedWord: (wordId: string) => void;
+  removeFailedWord: (wordId: string) => void;
   clearFailedWords: () => void;
   recordStepResult: (isCorrect: boolean) => void;
   resetChapterProgress: () => void;
@@ -72,6 +79,9 @@ interface VocabularyState {
   addLearnedWord: () => void;
   resetStreak: () => void;
   resetStreakIfNewDay: () => void;
+  setUserLevel: (level: string) => void;
+  markChapterComplete: (level: string, chapter: number) => void;
+  isChapterComplete: (level: string, chapter: number) => boolean;
 }
 
 export const useVocabularyStore = create<VocabularyState>()(
@@ -90,6 +100,9 @@ export const useVocabularyStore = create<VocabularyState>()(
 
       streak: 0,
       lastStreakDate: null,
+
+      userLevel: null,
+      completedChapters: {},
 
       loadChapter: (level, chapter, chapterData) => {
         // Madde 3'teki çelişkiyi çözüyoruz: Kelimelerin sabit sırada gelmesi için karıştırma yapmıyoruz
@@ -115,6 +128,12 @@ export const useVocabularyStore = create<VocabularyState>()(
             [wordId]: currentCount + 1,
           },
         };
+      }),
+
+      // Review modunda kelime doğru bilinince zor kelimeler listesinden çıkar
+      removeFailedWord: (wordId) => set((state) => {
+        const { [wordId]: _removed, ...rest } = state.failedWords;
+        return { failedWords: rest };
       }),
 
       clearFailedWords: () => set({ failedWords: {} }),
@@ -146,12 +165,23 @@ export const useVocabularyStore = create<VocabularyState>()(
           set({ streak: 0, lastStreakDate: null });
         }
       },
+
+      // Onboarding testinin önerdiği seviyeyi kalıcı kaydet
+      setUserLevel: (level) => set({ userLevel: level }),
+
+      // Bir bölümü tamamlandı işaretle (reading'de "FINISH CHAPTER" sonrası)
+      markChapterComplete: (level, chapter) => set((state) => ({
+        completedChapters: { ...state.completedChapters, [`${level}-${chapter}`]: true },
+      })),
+
+      // Bir bölüm tamamlandı mı? (ana ekranda yeşil göstermek için)
+      isChapterComplete: (level, chapter) => !!get().completedChapters[`${level}-${chapter}`],
     }),
     {
       name: 'vocabulary-storage', // AsyncStorage'da bu isimle kaydedilecek
       storage: createJSONStorage(createSafeAsyncStorage),
-      // failedWords, streak ve lastStreakDate kalıcı olsun, diğerleri (aktif chapter verisi) RAM'de tutulsun
-      partialize: (state) => ({ failedWords: state.failedWords, streak: state.streak, lastStreakDate: state.lastStreakDate }),
+      // failedWords, streak, lastStreakDate, userLevel ve completedChapters kalıcı olsun; aktif chapter verisi RAM'de
+      partialize: (state) => ({ failedWords: state.failedWords, streak: state.streak, lastStreakDate: state.lastStreakDate, userLevel: state.userLevel, completedChapters: state.completedChapters }),
     }
   )
 );

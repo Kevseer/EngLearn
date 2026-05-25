@@ -3,6 +3,8 @@ import * as Haptics from 'expo-haptics';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect } from 'react';
 import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+// @ts-ignore
+import ConfettiCannon from 'react-native-confetti-cannon';
 
 import { useVocabularyStore } from '../store/useVocabularyStore';
 import { getChapterWords } from '../utils/wordHelper';
@@ -44,6 +46,16 @@ export default function SuccessScreen() {
 
   return (
     <View style={styles.container}>
+      {/* Chapter tamamlama kutlaması: ekranın üstünden konfeti yağar */}
+      <ConfettiCannon
+        count={120}
+        origin={{ x: width / 2, y: -20 }}
+        autoStart
+        fadeOut
+        fallSpeed={2800}
+        explosionSpeed={350}
+        colors={['#FFD700', '#4CAF50', '#FFF', '#FF8C00', '#00BCD4']}
+      />
       <View style={styles.content}>
         <View style={styles.iconCircle}>
           <MaterialCommunityIcons name="trophy-award" size={80} color="#FFD700" />

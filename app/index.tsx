@@ -1,17 +1,25 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
-import { Dimensions, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { getChapters } from '../../utils/wordHelper';
-
-const { width } = Dimensions.get('window');
+import { useVocabularyStore } from '../store/useVocabularyStore';
+import { getChapters } from '../utils/wordHelper';
 
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
 
 export default function LevelsScreen() {
   const router = useRouter();
+  const userLevel = useVocabularyStore(state => state.userLevel);
+  const failedWords = useVocabularyStore(state => state.failedWords);
+  const completedChapters = useVocabularyStore(state => state.completedChapters);
+  const hardWordCount = Object.keys(failedWords).length;
   const [selectedLevel, setSelectedLevel] = useState<string | null>(null);
+
+  // Onboarding önerdiyse o seviyeyi otomatik aç (öne çıkar)
+  useEffect(() => {
+    if (userLevel) setSelectedLevel(userLevel);
+  }, [userLevel]);
 
   const renderChapters = (level: string) => {
     const chapters = getChapters(level);
@@ -25,19 +33,25 @@ export default function LevelsScreen() {
 
     return (
       <View style={styles.chaptersGrid}>
-        {chapters.map(ch => (
-          <TouchableOpacity 
-            key={ch} 
-            style={styles.chapterBtn}
-            // Expo Router'ın tip uyarılarını susturmak için 'as any' ve String(ch) kullanıyoruz
-            onPress={() => router.push(({
-              pathname: '/flashcards',
-              params: { level, chapter: String(ch) }
-            }) as any)}
-          >
-            <Text style={styles.chapterBtnText}>Ch {ch}</Text>
-          </TouchableOpacity>
-        ))}
+        {chapters.map(ch => {
+          const completed = !!completedChapters[`${level}-${ch}`];
+          return (
+            <TouchableOpacity
+              key={ch}
+              style={[styles.chapterBtn, completed && styles.chapterBtnDone]}
+              // Expo Router'ın tip uyarılarını susturmak için 'as any' ve String(ch) kullanıyoruz
+              onPress={() => router.push(({
+                pathname: '/flashcards',
+                params: { level, chapter: String(ch) }
+              }) as any)}
+            >
+              <Text style={[styles.chapterBtnText, completed && styles.chapterBtnTextDone]}>Ch {ch}</Text>
+              {completed && (
+                <MaterialCommunityIcons name="check-circle" size={14} color="#4CAF50" style={styles.chapterCheck} />
+              )}
+            </TouchableOpacity>
+          );
+        })}
       </View>
     );
   };
@@ -50,19 +64,30 @@ export default function LevelsScreen() {
         {/* Ortalanmış Arı Görseli */}
         <Image 
           // @ts-ignore
-          source={require('../../assets/bee.png')} 
+          source={require('../assets/bee.png')}
           style={styles.alignedBee} 
         />
         
         <Text style={styles.menuTitle}>CHOOSE YOUR LEVEL</Text>
 
-        <TouchableOpacity 
-          style={styles.placementBtn} 
+        <TouchableOpacity
+          style={styles.placementBtn}
           onPress={() => router.push('/onboarding' as any)}
         >
           <MaterialCommunityIcons name="help-circle-outline" size={24} color="#000" />
           <Text style={styles.placementBtnText}>FIND MY LEVEL</Text>
         </TouchableOpacity>
+
+        {/* Zor kelimeler varsa tekrar (review) butonu göster */}
+        {hardWordCount > 0 && (
+          <TouchableOpacity
+            style={styles.reviewBtn}
+            onPress={() => router.push('/review' as any)}
+          >
+            <MaterialCommunityIcons name="refresh" size={22} color="#FFD700" />
+            <Text style={styles.reviewBtnText}>REVIEW HARD WORDS ({hardWordCount})</Text>
+          </TouchableOpacity>
+        )}
 
         {levels.map((lvl) => (
           <View key={lvl}>
@@ -71,13 +96,20 @@ export default function LevelsScreen() {
               onPress={() => setSelectedLevel(selectedLevel === lvl ? null : lvl)}
             >
               <View>
-                <Text style={styles.sectionText}>{lvl} VOCABULARY</Text>
+                <View style={styles.sectionTitleRow}>
+                  <Text style={styles.sectionText}>{lvl} VOCABULARY</Text>
+                  {userLevel === lvl && (
+                    <View style={styles.recommendedBadge}>
+                      <Text style={styles.recommendedText}>RECOMMENDED</Text>
+                    </View>
+                  )}
+                </View>
                 <Text style={styles.sectionSub}>Oxford Word List</Text>
               </View>
-              <MaterialCommunityIcons 
-                name={selectedLevel === lvl ? "chevron-up" : "chevron-down"} 
-                size={36} 
-                color="#FFD700" 
+              <MaterialCommunityIcons
+                name={selectedLevel === lvl ? "chevron-up" : "chevron-down"}
+                size={36}
+                color="#FFD700"
               />
             </TouchableOpacity>
             
@@ -125,7 +157,25 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginLeft: 10
   },
-  sectionCard: { 
+  reviewBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 16,
+    borderRadius: 30,
+    marginTop: -10,
+    marginBottom: 30,
+    borderWidth: 2,
+    borderColor: '#FFD700',
+    backgroundColor: '#1A1800',
+  },
+  reviewBtnText: {
+    color: '#FFD700',
+    fontSize: 15,
+    fontWeight: 'bold',
+    marginLeft: 10
+  },
+  sectionCard: {
     flexDirection: 'row', 
     justifyContent: 'space-between', 
     alignItems: 'center', 
@@ -142,6 +192,15 @@ const styles = StyleSheet.create({
   },
   sectionText: { color: '#FFF', fontSize: 20, fontWeight: 'bold' },
   sectionSub: { color: '#666', fontSize: 13, marginTop: 4 },
+  sectionTitleRow: { flexDirection: 'row', alignItems: 'center' },
+  recommendedBadge: {
+    marginLeft: 10,
+    backgroundColor: '#FFD700',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 8,
+  },
+  recommendedText: { color: '#000', fontSize: 10, fontWeight: 'bold' },
   
   chaptersGrid: {
     flexDirection: 'row',
@@ -160,10 +219,23 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#333'
   },
+  // Tamamlanan bölüm: yeşil tema
+  chapterBtnDone: {
+    backgroundColor: '#0E2010',
+    borderColor: '#4CAF50',
+  },
   chapterBtnText: {
     color: '#FFD700',
     fontWeight: 'bold',
     fontSize: 16
+  },
+  chapterBtnTextDone: {
+    color: '#4CAF50',
+  },
+  chapterCheck: {
+    position: 'absolute',
+    top: 6,
+    right: 6,
   },
   comingSoonBox: {
     padding: 20,

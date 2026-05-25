@@ -10,10 +10,13 @@ export default function ReadingScreen() {
   const router = useRouter();
   const { level, chapter } = useLocalSearchParams<{ level: string; chapter: string }>();
   const reading = useVocabularyStore(state => state.reading);
+  const markChapterComplete = useVocabularyStore(state => state.markChapterComplete);
   const [showTranslation, setShowTranslation] = useState(false);
 
   const handleFinish = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    // Bölümü tamamlandı olarak kalıcı işaretle (ana ekranda yeşil görünür)
+    if (level && chapter) markChapterComplete(level as string, Number(chapter));
     router.dismissAll();
     router.push('/');
   };

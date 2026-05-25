@@ -3,6 +3,8 @@ import * as Haptics from 'expo-haptics';
 import React, { useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
+import { useVocabularyStore } from '../store/useVocabularyStore';
+
 // Örnek seviye belirleme soruları (PDF'ler geldiğinde gerçekleriyle değiştirilecek)
 const questions = [
   { level: 'A1', question: 'I ___ an apple every day.', options: ['eat', 'eats', 'eating', 'ate'], answer: 'eat' },
@@ -15,6 +17,7 @@ const questions = [
 
 export default function OnboardingScreen() {
   const router = useRouter();
+  const setUserLevel = useVocabularyStore(state => state.setUserLevel);
   const [currentQIndex, setCurrentQIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
@@ -43,8 +46,9 @@ export default function OnboardingScreen() {
     if (score >= 2) level = 'A2';
     if (score >= 4) level = 'B1';
     if (score >= 6) level = 'B2';
-    
+
     setAssignedLevel(level);
+    setUserLevel(level); // Sonucu kalıcı kaydet (ana ekran bunu öne çıkarır)
     setFinished(true);
   };
 
