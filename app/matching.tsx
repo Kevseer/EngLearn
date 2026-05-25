@@ -11,6 +11,7 @@ export default function MatchingGame() {
   const currentBatch = useVocabularyStore(state => state.currentBatch);
   const batchIndex = useVocabularyStore(state => state.batchIndex);
   const nextBatch = useVocabularyStore(state => state.nextBatch);
+  const recordStepResult = useVocabularyStore(state => state.recordStepResult);
 
   const [leftWords, setLeftWords] = useState<any[]>([]);
   const [rightWords, setRightWords] = useState<any[]>([]);
@@ -33,11 +34,13 @@ export default function MatchingGame() {
     if (selectedLeft && selectedRight) {
       // Doğru mu kontrol et (ID'leri aynıysa doğrudur)
       if (selectedLeft === selectedRight) {
+        recordStepResult(true);
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
         setMatchedPairs(prev => [...prev, selectedLeft]);
         setSelectedLeft(null);
         setSelectedRight(null);
       } else {
+        recordStepResult(false);
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
         setErrorPair({ left: selectedLeft, right: selectedRight });
         

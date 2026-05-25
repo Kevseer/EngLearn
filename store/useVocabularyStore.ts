@@ -51,6 +51,9 @@ interface VocabularyState {
   // failedWords kalıcı hafızada (AsyncStorage) tutulacak: { 'A1-1-1': 2, 'A1-1-3': 1 } (Kelime ID'si ve hata sayısı)
   failedWords: Record<string, number>; 
 
+  totalSteps: number;
+  wrongAnswers: number;
+
   currentBatch: Word[];
   batchIndex: number;
   
@@ -61,6 +64,8 @@ interface VocabularyState {
   loadChapter: (level: string, chapter: number, chapterData: any) => void;
   addFailedWord: (wordId: string) => void;
   clearFailedWords: () => void;
+  recordStepResult: (isCorrect: boolean) => void;
+  resetChapterProgress: () => void;
   setCurrentBatch: (batch: Word[]) => void;
   nextBatch: () => void;
   addLearnedWord: () => void;
@@ -76,6 +81,8 @@ export const useVocabularyStore = create<VocabularyState>()(
       words: [],
       reading: null,
       failedWords: {},
+      totalSteps: 0,
+      wrongAnswers: 0,
       
       currentBatch: [],
       batchIndex: 0,
@@ -94,6 +101,8 @@ export const useVocabularyStore = create<VocabularyState>()(
           reading: chapterData.reading || null,
           batchIndex: 0,
           currentBatch: [],
+          totalSteps: 0,
+          wrongAnswers: 0,
         });
       },
 
@@ -108,6 +117,11 @@ export const useVocabularyStore = create<VocabularyState>()(
       }),
 
       clearFailedWords: () => set({ failedWords: {} }),
+      recordStepResult: (isCorrect) => set((state) => ({
+        totalSteps: state.totalSteps + 1,
+        wrongAnswers: isCorrect ? state.wrongAnswers : state.wrongAnswers + 1,
+      })),
+      resetChapterProgress: () => set({ totalSteps: 0, wrongAnswers: 0 }),
 
       setCurrentBatch: (batch) => set({ currentBatch: batch }),
       nextBatch: () => set((state) => ({ batchIndex: state.batchIndex + 1, currentBatch: [] })),

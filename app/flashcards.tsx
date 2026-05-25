@@ -9,11 +9,12 @@ import Swiper from 'react-native-deck-swiper';
 const { width, height } = Dimensions.get('window');
 
 import { useVocabularyStore, Word } from '../store/useVocabularyStore';
-import { getChapterWords } from '../utils/wordHelper';
+import { getChapterReading, getChapterWords } from '../utils/wordHelper';
 
 // Kartın kendi iç durumunu kontrol edebilmemiz için forwardRef kullanıyoruz
-const CardItem = forwardRef(({ card }: { card: Word }, ref) => {
+const CardItem = forwardRef(({ card, onRendered, isTopCard }: { card: Word; onRendered?: () => void; isTopCard?: boolean }, ref) => {
   const [flipped, setFlipped] = useState(false);
+  const [hasRendered, setHasRendered] = useState(false);
   
   // Dışarıdan Swiper aracılığıyla flip fonksiyonunu tetiklememize olanak tanır
   useImperativeHandle(ref, () => ({
@@ -26,10 +27,18 @@ const CardItem = forwardRef(({ card }: { card: Word }, ref) => {
   // Kart verisi değiştiğinde (yeni deste geldiğinde) ön yüze dönmesini garantile
   useEffect(() => {
     setFlipped(false);
+    setHasRendered(false);
   }, [card.id]);
 
+  const handleLayout = () => {
+    if (isTopCard && !hasRendered) {
+      setHasRendered(true);
+      onRendered?.();
+    }
+  };
+
   return (
-    <View style={styles.cardWrapper}>
+    <View style={styles.cardWrapper} onLayout={handleLayout}>
       <View style={[styles.card, flipped ? styles.cardBack : styles.cardFront]}>
         {!flipped ? (
           <>
@@ -58,118 +67,11 @@ const CardItem = forwardRef(({ card }: { card: Word }, ref) => {
   );
 });
 
-export default function FlashcardsScreen() {
+const FlashcardHeader = ({ level, chapter }: { level: string; chapter: string }) => {
   const router = useRouter();
-  const { level, chapter } = useLocalSearchParams<{ level: string; chapter: string }>();
-  
-  const loadChapter = useVocabularyStore(state => state.loadChapter);
-  const words = useVocabularyStore(state => state.words);
-  const addFailedWord = useVocabularyStore(state => state.addFailedWord);
-  const setCurrentBatch = useVocabularyStore(state => state.setCurrentBatch);
-  const batchIndex = useVocabularyStore(state => state.batchIndex);
-  const addLearnedWord = useVocabularyStore(state => state.addLearnedWord);
-  const resetStreak = useVocabularyStore(state => state.resetStreak);
-  const resetStreakIfNewDay = useVocabularyStore(state => state.resetStreakIfNewDay);
   const streak = useVocabularyStore(state => state.streak);
 
-  const [deck, setDeck] = useState<Word[]>([]);
-  const [deckKey, setDeckKey] = useState(0);
-  const [isLoaded, setIsLoaded] = useState(false);
-  
-  // RENDER-FREE TRACKING: Swiper çalışırken parent componenti re-render etmemek için Ref kullanıyoruz
-  // Bu sayede kaydırma sırasında uygulamanın donmasını (freeze/black screen) tamamen engelliyoruz.
-  const failedCardsRef = useRef<Word[]>([]);
-  const learnedCardsRef = useRef<Word[]>([]);
-  const targetBatchSizeRef = useRef<number>(0);
-
-  const swiperRef = useRef<any>(null);
-  const cardRefs = useRef<Record<string, any>>({});
-
-  useEffect(() => {
-    if (level === 'A1' && chapter) {
-      // Yeni gün kontrol et ve streak gerekirse sıfırla
-      resetStreakIfNewDay();
-      
-      const chapterNumber = Number(chapter);
-      const chapterWords = getChapterWords(level as string, chapterNumber);
-      
-      if (chapterWords && chapterWords.length > 0 && !isLoaded) {
-        loadChapter(level as string, chapterNumber, { words: chapterWords });
-        setIsLoaded(true);
-      }
-    }
-  }, [level, chapter, isLoaded, loadChapter, resetStreakIfNewDay]);
-
-  useEffect(() => {
-    if (isLoaded && words.length > 0) {
-      const startIdx = batchIndex * 5;
-      const batchWords = words.slice(startIdx, startIdx + 5);
-      
-      if (batchWords.length > 0) {
-        targetBatchSizeRef.current = batchWords.length;
-        failedCardsRef.current = [];
-        learnedCardsRef.current = [];
-        cardRefs.current = {};
-        setDeck([...batchWords]);
-        setDeckKey(prev => prev + 1);
-      }
-    }
-  }, [isLoaded, words, batchIndex]);
-
-  const handleSwipeLeft = (cardIndex: number) => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    resetStreak();
-    const card = deck[cardIndex];
-    if (card) {
-      addFailedWord(card.id);
-      if (!failedCardsRef.current.find(c => c.id === card.id)) {
-        failedCardsRef.current.push(card);
-      }
-    }
-  };
-
-  const handleSwipeRight = (cardIndex: number) => {
-    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    const card = deck[cardIndex];
-    if (card) {
-      addLearnedWord();
-      if (!learnedCardsRef.current.find(c => c.id === card.id)) {
-        learnedCardsRef.current.push(card);
-      }
-    }
-  };
-
-  const handleSwipedAll = () => {
-    if (failedCardsRef.current.length > 0) {
-      // Sadece bilemediği (sola kaydırdığı) kartlardan yeni bir deste oluştur
-      const remaining = [...failedCardsRef.current];
-      failedCardsRef.current = []; // Sonraki tur için sıfırla
-      learnedCardsRef.current = []; // Yeni tur için sıfırla
-      cardRefs.current = {}; // Ref'leri sıfırla - yeni kartlar gelecek
-      setDeck(remaining);
-      setDeckKey(prev => prev + 1);
-    } else {
-      // Başarısız kartlar yoksa, tüm kartlar başarıyla öğrenildi demek
-      // Eşleştirme oyununa geç
-      setCurrentBatch(learnedCardsRef.current);
-      setTimeout(() => {
-        router.push({
-          pathname: '/matching',
-          params: { level, chapter }
-        } as any);
-      }, 300);
-    }
-  };
-
-  // Swiper'ın kendi tıklama yakalayıcısını kullanıp, referans ile içeriye komut gönderiyoruz
-  const handleTapCard = (cardIndex: number) => {
-    const card = deck[cardIndex];
-    if (card && cardRefs.current[card.id]) {
-      cardRefs.current[card.id].flip();
-    }
-  };
-
-  const renderHeader = () => (
+  return (
     <View style={styles.header}>
       <TouchableOpacity onPress={() => router.back()}>
         <MaterialCommunityIcons name="close" size={30} color="#FFF" />
@@ -183,29 +85,255 @@ export default function FlashcardsScreen() {
       </View>
     </View>
   );
+};
+
+export default function FlashcardsScreen() {
+  const router = useRouter();
+  const { level, chapter } = useLocalSearchParams<{ level: string; chapter: string }>();
+  
+  const loadChapter = useVocabularyStore(state => state.loadChapter);
+  const words = useVocabularyStore(state => state.words);
+  const addFailedWord = useVocabularyStore(state => state.addFailedWord);
+  const recordStepResult = useVocabularyStore(state => state.recordStepResult);
+  const setCurrentBatch = useVocabularyStore(state => state.setCurrentBatch);
+  const batchIndex = useVocabularyStore(state => state.batchIndex);
+  const addLearnedWord = useVocabularyStore(state => state.addLearnedWord);
+  const resetStreak = useVocabularyStore(state => state.resetStreak);
+  const resetStreakIfNewDay = useVocabularyStore(state => state.resetStreakIfNewDay);
+
+  const [deck, setDeck] = useState<Word[]>([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [loopCount, setLoopCount] = useState(0);
+  const [shouldResetIndex, setShouldResetIndex] = useState(false);
+  const [showResumeOverlay, setShowResumeOverlay] = useState(false);
+  const resumeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const resumeDelay = 2000; // ms before showing resume overlay when reset is stuck
+  const cardRenderedRef = useRef(false);
+  
+  // RENDER-FREE TRACKING: Swiper çalışırken parent componenti re-render etmemek için Ref kullanıyoruz
+  // Bu sayede kaydırma sırasında uygulamanın donmasını (freeze/black screen) tamamen engelliyoruz.
+  const failedCardsRef = useRef<Word[]>([]);
+  const learnedCardsRef = useRef<Word[]>([]);
+  const targetBatchSizeRef = useRef<number>(0);
+
+  const swiperRef = useRef<any>(null);
+  const cardRefs = useRef<Record<string, any>>({});
+  const isNavigating = useRef(false);
+
+  useEffect(() => {
+    if (level === 'A1' && chapter) {
+      // Yeni gün kontrol et ve streak gerekirse sıfırla
+      resetStreakIfNewDay();
+      
+      const chapterNumber = Number(chapter);
+      const chapterWords = getChapterWords(level as string, chapterNumber);
+      const chapterReading = getChapterReading(level as string, chapterNumber);
+
+      if (chapterWords && chapterWords.length > 0 && !isLoaded) {
+        loadChapter(level as string, chapterNumber, { words: chapterWords, reading: chapterReading });
+        setIsLoaded(true);
+      }    }
+  }, [level, chapter, isLoaded, loadChapter, resetStreakIfNewDay]);
+
+  useEffect(() => {
+    if (isLoaded && words.length > 0) {
+      const startIdx = batchIndex * 15;
+      const batchWords = words.slice(startIdx, startIdx + 15);
+      
+      if (batchWords.length > 0) {
+        targetBatchSizeRef.current = batchWords.length;
+        failedCardsRef.current = [];
+        learnedCardsRef.current = [];
+        cardRefs.current = {};
+        isNavigating.current = false;
+        
+        setDeck([...batchWords]);
+        setShouldResetIndex(true);
+      }
+    }
+  }, [isLoaded, words, batchIndex]);
+
+  const startResumeWatch = (delay = resumeDelay) => {
+    if (resumeTimerRef.current) {
+      clearTimeout(resumeTimerRef.current);
+    }
+
+    cardRenderedRef.current = false;
+    setShowResumeOverlay(false);
+
+    resumeTimerRef.current = setTimeout(() => {
+      if (!cardRenderedRef.current) {
+        setShowResumeOverlay(true);
+      }
+    }, delay);
+  };
+
+  useEffect(() => {
+    if (!shouldResetIndex) return;
+
+    startResumeWatch();
+
+    if (swiperRef.current) {
+      try {
+        swiperRef.current.jumpToCardIndex(0);
+      } catch (error) {
+        // ignore jump failure
+      }
+    }
+
+    return () => {
+      if (resumeTimerRef.current) {
+        clearTimeout(resumeTimerRef.current);
+        resumeTimerRef.current = null;
+      }
+    };
+  }, [shouldResetIndex]);
+
+  const handleSwipeLeft = (cardIndex: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    const card = deck[cardIndex];
+    if (card) {
+      recordStepResult(false);
+      if (!failedCardsRef.current.find(c => c.id === card.id)) {
+        failedCardsRef.current.push(card);
+      }
+      setTimeout(() => {
+        resetStreak();
+        addFailedWord(card.id);
+      }, 0);
+    }
+  };
+
+  const handleSwipeRight = (cardIndex: number) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    const card = deck[cardIndex];
+    if (card) {
+      recordStepResult(true);
+      if (!learnedCardsRef.current.find(c => c.id === card.id)) {
+        learnedCardsRef.current.push(card);
+      }
+      setTimeout(() => {
+        addLearnedWord();
+      }, 0);
+    }
+  };
+
+  const handleCardRendered = () => {
+    cardRenderedRef.current = true;
+    if (resumeTimerRef.current) {
+      clearTimeout(resumeTimerRef.current);
+      resumeTimerRef.current = null;
+    }
+    if (showResumeOverlay) {
+      setShowResumeOverlay(false);
+    }
+    if (shouldResetIndex) {
+      setShouldResetIndex(false);
+    }
+  };
+
+  const handleSwipedAll = () => {
+    // Son kartın animasyonunun bitmesi ve belleğin temizlenmesi için 400ms bekletiyoruz
+    setTimeout(() => {
+      if (failedCardsRef.current.length > 0) {
+        // Sadece bilemediği (sola kaydırdığı) kartlardan yeni bir deste oluştur
+        const remaining = [...failedCardsRef.current];
+        failedCardsRef.current = []; // Sonraki tur için sıfırla
+        learnedCardsRef.current = []; // Yeni tur için sıfırla
+        cardRefs.current = {}; // Ref'leri sıfırla - yeni kartlar gelecek
+        
+        // Swiper'ı YIKMADAN güvenli şekilde desteyi güncelliyoruz.
+        // Bu sayede memory leak (hafıza sızıntısı) oluşmaz ve 12. turdan sonra çökmez.
+        setDeck(remaining);
+        setLoopCount(prev => prev + 1); // Kartların düz yüzüne geri dönmesi için id'leri tazeliyoruz
+        setShouldResetIndex(true); // useEffect'i tetikleyip index'i güvenle 0'lıyoruz
+      } else {
+        // Başarısız kartlar yoksa, tüm kartlar başarıyla öğrenildi demek
+        // Eşleştirme oyununa geç
+        
+        if (isNavigating.current) return;
+        isNavigating.current = true;
+        
+        // Hata yapılsa da yapılmasa da her zaman orijinal 15'li kelime setini eşleştirme ekranına yolla
+        const startIdx = batchIndex * 15;
+        const originalBatch = words.slice(startIdx, startIdx + 15);
+        setCurrentBatch(originalBatch);
+        
+        router.push({
+          pathname: '/matching',
+          params: { level, chapter }
+        } as any);
+      }
+    }, 400);
+  };
+
+  // Swiper'ın kendi tıklama yakalayıcısını kullanıp, referans ile içeriye komut gönderiyoruz
+  const handleTapCard = (cardIndex: number) => {
+    const card = deck[cardIndex];
+    if (card && cardRefs.current[card.id]) {
+      cardRefs.current[card.id].flip();
+    }
+  };
+
+  // Resume handler: repopulate original batch and remount deck safely
+  const handleResume = () => {
+    try {
+      const startIdx = batchIndex * 15;
+      const size = targetBatchSizeRef.current || 15;
+      const originalBatch = words.slice(startIdx, startIdx + size);
+
+      failedCardsRef.current = [];
+      learnedCardsRef.current = [];
+      cardRefs.current = {};
+      setDeck([...originalBatch]);
+      setLoopCount(c => c + 1);
+      setShouldResetIndex(true);
+      setShowResumeOverlay(false);
+
+      setTimeout(() => {
+        try { swiperRef.current?.jumpToCardIndex(0); } catch (e) { /* ignore */ }
+      }, 50);
+    } catch (e) {
+      console.warn('Resume failed', e);
+    }
+  };
+
+  const renderResumeOverlay = () => {
+    if (!showResumeOverlay) return null;
+
+    return (
+      <View style={styles.resumeOverlay} pointerEvents="box-none">
+        <TouchableOpacity onPress={handleResume} style={styles.resumeButton}>
+          <Text style={styles.resumeButtonText}>Resume</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
 
   if (deck.length === 0) {
     return (
       <View style={styles.loadingContainer}>
-        <Text style={styles.loadingText}>Loading Cards...</Text>
+        <Text style={styles.loadingText}>Shuffling...</Text>
+        {renderResumeOverlay()}
       </View>
     );
   }
 
   return (
     <View style={styles.container}>
-      {renderHeader()}
+      <FlashcardHeader level={level as string} chapter={chapter as string} />
       <Swiper
         ref={swiperRef}
-        key={`swiper-deck-${deckKey}`}
         cards={deck}
         containerStyle={styles.swiperContainer}
         renderCard={(card: Word) => {
           if (!card) return <View />;
           return (
             <CardItem 
-              key={`card-${card.id}`} 
+              key={`card-${card.id}-${loopCount}`} 
               card={card} 
+              isTopCard={card.id === deck[0]?.id}
+              onRendered={handleCardRendered}
               ref={(el) => {
                 if (el) cardRefs.current[card.id] = el;
               }} 
@@ -242,6 +370,7 @@ export default function FlashcardsScreen() {
         stackSize={3}
         cardVerticalMargin={25}
       />
+        {renderResumeOverlay()}
     </View>
   );
 }
@@ -269,6 +398,26 @@ const styles = StyleSheet.create({
   },
   headerInfo: { alignItems: 'center' },
   headerTitle: { color: '#FFF', fontSize: 16, fontWeight: 'bold' },
+  resumeOverlay: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,0.6)',
+    zIndex: 999,
+  },
+  resumeButton: {
+    padding: 20,
+    backgroundColor: '#FFD700',
+    borderRadius: 20,
+  },
+  resumeButtonText: {
+    fontWeight: 'bold',
+    color: '#000',
+  },
   streakBox: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#1A1A1A', paddingVertical: 8, paddingHorizontal: 12, borderRadius: 20 },
   streakText: { color: '#FFD700', fontWeight: 'bold', marginLeft: 6 },
   loadingContainer: { flex: 1, backgroundColor: '#000', justifyContent: 'center', alignItems: 'center' },

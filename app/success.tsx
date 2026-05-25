@@ -4,11 +4,22 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect } from 'react';
 import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
+import { useVocabularyStore } from '../store/useVocabularyStore';
+import { getChapterWords } from '../utils/wordHelper';
+
 const { width } = Dimensions.get('window');
 
 export default function SuccessScreen() {
   const router = useRouter();
   const { level, chapter } = useLocalSearchParams<{ level: string; chapter: string }>();
+  const totalSteps = useVocabularyStore(state => state.totalSteps);
+  const wrongAnswers = useVocabularyStore(state => state.wrongAnswers);
+
+  const chapterWords = level && chapter ? getChapterWords(level as string, Number(chapter)) : [];
+  const wordCount = chapterWords.length;
+  const accuracy = totalSteps === 0
+    ? 100
+    : Math.max(0, Math.min(100, Math.round(((totalSteps - wrongAnswers) / totalSteps) * 100)));
 
   useEffect(() => {
     // Ekran açıldığında başarı hissi veren bir titreşim tetikle
@@ -47,7 +58,7 @@ export default function SuccessScreen() {
         <View style={styles.statsContainer}>
           <View style={styles.statBox}>
             <MaterialCommunityIcons name="target" size={28} color="#4CAF50" />
-            <Text style={styles.statValue}>100%</Text>
+            <Text style={styles.statValue}>{accuracy}%</Text>
             <Text style={styles.statLabel}>Accuracy</Text>
           </View>
           
@@ -55,7 +66,7 @@ export default function SuccessScreen() {
           
           <View style={styles.statBox}>
             <MaterialCommunityIcons name="fire" size={28} color="#FFD700" />
-            <Text style={styles.statValue}>+15</Text>
+            <Text style={styles.statValue}>+{wordCount}</Text>
             <Text style={styles.statLabel}>Words</Text>
           </View>
         </View>
