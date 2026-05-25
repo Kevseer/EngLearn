@@ -72,39 +72,35 @@ export function getGroupWords(level: string, chapter: number, groupIndex: number
   return words.slice(startIndex, startIndex + GROUP_SIZE);
 }
 
-// İstenilen bölüm için okuma parçası (Reading) döndürür
+// İstenilen bölüm için okuma parçası (Reading) döndürür.
+// Reading'ler build-time'da scripts/buildReadings.js ile üretilip JSON'a (readings[])
+// gömülür: tema çerçeveli, o chapter'ın 15 kelimesini bağlamda gösteren mini hikaye.
+// Bu fonksiyon yalnızca gömülü veriyi okur (runtime hesaplama yok).
 export function getChapterReading(level: string, chapter: number) {
-  // Uygulama çevrimdışı çalıştığı için yapay zeka ile anlık hikaye üretilemiyor.
-  // Bu yüzden rastgele kelimeleri boşluklara doldurmak yerine, 
-  // tamamen mantıklı ve A1 seviyesine uygun 3 farklı sabit hikaye döngüye sokulur.
-  const templates = [
-    {
-      genre: "Daily Life",
-      title: "A Day with Friends",
-      text: "Today is Sunday. It is my favorite day of the week. I wake up early in the morning. I eat a big breakfast with my family. We eat eggs, cheese, and bread. Then, I go out. I meet my friends at the park. The weather is very nice. The sun is shining. We sit on the grass and talk. We talk about school and games. We sit for a long time. Then, my friend says, 'Let's go home. I am hungry.' We say goodbye. I walk back home. I listen to music on my way. I arrive home. I rest in my room. I love Sundays.",
-      translation: "Bugün Pazar. Haftanın en sevdiğim günü. Sabah erken uyanırım. Ailemle büyük bir kahvaltı yaparım. Yumurta, peynir ve ekmek yeriz. Sonra dışarı çıkarım. Parkta arkadaşlarımla buluşurum. Hava çok güzel. Güneş parlıyor. Çimlere oturur ve konuşuruz. Okul ve oyunlar hakkında konuşuruz. Uzun süre otururuz. Sonra arkadaşım, 'Hadi eve gidelim. Açım.' der. Vedalaşırız. Eve geri yürürüm. Yolda müzik dinlerim. Eve varırım. Odamda dinlenirim. Pazarları seviyorum."
-    },
-    {
-      genre: "Travel",
-      title: "A Short Trip",
-      text: "My family and I go on a trip today. We go to a small town. The town is near the sea. We drive our car. The journey is two hours long. I look out the window. I see big trees and small houses. We arrive in the town at noon. We are very hungry. We find a small restaurant. We eat fish and salad. The food is delicious. After lunch, we walk on the beach. The water is blue and clean. I find some beautiful shells. We take a lot of photos. In the evening, we get back in the car. We go home. I am tired but very happy.",
-      translation: "Ailem ve ben bugün bir geziye çıkıyoruz. Küçük bir kasabaya gidiyoruz. Kasaba denizin yanında. Arabamızı sürüyoruz. Yolculuk iki saat sürüyor. Pencereden dışarı bakıyorum. Büyük ağaçlar ve küçük evler görüyorum. Kasabaya öğlen varıyoruz. Çok açız. Küçük bir restoran buluyoruz. Balık ve salata yiyoruz. Yemek lezzetli. Öğle yemeğinden sonra plajda yürüyoruz. Su mavi ve temiz. Bazı güzel deniz kabukları buluyorum. Çok fazla fotoğraf çekiyoruz. Akşam arabaya geri biniyoruz. Eve gidiyoruz. Yorgunum ama çok mutluyum."
-    },
-    {
-      genre: "Hobby",
-      title: "My New Cat",
-      text: "I have a new pet. It is a small cat. Her name is Luna. She is white and very soft. Luna sleeps a lot. She likes to sleep on my bed. In the afternoon, she wakes up. She wants to play. I have a small red ball. I throw the ball. Luna runs fast and catches it. She is very funny. Sometimes, she sits by the window. She watches the birds outside. She makes small sounds. At night, I give her food and water. She eats quickly. Then, she comes to me. She sits on my lap. I read a book, and she sleeps. She is a very good friend.",
-      translation: "Yeni bir evcil hayvanım var. O küçük bir kedi. Onun adı Luna. O beyaz ve çok yumuşak. Luna çok uyur. Benim yatağımda uyumayı sever. Öğleden sonra uyanır. Oynamak ister. Küçük kırmızı bir topum var. Topu atarım. Luna hızlıca koşar ve onu yakalar. O çok komiktir. Bazen pencerenin kenarında oturur. Dışarıdaki kuşları izler. Küçük sesler çıkarır. Gece ona yemek ve su veririm. Hızlıca yer. Sonra bana gelir. Kucağıma oturur. Ben kitap okurum, o ise uyur. O çok iyi bir arkadaştır."
-    }
-  ];
+  const data = levelDataMap[level];
+  const readings = data && data.readings;
+  const r = readings && readings[chapter - 1];
 
-  // Bölüm sayısına göre tür seçimi yap (0, 1, 2 döngüsü)
-  const templateIndex = (chapter - 1) % 3;
-  const selectedTemplate = templates[templateIndex];
+  if (r && r.text) {
+    return {
+      title: r.title || `${level} Chapter ${chapter} - Reading Practice`,
+      text: r.text,
+      translation: r.translation || '',
+    };
+  }
 
+  // Geriye dönük güvenlik: gömülü reading yoksa kelimeleri basitçe listele
+  const words = getChapterWords(level, chapter);
+  if (!words || words.length === 0) {
+    return {
+      title: `${level} Chapter ${chapter}`,
+      text: 'No reading available for this chapter.',
+      translation: 'Bu bölüm için okuma parçası yok.',
+    };
+  }
   return {
-    title: `${level} Chapter ${chapter} - ${selectedTemplate.title}`,
-    text: selectedTemplate.text,
-    translation: selectedTemplate.translation
+    title: `${level} Chapter ${chapter} - Reading Practice`,
+    text: words.map((w: any) => w.sentence).join(' '),
+    translation: words.map((w: any) => `${w.word} = ${w.translation}`).join(' · '),
   };
 }
