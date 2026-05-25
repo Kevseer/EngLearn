@@ -1,0 +1,22 @@
+{
+  "level": "B1",
+  "words": [
+    {
+      "id": "B1-1-1",
+      "word": "Challenge",
+      "translation": "Meydan Okuma",
+      "meanings": [
+        "A task or situation that tests someone's abilities."
+      ],
+      "sentence": "Learning a new language is a big challenge.",
+      "synonyms": [
+        "Test",
+        "Trial"
+      ],
+      "opposites": [
+        "Agreement",
+        "Peace"
+      ]
+    }
+  ]
+}

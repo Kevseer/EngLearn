@@ -1,0 +1,1325 @@
+{
+  "level": "A1",
+  "words": [
+    {
+      "id": "A1-1-1",
+      "word": "Beautiful",
+      "translation": "Güzel",
+      "meanings": [
+        "Güzel / Beautiful in simple terms."
+      ],
+      "sentence": "The flower is beautiful.",
+      "synonyms": [
+        "Pretty",
+        "Lovely"
+      ],
+      "opposites": [
+        "Ugly",
+        "Plain"
+      ]
+    },
+    {
+      "id": "A1-1-2",
+      "word": "Morning",
+      "translation": "Sabah",
+      "meanings": [
+        "Sabah / Morning in simple terms."
+      ],
+      "sentence": "I drink coffee every morning.",
+      "synonyms": [
+        "Dawn"
+      ],
+      "opposites": [
+        "Evening",
+        "Night"
+      ]
+    },
+    {
+      "id": "A1-1-3",
+      "word": "Breakfast",
+      "translation": "Kahvaltı",
+      "meanings": [
+        "Kahvaltı / Breakfast in simple terms."
+      ],
+      "sentence": "We eat breakfast at eight.",
+      "synonyms": [
+        "Morning meal"
+      ],
+      "opposites": [
+        "Dinner"
+      ]
+    },
+    {
+      "id": "A1-1-4",
+      "word": "Quickly",
+      "translation": "Hızlıca",
+      "meanings": [
+        "Hızlıca / Quickly in simple terms."
+      ],
+      "sentence": "She runs quickly to school.",
+      "synonyms": [
+        "Fast",
+        "Rapidly"
+      ],
+      "opposites": [
+        "Slowly"
+      ]
+    },
+    {
+      "id": "A1-1-5",
+      "word": "Station",
+      "translation": "İstasyon",
+      "meanings": [
+        "İstasyon / Station in simple terms."
+      ],
+      "sentence": "The train station is near.",
+      "synonyms": [
+        "Terminal"
+      ],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-6",
+      "word": "Ticket",
+      "translation": "Bilet",
+      "meanings": [
+        "Bilet / Ticket in simple terms."
+      ],
+      "sentence": "I need a ticket for the bus.",
+      "synonyms": [
+        "Pass"
+      ],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-7",
+      "word": "Window",
+      "translation": "Pencere",
+      "meanings": [
+        "Pencere / Window in simple terms."
+      ],
+      "sentence": "Please open the window.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-8",
+      "word": "Outside",
+      "translation": "Dışarı",
+      "meanings": [
+        "Dışarı / Outside in simple terms."
+      ],
+      "sentence": "It is warm outside today.",
+      "synonyms": [
+        "Outdoors"
+      ],
+      "opposites": [
+        "Inside",
+        "Indoors"
+      ]
+    },
+    {
+      "id": "A1-1-9",
+      "word": "Village",
+      "translation": "Köy",
+      "meanings": [
+        "Köy / Village in simple terms."
+      ],
+      "sentence": "They live in a small village.",
+      "synonyms": [
+        "Townlet"
+      ],
+      "opposites": [
+        "City",
+        "Town"
+      ]
+    },
+    {
+      "id": "A1-1-10",
+      "word": "Arrive",
+      "translation": "Varmak / Ulaşmak",
+      "meanings": [
+        "Varmak / Ulaşmak / Arrive in simple terms."
+      ],
+      "sentence": "We arrive at school at nine.",
+      "synonyms": [
+        "Reach",
+        "Come"
+      ],
+      "opposites": [
+        "Depart",
+        "Leave"
+      ]
+    },
+    {
+      "id": "A1-1-11",
+      "word": "Friend",
+      "translation": "Arkadaş",
+      "meanings": [
+        "Arkadaş / Friend in simple terms."
+      ],
+      "sentence": "My friend is nice.",
+      "synonyms": [
+        "Companion",
+        "Buddy"
+      ],
+      "opposites": [
+        "Enemy",
+        "Stranger"
+      ]
+    },
+    {
+      "id": "A1-1-12",
+      "word": "Wait",
+      "translation": "Beklemek",
+      "meanings": [
+        "Beklemek / Wait in simple terms."
+      ],
+      "sentence": "Please wait for me.",
+      "synonyms": [
+        "Stay",
+        "Pause"
+      ],
+      "opposites": [
+        "Leave",
+        "Go"
+      ]
+    },
+    {
+      "id": "A1-1-13",
+      "word": "Together",
+      "translation": "Birlikte / Beraber",
+      "meanings": [
+        "Birlikte / Beraber / Together in simple terms."
+      ],
+      "sentence": "We walk together.",
+      "synonyms": [
+        "Jointly",
+        "Collectively"
+      ],
+      "opposites": [
+        "Separately",
+        "Alone"
+      ]
+    },
+    {
+      "id": "A1-1-14",
+      "word": "Happy",
+      "translation": "Mutlu",
+      "meanings": [
+        "Mutlu / Happy in simple terms."
+      ],
+      "sentence": "I am happy today.",
+      "synonyms": [
+        "Joyful",
+        "Glad"
+      ],
+      "opposites": [
+        "Sad",
+        "Unhappy"
+      ]
+    },
+    {
+      "id": "A1-1-15",
+      "word": "Weekend",
+      "translation": "Hafta sonu",
+      "meanings": [
+        "Hafta sonu / Weekend in simple terms."
+      ],
+      "sentence": "We play games on the weekend.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-16",
+      "word": "Family",
+      "translation": "Aile",
+      "meanings": [
+        "Aile / Family in simple terms."
+      ],
+      "sentence": "My family is big.",
+      "synonyms": [
+        "Household"
+      ],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-17",
+      "word": "School",
+      "translation": "Okul",
+      "meanings": [
+        "Okul / School in simple terms."
+      ],
+      "sentence": "I go to school every day.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-18",
+      "word": "Teacher",
+      "translation": "Öğretmen",
+      "meanings": [
+        "Öğretmen / Teacher in simple terms."
+      ],
+      "sentence": "The teacher is kind.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-19",
+      "word": "Book",
+      "translation": "Kitap",
+      "meanings": [
+        "Kitap / Book in simple terms."
+      ],
+      "sentence": "This book is new.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-20",
+      "word": "Apple",
+      "translation": "Elma",
+      "meanings": [
+        "Elma / Apple in simple terms."
+      ],
+      "sentence": "I eat an apple.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-21",
+      "word": "Water",
+      "translation": "Su",
+      "meanings": [
+        "Su / Water in simple terms."
+      ],
+      "sentence": "I drink water.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-22",
+      "word": "Garden",
+      "translation": "Bahçe",
+      "meanings": [
+        "Bahçe / Garden in simple terms."
+      ],
+      "sentence": "The garden has flowers.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-23",
+      "word": "Coffee",
+      "translation": "Kahve",
+      "meanings": [
+        "Kahve / Coffee in simple terms."
+      ],
+      "sentence": "He drinks coffee in the morning.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-24",
+      "word": "City",
+      "translation": "Şehir",
+      "meanings": [
+        "Şehir / City in simple terms."
+      ],
+      "sentence": "The city is busy.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-25",
+      "word": "Dance",
+      "translation": "Dans",
+      "meanings": [
+        "Dans / Dance in simple terms."
+      ],
+      "sentence": "They dance at the party.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-26",
+      "word": "Smile",
+      "translation": "Gülümsemek",
+      "meanings": [
+        "Gülümsemek / Smile in simple terms."
+      ],
+      "sentence": "Please smile for the photo.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-27",
+      "word": "Party",
+      "translation": "Parti",
+      "meanings": [
+        "Parti / Party in simple terms."
+      ],
+      "sentence": "The party starts at seven.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-28",
+      "word": "Market",
+      "translation": "Pazar",
+      "meanings": [
+        "Pazar / Market in simple terms."
+      ],
+      "sentence": "We go to the market.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-29",
+      "word": "Phone",
+      "translation": "Telefon",
+      "meanings": [
+        "Telefon / Phone in simple terms."
+      ],
+      "sentence": "I call you on the phone.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-30",
+      "word": "Travel",
+      "translation": "Seyahat etmek",
+      "meanings": [
+        "Seyahat etmek / Travel in simple terms."
+      ],
+      "sentence": "We travel by train.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-31",
+      "word": "House",
+      "translation": "Ev",
+      "meanings": [
+        "Ev / House in simple terms."
+      ],
+      "sentence": "The house is blue.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-32",
+      "word": "Park",
+      "translation": "Park",
+      "meanings": [
+        "Park / Park in simple terms."
+      ],
+      "sentence": "The children play in the park.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-33",
+      "word": "Shoes",
+      "translation": "Ayakkabılar",
+      "meanings": [
+        "Ayakkabılar / Shoes in simple terms."
+      ],
+      "sentence": "My shoes are new.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-34",
+      "word": "Music",
+      "translation": "Müzik",
+      "meanings": [
+        "Müzik / Music in simple terms."
+      ],
+      "sentence": "I listen to music.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-35",
+      "word": "Lunch",
+      "translation": "Öğle yemeği",
+      "meanings": [
+        "Öğle yemeği / Lunch in simple terms."
+      ],
+      "sentence": "We have lunch at noon.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-36",
+      "word": "Color",
+      "translation": "Renk",
+      "meanings": [
+        "Renk / Color in simple terms."
+      ],
+      "sentence": "My favorite color is green.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-37",
+      "word": "Movie",
+      "translation": "Film",
+      "meanings": [
+        "Film / Movie in simple terms."
+      ],
+      "sentence": "I watch a movie tonight.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-38",
+      "word": "Chair",
+      "translation": "Sandalye",
+      "meanings": [
+        "Sandalye / Chair in simple terms."
+      ],
+      "sentence": "Please sit on the chair.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-39",
+      "word": "Child",
+      "translation": "Çocuk",
+      "meanings": [
+        "Çocuk / Child in simple terms."
+      ],
+      "sentence": "The child plays outside.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-40",
+      "word": "Cake",
+      "translation": "Pasta",
+      "meanings": [
+        "Pasta / Cake in simple terms."
+      ],
+      "sentence": "She eats a piece of cake.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-41",
+      "word": "Street",
+      "translation": "Sokak",
+      "meanings": [
+        "Sokak / Street in simple terms."
+      ],
+      "sentence": "The street is wide.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-42",
+      "word": "Store",
+      "translation": "Mağaza",
+      "meanings": [
+        "Mağaza / Store in simple terms."
+      ],
+      "sentence": "He buys bread at the store.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-43",
+      "word": "Picture",
+      "translation": "Resim",
+      "meanings": [
+        "Resim / Picture in simple terms."
+      ],
+      "sentence": "Look at the picture.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-44",
+      "word": "Sleep",
+      "translation": "Uyumak",
+      "meanings": [
+        "Uyumak / Sleep in simple terms."
+      ],
+      "sentence": "I sleep eight hours.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-45",
+      "word": "Light",
+      "translation": "Işık",
+      "meanings": [
+        "Işık / Light in simple terms."
+      ],
+      "sentence": "Turn on the light.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-46",
+      "word": "Cold",
+      "translation": "Soğuk",
+      "meanings": [
+        "Soğuk / Cold in simple terms."
+      ],
+      "sentence": "It is cold today.",
+      "synonyms": [],
+      "opposites": [
+        "Hot"
+      ]
+    },
+    {
+      "id": "A1-1-47",
+      "word": "Hot",
+      "translation": "Sıcak",
+      "meanings": [
+        "Sıcak / Hot in simple terms."
+      ],
+      "sentence": "The soup is hot.",
+      "synonyms": [],
+      "opposites": [
+        "Cold"
+      ]
+    },
+    {
+      "id": "A1-1-48",
+      "word": "Summer",
+      "translation": "Yaz",
+      "meanings": [
+        "Yaz / Summer in simple terms."
+      ],
+      "sentence": "Summer is warm.",
+      "synonyms": [],
+      "opposites": [
+        "Winter"
+      ]
+    },
+    {
+      "id": "A1-1-49",
+      "word": "Winter",
+      "translation": "Kış",
+      "meanings": [
+        "Kış / Winter in simple terms."
+      ],
+      "sentence": "Winter is very cold.",
+      "synonyms": [],
+      "opposites": [
+        "Summer"
+      ]
+    },
+    {
+      "id": "A1-1-50",
+      "word": "Rain",
+      "translation": "Yağmur",
+      "meanings": [
+        "Yağmur / Rain in simple terms."
+      ],
+      "sentence": "It may rain today.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-51",
+      "word": "Food",
+      "translation": "Yemek",
+      "meanings": [
+        "Yemek / Food in simple terms."
+      ],
+      "sentence": "Good food is healthy.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-52",
+      "word": "Drink",
+      "translation": "İçecek",
+      "meanings": [
+        "İçecek / Drink in simple terms."
+      ],
+      "sentence": "I drink juice.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-53",
+      "word": "Road",
+      "translation": "Yol",
+      "meanings": [
+        "Yol / Road in simple terms."
+      ],
+      "sentence": "The road is long.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-54",
+      "word": "Airport",
+      "translation": "Havalimanı",
+      "meanings": [
+        "Havalimanı / Airport in simple terms."
+      ],
+      "sentence": "The airport is busy.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-55",
+      "word": "Bus",
+      "translation": "Otobüs",
+      "meanings": [
+        "Otobüs / Bus in simple terms."
+      ],
+      "sentence": "We take the bus.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-56",
+      "word": "Train",
+      "translation": "Tren",
+      "meanings": [
+        "Tren / Train in simple terms."
+      ],
+      "sentence": "The train arrives soon.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-57",
+      "word": "Time",
+      "translation": "Zaman",
+      "meanings": [
+        "Zaman / Time in simple terms."
+      ],
+      "sentence": "What time is it?",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-58",
+      "word": "Night",
+      "translation": "Gece",
+      "meanings": [
+        "Gece / Night in simple terms."
+      ],
+      "sentence": "Night is dark.",
+      "synonyms": [],
+      "opposites": [
+        "Day"
+      ]
+    },
+    {
+      "id": "A1-1-59",
+      "word": "Day",
+      "translation": "Gün",
+      "meanings": [
+        "Gün / Day in simple terms."
+      ],
+      "sentence": "Day is bright.",
+      "synonyms": [],
+      "opposites": [
+        "Night"
+      ]
+    },
+    {
+      "id": "A1-1-60",
+      "word": "Animal",
+      "translation": "Hayvan",
+      "meanings": [
+        "Hayvan / Animal in simple terms."
+      ],
+      "sentence": "This animal is small.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-61",
+      "word": "Story",
+      "translation": "Hikaye",
+      "meanings": [
+        "Hikaye / Story in simple terms."
+      ],
+      "sentence": "I read a story.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-62",
+      "word": "Library",
+      "translation": "Kütüphane",
+      "meanings": [
+        "Kütüphane / Library in simple terms."
+      ],
+      "sentence": "The library is quiet.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-63",
+      "word": "Job",
+      "translation": "İş",
+      "meanings": [
+        "İş / Job in simple terms."
+      ],
+      "sentence": "My job is easy.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-64",
+      "word": "Doctor",
+      "translation": "Doktor",
+      "meanings": [
+        "Doktor / Doctor in simple terms."
+      ],
+      "sentence": "The doctor is friendly.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-65",
+      "word": "Mother",
+      "translation": "Anne",
+      "meanings": [
+        "Anne / Mother in simple terms."
+      ],
+      "sentence": "My mother cooks dinner.",
+      "synonyms": [],
+      "opposites": [
+        "Father"
+      ]
+    },
+    {
+      "id": "A1-1-66",
+      "word": "Father",
+      "translation": "Baba",
+      "meanings": [
+        "Baba / Father in simple terms."
+      ],
+      "sentence": "My father works at home.",
+      "synonyms": [],
+      "opposites": [
+        "Mother"
+      ]
+    },
+    {
+      "id": "A1-1-67",
+      "word": "Brother",
+      "translation": "Kardeş (erkek)",
+      "meanings": [
+        "Kardeş (erkek) / Brother in simple terms."
+      ],
+      "sentence": "My brother plays football.",
+      "synonyms": [],
+      "opposites": [
+        "Sister"
+      ]
+    },
+    {
+      "id": "A1-1-68",
+      "word": "Sister",
+      "translation": "Kardeş (kız)",
+      "meanings": [
+        "Kardeş (kız) / Sister in simple terms."
+      ],
+      "sentence": "My sister likes music.",
+      "synonyms": [],
+      "opposites": [
+        "Brother"
+      ]
+    },
+    {
+      "id": "A1-1-69",
+      "word": "Bag",
+      "translation": "Çanta",
+      "meanings": [
+        "Çanta / Bag in simple terms."
+      ],
+      "sentence": "The bag is heavy.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-70",
+      "word": "Bike",
+      "translation": "Bisiklet",
+      "meanings": [
+        "Bisiklet / Bike in simple terms."
+      ],
+      "sentence": "I ride my bike.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-71",
+      "word": "Car",
+      "translation": "Araba",
+      "meanings": [
+        "Araba / Car in simple terms."
+      ],
+      "sentence": "The car is red.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-72",
+      "word": "Pencil",
+      "translation": "Kalem",
+      "meanings": [
+        "Kalem / Pencil in simple terms."
+      ],
+      "sentence": "Use a pencil to write.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-73",
+      "word": "Paper",
+      "translation": "Kağıt",
+      "meanings": [
+        "Kağıt / Paper in simple terms."
+      ],
+      "sentence": "Put the paper on the desk.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-74",
+      "word": "Desk",
+      "translation": "Masa",
+      "meanings": [
+        "Masa / Desk in simple terms."
+      ],
+      "sentence": "The desk is clean.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-75",
+      "word": "Class",
+      "translation": "Sınıf",
+      "meanings": [
+        "Sınıf / Class in simple terms."
+      ],
+      "sentence": "I like my class.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-76",
+      "word": "Answer",
+      "translation": "Cevap",
+      "meanings": [
+        "Cevap / Answer in simple terms."
+      ],
+      "sentence": "Write your answer here.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-77",
+      "word": "Question",
+      "translation": "Soru",
+      "meanings": [
+        "Soru / Question in simple terms."
+      ],
+      "sentence": "I ask a question.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-78",
+      "word": "Kitchen",
+      "translation": "Mutfak",
+      "meanings": [
+        "Mutfak / Kitchen in simple terms."
+      ],
+      "sentence": "The kitchen is warm.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-79",
+      "word": "Table",
+      "translation": "Masa",
+      "meanings": [
+        "Masa / Table in simple terms."
+      ],
+      "sentence": "The table is large.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-80",
+      "word": "Door",
+      "translation": "Kapı",
+      "meanings": [
+        "Kapı / Door in simple terms."
+      ],
+      "sentence": "Open the door, please.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-81",
+      "word": "Wall",
+      "translation": "Duvar",
+      "meanings": [
+        "Duvar / Wall in simple terms."
+      ],
+      "sentence": "The wall is white.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-82",
+      "word": "Floor",
+      "translation": "Zemin",
+      "meanings": [
+        "Zemin / Floor in simple terms."
+      ],
+      "sentence": "The floor is clean.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-83",
+      "word": "Lamp",
+      "translation": "Lamba",
+      "meanings": [
+        "Lamba / Lamp in simple terms."
+      ],
+      "sentence": "Turn on the lamp.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-84",
+      "word": "Glass",
+      "translation": "Bardak",
+      "meanings": [
+        "Bardak / Glass in simple terms."
+      ],
+      "sentence": "I need a glass of water.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-85",
+      "word": "Juice",
+      "translation": "Meyve suyu",
+      "meanings": [
+        "Meyve suyu / Juice in simple terms."
+      ],
+      "sentence": "She drinks orange juice.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-86",
+      "word": "Fruit",
+      "translation": "Meyve",
+      "meanings": [
+        "Meyve / Fruit in simple terms."
+      ],
+      "sentence": "Fruit is healthy.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-87",
+      "word": "Camera",
+      "translation": "Kamera",
+      "meanings": [
+        "Kamera / Camera in simple terms."
+      ],
+      "sentence": "He takes a photo with the camera.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-88",
+      "word": "Email",
+      "translation": "E-posta",
+      "meanings": [
+        "E-posta / Email in simple terms."
+      ],
+      "sentence": "I write an email.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-89",
+      "word": "Money",
+      "translation": "Para",
+      "meanings": [
+        "Para / Money in simple terms."
+      ],
+      "sentence": "Money is in the wallet.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-90",
+      "word": "Exam",
+      "translation": "Sınav",
+      "meanings": [
+        "Sınav / Exam in simple terms."
+      ],
+      "sentence": "The exam is next week.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-91",
+      "word": "Draw",
+      "translation": "Çizmek",
+      "meanings": [
+        "Çizmek / Draw in simple terms."
+      ],
+      "sentence": "I draw a picture.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-92",
+      "word": "Paint",
+      "translation": "Boyamak",
+      "meanings": [
+        "Boyamak / Paint in simple terms."
+      ],
+      "sentence": "We paint the wall.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-93",
+      "word": "Sing",
+      "translation": "Şarkı söylemek",
+      "meanings": [
+        "Şarkı söylemek / Sing in simple terms."
+      ],
+      "sentence": "They sing a song.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-94",
+      "word": "Cook",
+      "translation": "Pişirmek",
+      "meanings": [
+        "Pişirmek / Cook in simple terms."
+      ],
+      "sentence": "My mother can cook well.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-95",
+      "word": "Open",
+      "translation": "Açmak",
+      "meanings": [
+        "Açmak / Open in simple terms."
+      ],
+      "sentence": "Please open the book.",
+      "synonyms": [],
+      "opposites": [
+        "Close"
+      ]
+    },
+    {
+      "id": "A1-1-96",
+      "word": "Close",
+      "translation": "Kapatmak",
+      "meanings": [
+        "Kapatmak / Close in simple terms."
+      ],
+      "sentence": "Close the door.",
+      "synonyms": [],
+      "opposites": [
+        "Open"
+      ]
+    },
+    {
+      "id": "A1-1-97",
+      "word": "Start",
+      "translation": "Başlamak",
+      "meanings": [
+        "Başlamak / Start in simple terms."
+      ],
+      "sentence": "Start the game.",
+      "synonyms": [],
+      "opposites": [
+        "Finish"
+      ]
+    },
+    {
+      "id": "A1-1-98",
+      "word": "Finish",
+      "translation": "Bitirmek",
+      "meanings": [
+        "Bitirmek / Finish in simple terms."
+      ],
+      "sentence": "Finish your homework.",
+      "synonyms": [],
+      "opposites": [
+        "Start"
+      ]
+    },
+    {
+      "id": "A1-1-99",
+      "word": "Left",
+      "translation": "Sol",
+      "meanings": [
+        "Sol / Left in simple terms."
+      ],
+      "sentence": "Turn left at the corner.",
+      "synonyms": [],
+      "opposites": [
+        "Right"
+      ]
+    },
+    {
+      "id": "A1-1-100",
+      "word": "Right",
+      "translation": "Sağ",
+      "meanings": [
+        "Sağ / Right in simple terms."
+      ],
+      "sentence": "Turn right now.",
+      "synonyms": [],
+      "opposites": [
+        "Left"
+      ]
+    },
+    {
+      "id": "A1-1-101",
+      "word": "Big",
+      "translation": "Büyük",
+      "meanings": [
+        "Büyük / Big in simple terms."
+      ],
+      "sentence": "The dog is big.",
+      "synonyms": [],
+      "opposites": [
+        "Small"
+      ]
+    },
+    {
+      "id": "A1-1-102",
+      "word": "Small",
+      "translation": "Küçük",
+      "meanings": [
+        "Küçük / Small in simple terms."
+      ],
+      "sentence": "The cat is small.",
+      "synonyms": [],
+      "opposites": [
+        "Big"
+      ]
+    },
+    {
+      "id": "A1-1-103",
+      "word": "New",
+      "translation": "Yeni",
+      "meanings": [
+        "Yeni / New in simple terms."
+      ],
+      "sentence": "This is a new book.",
+      "synonyms": [],
+      "opposites": [
+        "Old"
+      ]
+    },
+    {
+      "id": "A1-1-104",
+      "word": "Old",
+      "translation": "Eski",
+      "meanings": [
+        "Eski / Old in simple terms."
+      ],
+      "sentence": "The car is old.",
+      "synonyms": [],
+      "opposites": [
+        "New"
+      ]
+    },
+    {
+      "id": "A1-1-105",
+      "word": "Clean",
+      "translation": "Temiz",
+      "meanings": [
+        "Temiz / Clean in simple terms."
+      ],
+      "sentence": "My room is clean.",
+      "synonyms": [],
+      "opposites": [
+        "Dirty"
+      ]
+    },
+    {
+      "id": "A1-1-106",
+      "word": "Dirty",
+      "translation": "Kirli",
+      "meanings": [
+        "Kirli / Dirty in simple terms."
+      ],
+      "sentence": "The shirt is dirty.",
+      "synonyms": [],
+      "opposites": [
+        "Clean"
+      ]
+    },
+    {
+      "id": "A1-1-107",
+      "word": "Country",
+      "translation": "Ülke",
+      "meanings": [
+        "Ülke / Country in simple terms."
+      ],
+      "sentence": "Turkey is a country.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-108",
+      "word": "Plant",
+      "translation": "Bitki",
+      "meanings": [
+        "Bitki / Plant in simple terms."
+      ],
+      "sentence": "The plant needs water.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-109",
+      "word": "Ocean",
+      "translation": "Okyanus",
+      "meanings": [
+        "Okyanus / Ocean in simple terms."
+      ],
+      "sentence": "The ocean is blue.",
+      "synonyms": [],
+      "opposites": []
+    },
+    {
+      "id": "A1-1-110",
+      "word": "Mountain",
+      "translation": "Dağ",
+      "meanings": [
+        "Dağ / Mountain in simple terms."
+      ],
+      "sentence": "The mountain is tall.",
+      "synonyms": [],
+      "opposites": []
+    }
+  ]
+}
