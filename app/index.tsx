@@ -78,6 +78,15 @@ export default function LevelsScreen() {
           <Text style={styles.placementBtnText}>FIND MY LEVEL</Text>
         </TouchableOpacity>
 
+        {/* Seviye tespit testi yapıldıysa önerilen seviyeyi göster */}
+        {userLevel && (
+          <View style={styles.currentLevelPill}>
+            <MaterialCommunityIcons name="star-circle" size={16} color="#FFD700" />
+            <Text style={styles.currentLevelText}>Recommended Level: </Text>
+            <Text style={styles.currentLevelValue}>{userLevel}</Text>
+          </View>
+        )}
+
         {/* Zor kelimeler varsa tekrar (review) butonu göster */}
         {hardWordCount > 0 && (
           <TouchableOpacity
@@ -157,6 +166,22 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginLeft: 10
   },
+  currentLevelPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    marginTop: -18,
+    marginBottom: 26,
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: 20,
+    backgroundColor: '#1A1800',
+    borderWidth: 1,
+    borderColor: '#FFD700',
+  },
+  currentLevelText: { color: '#AAA', fontSize: 13, marginLeft: 6 },
+  currentLevelValue: { color: '#FFD700', fontSize: 13, fontWeight: 'bold' },
   reviewBtn: {
     flexDirection: 'row',
     alignItems: 'center',

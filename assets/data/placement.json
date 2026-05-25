@@ -1,0 +1,1405 @@
+{
+  "version": "v1",
+  "questions": [
+    {
+      "id": "placement-a1-001",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "Today",
+      "question": "What does \"Today\" mean?",
+      "options": [
+        "Bugün",
+        "Kaybetmek",
+        "It",
+        "Bal"
+      ],
+      "answer": "Bugün"
+    },
+    {
+      "id": "placement-a1-002",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "Best",
+      "question": "What does \"Best\" mean?",
+      "options": [
+        "En iyi",
+        "Banka",
+        "Betimlemek",
+        "Demek istemek"
+      ],
+      "answer": "En iyi"
+    },
+    {
+      "id": "placement-a1-003",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "If",
+      "question": "What does \"If\" mean?",
+      "options": [
+        "Inmek",
+        "Telefon",
+        "Uyumak",
+        "Eğer"
+      ],
+      "answer": "Eğer"
+    },
+    {
+      "id": "placement-a1-004",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "Pound",
+      "question": "What does \"Pound\" mean?",
+      "options": [
+        "Karanlık",
+        "Ayrım",
+        "Yumruklamak",
+        "Futbol"
+      ],
+      "answer": "Yumruklamak"
+    },
+    {
+      "id": "placement-a1-005",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "Flower",
+      "question": "What does \"Flower\" mean?",
+      "options": [
+        "Güzel",
+        "Çiçek",
+        "O kadar",
+        "Ev"
+      ],
+      "answer": "Çiçek"
+    },
+    {
+      "id": "placement-a1-006",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "Welcome",
+      "question": "What does \"Welcome\" mean?",
+      "options": [
+        "Şeker",
+        "Yollamak",
+        "Hoş geldiniz",
+        "Resim"
+      ],
+      "answer": "Hoş geldiniz"
+    },
+    {
+      "id": "placement-a1-007",
+      "level": "A1",
+      "type": "meaning_en_to_tr",
+      "word": "Hat",
+      "question": "What does \"Hat\" mean?",
+      "options": [
+        "Şapka",
+        "Fil",
+        "Hareket etmek",
+        "Dönmek"
+      ],
+      "answer": "Şapka"
+    },
+    {
+      "id": "placement-a1-008",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "Show",
+      "question": "Which word means \"Göstermek\"?",
+      "options": [
+        "Show",
+        "Museum",
+        "Ear",
+        "Sunday"
+      ],
+      "answer": "Show"
+    },
+    {
+      "id": "placement-a1-009",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "Weekend",
+      "question": "Which word means \"Hafta sonu\"?",
+      "options": [
+        "Call",
+        "Bored",
+        "Weekend",
+        "Always"
+      ],
+      "answer": "Weekend"
+    },
+    {
+      "id": "placement-a1-010",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "All",
+      "question": "Which word means \"Tüm\"?",
+      "options": [
+        "Purple",
+        "All",
+        "Event",
+        "Include"
+      ],
+      "answer": "All"
+    },
+    {
+      "id": "placement-a1-011",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "Just",
+      "question": "Which word means \"Sadece\"?",
+      "options": [
+        "Just",
+        "Hate",
+        "Me",
+        "Wake"
+      ],
+      "answer": "Just"
+    },
+    {
+      "id": "placement-a1-012",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "FALSE",
+      "question": "Which word means \"Takma\"?",
+      "options": [
+        "FALSE",
+        "Night",
+        "Doctor",
+        "Sick"
+      ],
+      "answer": "FALSE"
+    },
+    {
+      "id": "placement-a1-013",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "Tall",
+      "question": "Which word means \"Uzun\"?",
+      "options": [
+        "Drive",
+        "Capital",
+        "Tall",
+        "Apartment"
+      ],
+      "answer": "Tall"
+    },
+    {
+      "id": "placement-a1-014",
+      "level": "A1",
+      "type": "meaning_tr_to_en",
+      "word": "Routine",
+      "question": "Which word means \"Rutin\"?",
+      "options": [
+        "Water",
+        "Think",
+        "Practise",
+        "Routine"
+      ],
+      "answer": "Routine"
+    },
+    {
+      "id": "placement-a1-015",
+      "level": "A1",
+      "type": "gap_fill",
+      "word": "Strong",
+      "question": "The room was very ____ today.",
+      "options": [
+        "hobby",
+        "pair",
+        "purple",
+        "strong"
+      ],
+      "answer": "strong"
+    },
+    {
+      "id": "placement-a1-016",
+      "level": "A1",
+      "type": "gap_fill",
+      "word": "See",
+      "question": "They like to ____ every day.",
+      "options": [
+        "career",
+        "front",
+        "see",
+        "sentence"
+      ],
+      "answer": "see"
+    },
+    {
+      "id": "placement-a1-017",
+      "level": "A1",
+      "type": "gap_fill",
+      "word": "News",
+      "question": "She needs more ____ today.",
+      "options": [
+        "grandfather",
+        "century",
+        "news",
+        "call"
+      ],
+      "answer": "news"
+    },
+    {
+      "id": "placement-a1-018",
+      "level": "A1",
+      "type": "gap_fill",
+      "word": "February",
+      "question": "We learned about the ____ at school.",
+      "options": [
+        "similar",
+        "number",
+        "february",
+        "september"
+      ],
+      "answer": "february"
+    },
+    {
+      "id": "placement-a1-019",
+      "level": "A1",
+      "type": "gap_fill",
+      "word": "Baby",
+      "question": "She talked about the ____ for a long time.",
+      "options": [
+        "place",
+        "newspaper",
+        "purple",
+        "baby"
+      ],
+      "answer": "baby"
+    },
+    {
+      "id": "placement-a1-020",
+      "level": "A1",
+      "type": "gap_fill",
+      "word": "Break",
+      "question": "They like to ____ every day.",
+      "options": [
+        "break",
+        "exercise",
+        "umbrella",
+        "street"
+      ],
+      "answer": "break"
+    },
+    {
+      "id": "placement-a2-001",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Accident",
+      "question": "What does \"Accident\" mean?",
+      "options": [
+        "Ödül",
+        "Kürek",
+        "Rastlantı",
+        "Rahat"
+      ],
+      "answer": "Rastlantı"
+    },
+    {
+      "id": "placement-a2-002",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Exact",
+      "question": "What does \"Exact\" mean?",
+      "options": [
+        "Geliştirmek",
+        "Kesin",
+        "Şaşırtıcı",
+        "Hiçbiri"
+      ],
+      "answer": "Kesin"
+    },
+    {
+      "id": "placement-a2-003",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Research",
+      "question": "What does \"Research\" mean?",
+      "options": [
+        "Müdavim",
+        "Havalanmak",
+        "Kurulamak",
+        "Seninki"
+      ],
+      "answer": "Müdavim"
+    },
+    {
+      "id": "placement-a2-004",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Support",
+      "question": "What does \"Support\" mean?",
+      "options": [
+        "Desteklemek",
+        "Doğmak",
+        "Gürültücü",
+        "Bilgi"
+      ],
+      "answer": "Desteklemek"
+    },
+    {
+      "id": "placement-a2-005",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Basketball",
+      "question": "What does \"Basketball\" mean?",
+      "options": [
+        "Harp",
+        "Büsbütün",
+        "Fasulye",
+        "Tehlike"
+      ],
+      "answer": "Fasulye"
+    },
+    {
+      "id": "placement-a2-006",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Chick",
+      "question": "What does \"Chick\" mean?",
+      "options": [
+        "Civciv",
+        "Asker",
+        "Isıtmak",
+        "Büyük ihtimalle"
+      ],
+      "answer": "Civciv"
+    },
+    {
+      "id": "placement-a2-007",
+      "level": "A2",
+      "type": "meaning_en_to_tr",
+      "word": "Blueberry",
+      "question": "What does \"Blueberry\" mean?",
+      "options": [
+        "Yaban mersini",
+        "Gözükmek",
+        "Kaplumbağa",
+        "Tepki göstermek"
+      ],
+      "answer": "Yaban mersini"
+    },
+    {
+      "id": "placement-a2-008",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Least",
+      "question": "Which word means \"En az\"?",
+      "options": [
+        "Serve",
+        "International",
+        "Least",
+        "Cabbage"
+      ],
+      "answer": "Least"
+    },
+    {
+      "id": "placement-a2-009",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Injury",
+      "question": "Which word means \"Zarar\"?",
+      "options": [
+        "Skin",
+        "Contain",
+        "Injury",
+        "Definitely"
+      ],
+      "answer": "Injury"
+    },
+    {
+      "id": "placement-a2-010",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Clothing",
+      "question": "Which word means \"Giysi\"?",
+      "options": [
+        "Grass",
+        "Clothing",
+        "Succeed",
+        "Walnut"
+      ],
+      "answer": "Clothing"
+    },
+    {
+      "id": "placement-a2-011",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Broom",
+      "question": "Which word means \"Süpürge\"?",
+      "options": [
+        "Perhaps",
+        "Salary",
+        "Cause",
+        "Broom"
+      ],
+      "answer": "Broom"
+    },
+    {
+      "id": "placement-a2-012",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Expert",
+      "question": "Which word means \"Bilirkişi\"?",
+      "options": [
+        "Fail",
+        "Expert",
+        "Energy",
+        "Link"
+      ],
+      "answer": "Expert"
+    },
+    {
+      "id": "placement-a2-013",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Mail",
+      "question": "Which word means \"Postalamak\"?",
+      "options": [
+        "Valley",
+        "Cycle",
+        "Attention",
+        "Mail"
+      ],
+      "answer": "Mail"
+    },
+    {
+      "id": "placement-a2-014",
+      "level": "A2",
+      "type": "meaning_tr_to_en",
+      "word": "Evidence",
+      "question": "Which word means \"Kanıt\"?",
+      "options": [
+        "Evidence",
+        "Working",
+        "Plum",
+        "Unhappy"
+      ],
+      "answer": "Evidence"
+    },
+    {
+      "id": "placement-a2-015",
+      "level": "A2",
+      "type": "gap_fill",
+      "word": "Avoid",
+      "question": "He will ____ after lunch.",
+      "options": [
+        "seem",
+        "avoid",
+        "included",
+        "closed"
+      ],
+      "answer": "avoid"
+    },
+    {
+      "id": "placement-a2-016",
+      "level": "A2",
+      "type": "gap_fill",
+      "word": "Queen",
+      "question": "This is a ____ that everyone knows.",
+      "options": [
+        "queen",
+        "gun",
+        "planet",
+        "major"
+      ],
+      "answer": "queen"
+    },
+    {
+      "id": "placement-a2-017",
+      "level": "A2",
+      "type": "gap_fill",
+      "word": "Department",
+      "question": "We learned about the ____ at school.",
+      "options": [
+        "active",
+        "department",
+        "clap",
+        "kneel"
+      ],
+      "answer": "department"
+    },
+    {
+      "id": "placement-a2-018",
+      "level": "A2",
+      "type": "gap_fill",
+      "word": "Direction",
+      "question": "We learned about the ____ at school.",
+      "options": [
+        "normal",
+        "successful",
+        "direction",
+        "runner"
+      ],
+      "answer": "direction"
+    },
+    {
+      "id": "placement-a2-019",
+      "level": "A2",
+      "type": "gap_fill",
+      "word": "Female",
+      "question": "The room was very ____ today.",
+      "options": [
+        "united",
+        "female",
+        "according",
+        "golf"
+      ],
+      "answer": "female"
+    },
+    {
+      "id": "placement-a2-020",
+      "level": "A2",
+      "type": "gap_fill",
+      "word": "Protect",
+      "question": "I want to ____ right now.",
+      "options": [
+        "war",
+        "protect",
+        "wasp",
+        "pack"
+      ],
+      "answer": "protect"
+    },
+    {
+      "id": "placement-b1-001",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Effective",
+      "question": "What does \"Effective\" mean?",
+      "options": [
+        "Çekimser kalmak",
+        "Örneklemek",
+        "Yorulmak bilmeyen",
+        "Efektif"
+      ],
+      "answer": "Efektif"
+    },
+    {
+      "id": "placement-b1-002",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Embarrassing",
+      "question": "What does \"Embarrassing\" mean?",
+      "options": [
+        "Derleme",
+        "Can sıkıcı",
+        "Tekmelemek",
+        "Kabiliyet"
+      ],
+      "answer": "Can sıkıcı"
+    },
+    {
+      "id": "placement-b1-003",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Reliable",
+      "question": "What does \"Reliable\" mean?",
+      "options": [
+        "Güvenilir",
+        "Soluk almak",
+        "Dondurulmuş",
+        "Parası yetmek"
+      ],
+      "answer": "Güvenilir"
+    },
+    {
+      "id": "placement-b1-004",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Bell",
+      "question": "What does \"Bell\" mean?",
+      "options": [
+        "Çan",
+        "Deprem",
+        "Görevlendirme",
+        "Uyum yeteneği"
+      ],
+      "answer": "Çan"
+    },
+    {
+      "id": "placement-b1-005",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Generalize",
+      "question": "What does \"Generalize\" mean?",
+      "options": [
+        "Aşmak",
+        "Yaprak vermek",
+        "Muamele",
+        "Genellemek"
+      ],
+      "answer": "Genellemek"
+    },
+    {
+      "id": "placement-b1-006",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Confide",
+      "question": "What does \"Confide\" mean?",
+      "options": [
+        "Doğrusu",
+        "Sırrını açmak",
+        "Ilmi",
+        "Kışkırtmak"
+      ],
+      "answer": "Sırrını açmak"
+    },
+    {
+      "id": "placement-b1-007",
+      "level": "B1",
+      "type": "meaning_en_to_tr",
+      "word": "Gather",
+      "question": "What does \"Gather\" mean?",
+      "options": [
+        "Dünya çapındaki",
+        "Suskun",
+        "Ulus",
+        "Toplanmak"
+      ],
+      "answer": "Toplanmak"
+    },
+    {
+      "id": "placement-b1-008",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Consequence",
+      "question": "Which word means \"Netice\"?",
+      "options": [
+        "Timeless",
+        "Assimilate",
+        "Racing",
+        "Consequence"
+      ],
+      "answer": "Consequence"
+    },
+    {
+      "id": "placement-b1-009",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Economic",
+      "question": "Which word means \"Ekonomik\"?",
+      "options": [
+        "Risk",
+        "Economic",
+        "Viewer",
+        "Personally"
+      ],
+      "answer": "Economic"
+    },
+    {
+      "id": "placement-b1-010",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Cloth",
+      "question": "Which word means \"Kumaş\"?",
+      "options": [
+        "Hurry",
+        "Cloth",
+        "Pleasant",
+        "Curtain"
+      ],
+      "answer": "Cloth"
+    },
+    {
+      "id": "placement-b1-011",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Proficiency",
+      "question": "Which word means \"Yeterlilik\"?",
+      "options": [
+        "Growth",
+        "Competitor",
+        "Plenty",
+        "Proficiency"
+      ],
+      "answer": "Proficiency"
+    },
+    {
+      "id": "placement-b1-012",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Expand",
+      "question": "Which word means \"Yayılmak\"?",
+      "options": [
+        "Tape",
+        "Quotation",
+        "Expand",
+        "Profit"
+      ],
+      "answer": "Expand"
+    },
+    {
+      "id": "placement-b1-013",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Coloured",
+      "question": "Which word means \"Renkli\"?",
+      "options": [
+        "Brave",
+        "Killing",
+        "Coloured",
+        "Union"
+      ],
+      "answer": "Coloured"
+    },
+    {
+      "id": "placement-b1-014",
+      "level": "B1",
+      "type": "meaning_tr_to_en",
+      "word": "Iron",
+      "question": "Which word means \"Ütülemek\"?",
+      "options": [
+        "Global",
+        "Injured",
+        "Iron",
+        "Spirit"
+      ],
+      "answer": "Iron"
+    },
+    {
+      "id": "placement-b1-015",
+      "level": "B1",
+      "type": "gap_fill",
+      "word": "Indicate",
+      "question": "They like to ____ every day.",
+      "options": [
+        "indicate",
+        "percentage",
+        "annoying",
+        "shell"
+      ],
+      "answer": "indicate"
+    },
+    {
+      "id": "placement-b1-016",
+      "level": "B1",
+      "type": "gap_fill",
+      "word": "Nuclear",
+      "question": "The room was very ____ today.",
+      "options": [
+        "nuclear",
+        "performance",
+        "childhood",
+        "emit"
+      ],
+      "answer": "nuclear"
+    },
+    {
+      "id": "placement-b1-017",
+      "level": "B1",
+      "type": "gap_fill",
+      "word": "Qualification",
+      "question": "This is a ____ that everyone knows.",
+      "options": [
+        "balance",
+        "slice",
+        "qualification",
+        "laziness"
+      ],
+      "answer": "qualification"
+    },
+    {
+      "id": "placement-b1-018",
+      "level": "B1",
+      "type": "gap_fill",
+      "word": "Access",
+      "question": "She talked about the ____ for a long time.",
+      "options": [
+        "aimless",
+        "motionless",
+        "breathe",
+        "access"
+      ],
+      "answer": "access"
+    },
+    {
+      "id": "placement-b1-019",
+      "level": "B1",
+      "type": "gap_fill",
+      "word": "Written",
+      "question": "Everyone was ____ about the news.",
+      "options": [
+        "compilation",
+        "producer",
+        "written",
+        "effort"
+      ],
+      "answer": "written"
+    },
+    {
+      "id": "placement-b1-020",
+      "level": "B1",
+      "type": "gap_fill",
+      "word": "Fry",
+      "question": "She talked about the ____ for a long time.",
+      "options": [
+        "reaction",
+        "emotion",
+        "photographer",
+        "fry"
+      ],
+      "answer": "fry"
+    },
+    {
+      "id": "placement-b2-001",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Oxygen",
+      "question": "What does \"Oxygen\" mean?",
+      "options": [
+        "Paketlemek",
+        "Keşfetmek",
+        "Madenci",
+        "Evrim geçirmek"
+      ],
+      "answer": "Paketlemek"
+    },
+    {
+      "id": "placement-b2-002",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Negotiation",
+      "question": "What does \"Negotiation\" mean?",
+      "options": [
+        "Ilgi",
+        "Müzakere",
+        "Ateşli",
+        "Fail"
+      ],
+      "answer": "Müzakere"
+    },
+    {
+      "id": "placement-b2-003",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Obey",
+      "question": "What does \"Obey\" mean?",
+      "options": [
+        "Layıkıyle",
+        "Serbestçe",
+        "Göç",
+        "Itaat etmek"
+      ],
+      "answer": "Itaat etmek"
+    },
+    {
+      "id": "placement-b2-004",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Inner",
+      "question": "What does \"Inner\" mean?",
+      "options": [
+        "Sahte",
+        "Ihtilaf",
+        "Çalı",
+        "Iç"
+      ],
+      "answer": "Iç"
+    },
+    {
+      "id": "placement-b2-005",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Extraordinary",
+      "question": "What does \"Extraordinary\" mean?",
+      "options": [
+        "Fevkalade",
+        "Boyut",
+        "Kolaylık",
+        "Mantıklı (kimse)"
+      ],
+      "answer": "Fevkalade"
+    },
+    {
+      "id": "placement-b2-006",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Foundation",
+      "question": "What does \"Foundation\" mean?",
+      "options": [
+        "Son zamanlarda",
+        "Dayanak",
+        "Bodrum",
+        "Efendi"
+      ],
+      "answer": "Dayanak"
+    },
+    {
+      "id": "placement-b2-007",
+      "level": "B2",
+      "type": "meaning_en_to_tr",
+      "word": "Compound",
+      "question": "What does \"Compound\" mean?",
+      "options": [
+        "Meraklı",
+        "Inme",
+        "Şiddetlendirmek",
+        "Örnekleme"
+      ],
+      "answer": "Şiddetlendirmek"
+    },
+    {
+      "id": "placement-b2-008",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Pile",
+      "question": "Which word means \"Yığın\"?",
+      "options": [
+        "Curriculum",
+        "AIDS",
+        "Demand",
+        "Pile"
+      ],
+      "answer": "Pile"
+    },
+    {
+      "id": "placement-b2-009",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Gorgeous",
+      "question": "Which word means \"Muhteşem\"?",
+      "options": [
+        "Confusion",
+        "Exceed",
+        "Gorgeous",
+        "Colony"
+      ],
+      "answer": "Gorgeous"
+    },
+    {
+      "id": "placement-b2-010",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Concentration",
+      "question": "Which word means \"Yığma\"?",
+      "options": [
+        "Concentration",
+        "Accurate",
+        "Licence",
+        "Conflict"
+      ],
+      "answer": "Concentration"
+    },
+    {
+      "id": "placement-b2-011",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Exceed",
+      "question": "Which word means \"Sınırı aşmak\"?",
+      "options": [
+        "Probability",
+        "Extend",
+        "Exceed",
+        "Ownership"
+      ],
+      "answer": "Exceed"
+    },
+    {
+      "id": "placement-b2-012",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Inhabitant",
+      "question": "Which word means \"Ikamet eden\"?",
+      "options": [
+        "Immigration",
+        "Inhabitant",
+        "Abandon",
+        "Collapse"
+      ],
+      "answer": "Inhabitant"
+    },
+    {
+      "id": "placement-b2-013",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Lively",
+      "question": "Which word means \"Yüklemek\"?",
+      "options": [
+        "Lively",
+        "Pill",
+        "Craft",
+        "Component"
+      ],
+      "answer": "Lively"
+    },
+    {
+      "id": "placement-b2-014",
+      "level": "B2",
+      "type": "meaning_tr_to_en",
+      "word": "Ethnic",
+      "question": "Which word means \"Etnik\"?",
+      "options": [
+        "Operator",
+        "Heel",
+        "Ethnic",
+        "Defender"
+      ],
+      "answer": "Ethnic"
+    },
+    {
+      "id": "placement-b2-015",
+      "level": "B2",
+      "type": "gap_fill",
+      "word": "Matching",
+      "question": "I can see the ____ from here.",
+      "options": [
+        "investigation",
+        "asset",
+        "furious",
+        "matching"
+      ],
+      "answer": "matching"
+    },
+    {
+      "id": "placement-b2-016",
+      "level": "B2",
+      "type": "gap_fill",
+      "word": "Fool",
+      "question": "She talked about the ____ for a long time.",
+      "options": [
+        "incentive",
+        "placement",
+        "fool",
+        "evolution"
+      ],
+      "answer": "fool"
+    },
+    {
+      "id": "placement-b2-017",
+      "level": "B2",
+      "type": "gap_fill",
+      "word": "Component",
+      "question": "We learned about the ____ at school.",
+      "options": [
+        "inform",
+        "component",
+        "agenda",
+        "deliberate"
+      ],
+      "answer": "component"
+    },
+    {
+      "id": "placement-b2-018",
+      "level": "B2",
+      "type": "gap_fill",
+      "word": "Humour",
+      "question": "I can see the ____ from here.",
+      "options": [
+        "chase",
+        "beneficial",
+        "impatient",
+        "humour"
+      ],
+      "answer": "humour"
+    },
+    {
+      "id": "placement-b2-019",
+      "level": "B2",
+      "type": "gap_fill",
+      "word": "Conventional",
+      "question": "It looks ____ to me.",
+      "options": [
+        "conventional",
+        "preparation",
+        "commander",
+        "aggressive"
+      ],
+      "answer": "conventional"
+    },
+    {
+      "id": "placement-b2-020",
+      "level": "B2",
+      "type": "gap_fill",
+      "word": "Decoration",
+      "question": "I can see the ____ from here.",
+      "options": [
+        "measurement",
+        "imply",
+        "cue",
+        "decoration"
+      ],
+      "answer": "decoration"
+    },
+    {
+      "id": "placement-c1-001",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Inadequate",
+      "question": "What does \"Inadequate\" mean?",
+      "options": [
+        "Asgari",
+        "Yetersiz",
+        "Biri adına",
+        "Düşünüp taşınmak"
+      ],
+      "answer": "Yetersiz"
+    },
+    {
+      "id": "placement-c1-002",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Brutal",
+      "question": "What does \"Brutal\" mean?",
+      "options": [
+        "Savunma yapmak",
+        "Vahşi",
+        "Kayıt",
+        "Bozukluk"
+      ],
+      "answer": "Vahşi"
+    },
+    {
+      "id": "placement-c1-003",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Originate",
+      "question": "What does \"Originate\" mean?",
+      "options": [
+        "Problematik",
+        "Tamamlamak",
+        "Sırtına yüklemek",
+        "Yaratmak"
+      ],
+      "answer": "Yaratmak"
+    },
+    {
+      "id": "placement-c1-004",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Grip",
+      "question": "What does \"Grip\" mean?",
+      "options": [
+        "Kavramak",
+        "Atmak",
+        "Direk",
+        "Kutsamak"
+      ],
+      "answer": "Kavramak"
+    },
+    {
+      "id": "placement-c1-005",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Descent",
+      "question": "What does \"Descent\" mean?",
+      "options": [
+        "Saygın",
+        "Düşme",
+        "Proses",
+        "Hasat"
+      ],
+      "answer": "Düşme"
+    },
+    {
+      "id": "placement-c1-006",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Attendance",
+      "question": "What does \"Attendance\" mean?",
+      "options": [
+        "Sayısız",
+        "Tuval",
+        "Katılma",
+        "Et"
+      ],
+      "answer": "Katılma"
+    },
+    {
+      "id": "placement-c1-007",
+      "level": "C1",
+      "type": "meaning_en_to_tr",
+      "word": "Nomination",
+      "question": "What does \"Nomination\" mean?",
+      "options": [
+        "Aday gösterme",
+        "Harp meydanı",
+        "Tekel",
+        "Dokuma tezgahı"
+      ],
+      "answer": "Aday gösterme"
+    },
+    {
+      "id": "placement-c1-008",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Correlate",
+      "question": "Which word means \"Ilişkilendirmek\"?",
+      "options": [
+        "Descend",
+        "Assertion",
+        "Charm",
+        "Correlate"
+      ],
+      "answer": "Correlate"
+    },
+    {
+      "id": "placement-c1-009",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Equality",
+      "question": "Which word means \"Eşitlik\"?",
+      "options": [
+        "Predator",
+        "Columnist",
+        "Equality",
+        "Prevention"
+      ],
+      "answer": "Equality"
+    },
+    {
+      "id": "placement-c1-010",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Namely",
+      "question": "Which word means \"Olarak adlandırılan\"?",
+      "options": [
+        "Enterprise",
+        "Conception",
+        "Namely",
+        "Boundary"
+      ],
+      "answer": "Namely"
+    },
+    {
+      "id": "placement-c1-011",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Compelling",
+      "question": "Which word means \"Merhamet\"?",
+      "options": [
+        "Compelling",
+        "Charm",
+        "Operational",
+        "Barrel"
+      ],
+      "answer": "Compelling"
+    },
+    {
+      "id": "placement-c1-012",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Correction",
+      "question": "Which word means \"Islah\"?",
+      "options": [
+        "Meditation",
+        "Moderate",
+        "Correction",
+        "Preside"
+      ],
+      "answer": "Correction"
+    },
+    {
+      "id": "placement-c1-013",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Clarity",
+      "question": "Which word means \"Berraklık\"?",
+      "options": [
+        "Ideology",
+        "Correspond",
+        "Discretion",
+        "Clarity"
+      ],
+      "answer": "Clarity"
+    },
+    {
+      "id": "placement-c1-014",
+      "level": "C1",
+      "type": "meaning_tr_to_en",
+      "word": "Imprison",
+      "question": "Which word means \"Hapse atmak\"?",
+      "options": [
+        "Predator",
+        "Fairness",
+        "Assemble",
+        "Imprison"
+      ],
+      "answer": "Imprison"
+    },
+    {
+      "id": "placement-c1-015",
+      "level": "C1",
+      "type": "gap_fill",
+      "word": "Activation",
+      "question": "I can see the ____ from here.",
+      "options": [
+        "civilian",
+        "activation",
+        "blast",
+        "entity"
+      ],
+      "answer": "activation"
+    },
+    {
+      "id": "placement-c1-016",
+      "level": "C1",
+      "type": "gap_fill",
+      "word": "Flexibility",
+      "question": "We learned about the ____ at school.",
+      "options": [
+        "heritage",
+        "encompass",
+        "flexibility",
+        "philosopher"
+      ],
+      "answer": "flexibility"
+    },
+    {
+      "id": "placement-c1-017",
+      "level": "C1",
+      "type": "gap_fill",
+      "word": "Presidential",
+      "question": "The room was very ____ today.",
+      "options": [
+        "meditation",
+        "presidential",
+        "custody",
+        "endorse"
+      ],
+      "answer": "presidential"
+    },
+    {
+      "id": "placement-c1-018",
+      "level": "C1",
+      "type": "gap_fill",
+      "word": "Duo",
+      "question": "She talked about the ____ for a long time.",
+      "options": [
+        "non-profit",
+        "assemble",
+        "gathering",
+        "duo"
+      ],
+      "answer": "duo"
+    },
+    {
+      "id": "placement-c1-019",
+      "level": "C1",
+      "type": "gap_fill",
+      "word": "Hardware",
+      "question": "This is a ____ that everyone knows.",
+      "options": [
+        "differentiate",
+        "hardware",
+        "accelerate",
+        "gaze"
+      ],
+      "answer": "hardware"
+    },
+    {
+      "id": "placement-c1-020",
+      "level": "C1",
+      "type": "gap_fill",
+      "word": "Influential",
+      "question": "Everyone was ____ about the news.",
+      "options": [
+        "instinct",
+        "marketplace",
+        "influential",
+        "chunk"
+      ],
+      "answer": "influential"
+    }
+  ]
+}

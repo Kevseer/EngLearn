@@ -2,7 +2,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
-import { Dimensions, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Animated, Dimensions, Easing, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 // @ts-ignore
 import Swiper from 'react-native-deck-swiper';
 
@@ -114,11 +114,18 @@ export default function FlashcardsScreen() {
   const addLearnedWord = useVocabularyStore(state => state.addLearnedWord);
   const resetStreak = useVocabularyStore(state => state.resetStreak);
   const resetStreakIfNewDay = useVocabularyStore(state => state.resetStreakIfNewDay);
+  const hasSeenSwipeTutorial = useVocabularyStore(state => state.hasSeenSwipeTutorial);
+  const setSwipeTutorialSeen = useVocabularyStore(state => state.setSwipeTutorialSeen);
 
   const [deck, setDeck] = useState<Word[]>([]);
   const [isLoaded, setIsLoaded] = useState(false);
   const [loopCount, setLoopCount] = useState(0);
   const [shouldResetIndex, setShouldResetIndex] = useState(false);
+
+  // Swipe UX: tek seferlik öğretici + ilk swipe'a kadar ipucu
+  const [showTutorial, setShowTutorial] = useState(!hasSeenSwipeTutorial);
+  const [showHint, setShowHint] = useState(true);
+  const tutorialAnim = useRef(new Animated.Value(0)).current; // -1..1 sağa-sola sallanma
 
   // RENDER-FREE TRACKING: Swiper çalışırken parent componenti re-render etmemek için Ref kullanıyoruz.
   // Bu sayede kaydırma sırasında uygulamanın donmasını (freeze/black screen) engelliyoruz.
@@ -164,6 +171,20 @@ export default function FlashcardsScreen() {
     }
   }, [isLoaded, words, groupIndex]);
 
+  // Tutorial overlay açıkken örnek kartı sağa-sola sürekli salla (swipe'ı görsel anlat)
+  useEffect(() => {
+    if (!showTutorial) return;
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(tutorialAnim, { toValue: 1, duration: 650, easing: Easing.inOut(Easing.ease), useNativeDriver: true }),
+        Animated.timing(tutorialAnim, { toValue: -1, duration: 1300, easing: Easing.inOut(Easing.ease), useNativeDriver: true }),
+        Animated.timing(tutorialAnim, { toValue: 0, duration: 650, easing: Easing.inOut(Easing.ease), useNativeDriver: true }),
+      ])
+    );
+    loop.start();
+    return () => loop.stop();
+  }, [showTutorial, tutorialAnim]);
+
   // Yeni deste geldiğinde Swiper index'ini güvenle 0'a al
   useEffect(() => {
     if (!shouldResetIndex) return;
@@ -179,6 +200,7 @@ export default function FlashcardsScreen() {
   }, [shouldResetIndex]);
 
   const handleSwipeLeft = (cardIndex: number) => {
+    if (showHint) setShowHint(false); // ilk aksiyon sonrası ipucu kaybolur
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     const card = deck[cardIndex];
     if (card) {
@@ -194,6 +216,7 @@ export default function FlashcardsScreen() {
   };
 
   const handleSwipeRight = (cardIndex: number) => {
+    if (showHint) setShowHint(false); // ilk aksiyon sonrası ipucu kaybolur
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     const card = deck[cardIndex];
     if (card) {
@@ -246,6 +269,24 @@ export default function FlashcardsScreen() {
     if (card && cardRefs.current[card.id]) {
       cardRefs.current[card.id].flip();
     }
+  };
+
+  // Alt aksiyon butonları: swipe ile AYNI sonucu üretir (swiper'ı programatik tetikler).
+  // Swiper'ın swipeLeft/swipeRight metodu onSwipedLeft/Right callback'lerini çağırır.
+  const handleKnowButton = () => {
+    if (showHint) setShowHint(false);
+    swiperRef.current?.swipeRight();
+  };
+  const handleDontKnowButton = () => {
+    if (showHint) setShowHint(false);
+    swiperRef.current?.swipeLeft();
+  };
+
+  // Öğreticiyi kapat ve kalıcı işaretle (bir daha gösterilmez)
+  const dismissTutorial = () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    setShowTutorial(false);
+    setSwipeTutorialSeen();
   };
 
   if (deck.length === 0) {
@@ -306,6 +347,59 @@ export default function FlashcardsScreen() {
         stackSize={3}
         cardVerticalMargin={25}
       />
+
+      {/* İlk swipe'a kadar görünen küçük ipucu */}
+      {showHint && !showTutorial && (
+        <View style={styles.hintBar} pointerEvents="none">
+          <Text style={styles.hintText}>← Don't know  ·  Know →</Text>
+        </View>
+      )}
+
+      {/* Swipe'a alternatif alt aksiyon butonları (swipe ile aynı işi yapar) */}
+      <View style={styles.actionRow}>
+        <TouchableOpacity style={[styles.actionBtn, styles.actionBtnNo]} onPress={handleDontKnowButton}>
+          <MaterialCommunityIcons name="close" size={22} color="#F44336" />
+          <Text style={[styles.actionBtnText, { color: '#F44336' }]}>DON'T KNOW</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={[styles.actionBtn, styles.actionBtnYes]} onPress={handleKnowButton}>
+          <MaterialCommunityIcons name="check" size={22} color="#4CAF50" />
+          <Text style={[styles.actionBtnText, { color: '#4CAF50' }]}>I KNOW</Text>
+        </TouchableOpacity>
+      </View>
+
+      {/* Tek seferlik swipe öğreticisi */}
+      {showTutorial && (
+        <View style={styles.tutorialOverlay}>
+          <Text style={styles.tutorialTitle}>How to study</Text>
+          <Animated.View
+            style={[
+              styles.tutorialCard,
+              {
+                transform: [
+                  { translateX: tutorialAnim.interpolate({ inputRange: [-1, 1], outputRange: [-40, 40] }) },
+                  { rotate: tutorialAnim.interpolate({ inputRange: [-1, 1], outputRange: ['-8deg', '8deg'] }) },
+                ],
+              },
+            ]}
+          >
+            <MaterialCommunityIcons name="gesture-swipe-horizontal" size={56} color="#FFD700" />
+          </Animated.View>
+          <View style={styles.tutorialRow}>
+            <View style={styles.tutorialHintItem}>
+              <MaterialCommunityIcons name="arrow-left-bold" size={20} color="#F44336" />
+              <Text style={styles.tutorialHintText}>Swipe left if you don't know it</Text>
+            </View>
+            <View style={styles.tutorialHintItem}>
+              <MaterialCommunityIcons name="arrow-right-bold" size={20} color="#4CAF50" />
+              <Text style={styles.tutorialHintText}>Swipe right if you know it</Text>
+            </View>
+          </View>
+          <Text style={styles.tutorialNote}>You can also tap the card to flip it, or use the buttons below.</Text>
+          <TouchableOpacity style={styles.tutorialBtn} onPress={dismissTutorial}>
+            <Text style={styles.tutorialBtnText}>GOT IT</Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 }
@@ -315,7 +409,7 @@ const styles = StyleSheet.create({
   swiperContainer: {
     position: 'absolute',
     top: Platform.OS === 'ios' ? 130 : 120,
-    bottom: 0,
+    bottom: 100, // alt aksiyon butonlarına yer aç
     left: 0,
     right: 0,
     backgroundColor: 'transparent',
@@ -365,5 +459,41 @@ const styles = StyleSheet.create({
   overlayLeft: { backgroundColor: '#F44336', color: 'white', fontSize: 24, fontWeight: 'bold', padding: 10, borderRadius: 10 },
   overlayRight: { backgroundColor: '#4CAF50', color: 'white', fontSize: 24, fontWeight: 'bold', padding: 10, borderRadius: 10 },
   overlayBottom: { backgroundColor: '#F44336', color: 'white', fontSize: 24, fontWeight: 'bold', padding: 10, borderRadius: 10 },
-  overlayTop: { backgroundColor: '#4CAF50', color: 'white', fontSize: 24, fontWeight: 'bold', padding: 10, borderRadius: 10 }
+  overlayTop: { backgroundColor: '#4CAF50', color: 'white', fontSize: 24, fontWeight: 'bold', padding: 10, borderRadius: 10 },
+
+  // İlk swipe'a kadar görünen ipucu (swiper'ın hemen üstünde)
+  hintBar: { position: 'absolute', bottom: 104, left: 0, right: 0, alignItems: 'center', zIndex: 5 },
+  hintText: { color: '#888', fontSize: 14, fontWeight: '600' },
+
+  // Alt aksiyon butonları (swipe alternatifi)
+  actionRow: {
+    position: 'absolute', bottom: 28, left: 20, right: 20,
+    flexDirection: 'row', justifyContent: 'space-between', zIndex: 5,
+  },
+  actionBtn: {
+    flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
+    paddingVertical: 14, borderRadius: 30, borderWidth: 2,
+  },
+  actionBtnNo: { borderColor: '#F44336', backgroundColor: '#2A0D0D', marginRight: 8 },
+  actionBtnYes: { borderColor: '#4CAF50', backgroundColor: '#0E2010', marginLeft: 8 },
+  actionBtnText: { fontSize: 15, fontWeight: 'bold', marginLeft: 8 },
+
+  // Tek seferlik öğretici overlay
+  tutorialOverlay: {
+    position: 'absolute', top: 0, bottom: 0, left: 0, right: 0,
+    backgroundColor: 'rgba(0,0,0,0.92)', justifyContent: 'center', alignItems: 'center',
+    padding: 35, zIndex: 50,
+  },
+  tutorialTitle: { color: '#FFF', fontSize: 26, fontWeight: 'bold', marginBottom: 40 },
+  tutorialCard: {
+    width: 120, height: 150, borderRadius: 24, backgroundColor: '#0D0D0D',
+    borderWidth: 2, borderColor: '#FFD700', justifyContent: 'center', alignItems: 'center',
+    marginBottom: 45,
+  },
+  tutorialRow: { width: '100%', gap: 16, marginBottom: 30 },
+  tutorialHintItem: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10 },
+  tutorialHintText: { color: '#DDD', fontSize: 16 },
+  tutorialNote: { color: '#777', fontSize: 13, textAlign: 'center', marginBottom: 35, paddingHorizontal: 10 },
+  tutorialBtn: { backgroundColor: '#FFD700', paddingVertical: 16, paddingHorizontal: 70, borderRadius: 30 },
+  tutorialBtnText: { color: '#000', fontSize: 16, fontWeight: 'bold' },
 });
