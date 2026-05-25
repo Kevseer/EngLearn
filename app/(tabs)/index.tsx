@@ -7,7 +7,7 @@ import { getChapters } from '../../utils/wordHelper';
 
 const { width } = Dimensions.get('window');
 
-const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const levels = ['A1', 'A2', 'B1', 'B2', 'C1'];
 
 export default function LevelsScreen() {
   const router = useRouter();

@@ -8,8 +8,6 @@ import B1Data from '../assets/data/B1.json';
 import B2Data from '../assets/data/B2.json';
 // @ts-ignore
 import C1Data from '../assets/data/C1.json';
-// @ts-ignore
-import C2Data from '../assets/data/C2.json';
 
 // Bir bölüm (chapter) 15 kelime içerir ve 3 mini-tura (her biri 5 kelime) bölünür.
 export const CHAPTER_SIZE = 15;
@@ -22,7 +20,6 @@ const levelDataMap: Record<string, any> = {
   'B1': B1Data,
   'B2': B2Data,
   'C1': C1Data,
-  'C2': C2Data,
 };
 
 // Seçilen seviyenin kelimelerini Oxford A1 listesi sırasına göre döndürür.
